@@ -1,3 +1,49 @@
+# SafeMed - Report
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="LogoUPC">
+</p>
+
+# Universdiad Peruana de Ciencias Aplicadas
+
+# INGENIERÍA DE SOFTWARE
+
+### Ciclo: 7
+
+## CURSO: Desarrollo de Soluciones IOT | SECCIÓN 2941
+
+Profesor: Leon Baca, Marco Antonio
+
+# Proyecto de curso
+
+## Informe del TF
+
+#### StartUp: SafeMed
+
+#### Producto: MedSystem
+
+### Integrantes:
+
+| Integrantes                            | Codigo     |
+| -------------------------------------- | ---------- |
+| De La Piedra Quintanilla, Erwin Miquel | U202112179 |
+| Gutierrez Zumaeta, Manuel Alonso       | U202112353 |
+| Mendez Rosales, Marco Aurelio          | U202018273 |
+| Roca Huapaya, Orlando Arturo           | U201919742 |
+| Ventura Chancafe, Eduardo Renato       | U202212645 |
+
+#### Ciclo 202510
+
+##### Abril, 2025
+
+---
+
+# Registro de Versiones del informe
+
+# Project Report Collaboration Insights
+
+# Student Outcome
+
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
