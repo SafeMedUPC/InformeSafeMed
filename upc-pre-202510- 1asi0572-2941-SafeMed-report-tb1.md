@@ -144,7 +144,6 @@
 | 13    | EP04    | US01          | Visualizar datos personales y médicos    | Como paciente, quiero ver mis datos médicos y personales en la app, para tener acceso a mi información de salud.             | 2            |
 | 14    | EP04    | US02          | Ver ritmo cardiaco desde el celular      | Como paciente, quiero visualizar mi ritmo cardiaco actual en la app móvil, para monitorear mi estado de salud.               | 5            |
 | 15    | EP04    | US03          | Recibir notificaciones de alerta         | Como paciente, quiero recibir notificaciones push si tengo un ritmo cardiaco anormal, para estar al tanto de emergencias.    | 3            |
-| 16    | EP04    | US04          | Solicitar soporte desde la app           | Como paciente, quiero pedir ayuda desde la app, para resolver dudas o fallos en el sistema.                                  | 2            |
 | 17    | EP05    | US01          | Agendar una cita desde la app            | Como paciente, quiero agendar citas médicas desde la app móvil, para facilitar la planificación de mis consultas.            | 3            |
 | 18    | EP05    | US02          | Ver citas programadas                    | Como paciente, quiero ver mis citas médicas futuras, para no olvidar mis consultas.                                          | 2            |
 | 19    | EP05    | US03          | Cancelar o reprogramar una cita          | Como paciente, quiero modificar o cancelar una cita desde la app, para gestionar mejor mi agenda.                            | 3            |
