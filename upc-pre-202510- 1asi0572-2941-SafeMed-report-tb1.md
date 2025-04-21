@@ -129,15 +129,12 @@ MedSystem puede destacarse en el mercado ofreciendo una plataforma de gestión d
 
 ### 2.2.2. Registro de entrevistas.
 
-preferencia son iOS, el navegador que usa con frecuencia es Google Chrome. Nos comenta que, hace poco ha tenido una lesión en el hombro, pero a la hora de reservar una cita, el médico que siempre lo atiende estaba bastante ocupado, lo que causó su incomodidad y frustración de no poder resolver su problema, también nos comenta que le gustaría que exista una plataforma que permita facilitar este proceso de reservas de citas, nos menciona que la protección de sus datos relacionados con su salud son bastante personales y es por ello que nos recomienda que deberíamos implementar métodos de seguridad para evitar ataques.|
-|URL de grabación|[upc-pre-202402-si657-SW71-MedTechSolutions-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EVqboYQCGwZCud-3FINbNTMByTfeiCoFC-BK3OS3VW6xww)|
-|Timing|00:00 - 7:55|
 
 |Entrevista 2|Gonzalo Jaime Zapata Campos|
 | - | - |
 |Edad|20 años|
 |Distrito|San Martin de Porres|
-|![](Aspose.Words.792b3f29-1b79-4f81-a9f3-108a751901fc.002.png)|Gonzalo es un estudiante de 20 años que vive actualmente en San Martin de Porres. Sus sistemas operativos de preferencia son Ios en móviles y Windows en ordenadores. El navegador que usa con mayor frecuencia es Google Chrome. Nos comenta que ha tenido problemas anteriormente al momento de sacar cita, como el dijo no había una buena organización de citas por lo que para sacar una ha tenido que esperar mucho tiempo. Además habla de algunas características que le gustaría tener antes de poder sacar una cita y también otra para los envíos de los resultados de algún examen médico que hice, dependiendo de la gravedad de la situación, él pueda elegir entre que sea virtual o presencial.|
+|![Imagen 1.png](images/Imagen%201.png)|Gonzalo es un estudiante de 20 años que vive actualmente en San Martin de Porres. Sus sistemas operativos de preferencia son Ios en móviles y Windows en ordenadores. El navegador que usa con mayor frecuencia es Google Chrome. Nos comenta que ha tenido problemas anteriormente al momento de sacar cita, como el dijo no había una buena organización de citas por lo que para sacar una ha tenido que esperar mucho tiempo. Además habla de algunas características que le gustaría tener antes de poder sacar una cita y también otra para los envíos de los resultados de algún examen médico que hice, dependiendo de la gravedad de la situación, él pueda elegir entre que sea virtual o presencial.|
 |URL de grabación|[upc-pre-202402-si657-SW71-MedTechSolutions-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EVqboYQCGwZCud-3FINbNTMByTfeiCoFC-BK3OS3VW6xww)|
 |Timing|07:56 - 14:47|
 
@@ -146,7 +143,7 @@ preferencia son iOS, el navegador que usa con frecuencia es Google Chrome. Nos c
 | - | - |
 |Edad|64 años|
 |Distrito|Santiago de surco|
-|![](Aspose.Words.792b3f29-1b79-4f81-a9f3-108a751901fc.003.png)|Jorge Villavicencio es un adulto de 64 años, que vive en Santiago de Surco, tiene como sistemas operativos de preferencia Windows en ordenador y IOS en móviles. Dentro de la entrevista realizada, podemos destacar la importancia que le da a la tecnologías al momento de la realización de citas médicas, como para la revisión de los resultados de sus chequeos médicos. Nos comenta el beneficio que brinda poder conocer al médico que lo atiende y poder coordinar de manera rápida  y efectiva una cita, evitando los típicos protocolos tediosos y posibles demoras que suceden a lo largo de este.|
+|![Imagen3.png](images/Imagen3.png)|Jorge Villavicencio es un adulto de 64 años, que vive en Santiago de Surco, tiene como sistemas operativos de preferencia Windows en ordenador y IOS en móviles. Dentro de la entrevista realizada, podemos destacar la importancia que le da a la tecnologías al momento de la realización de citas médicas, como para la revisión de los resultados de sus chequeos médicos. Nos comenta el beneficio que brinda poder conocer al médico que lo atiende y poder coordinar de manera rápida  y efectiva una cita, evitando los típicos protocolos tediosos y posibles demoras que suceden a lo largo de este.|
 |URL de grabación|[upc-pre-202402-si657-SW71-MedTechSolutions-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EVqboYQCGwZCud-3FINbNTMByTfeiCoFC-BK3OS3VW6xww)|
 |Timing|14:48 - 25:33|
 
@@ -157,7 +154,7 @@ preferencia son iOS, el navegador que usa con frecuencia es Google Chrome. Nos c
 | - | - |
 |Edad|50 años|
 |Distrito|La Molina|
-|![](Aspose.Words.792b3f29-1b79-4f81-a9f3-108a751901fc.004.png)|Gaby Manrique es una adulta de 50 años, que vive actualmente en La Molina. Sus sistemas operativos de preferencia son Android en móviles y Windows en ordenadores. El navegador que usa con mayor frecuencia es Microsoft Edge. Durante la entrevista con Gaby, llevada a cabo a través de una videoconferencia en la plataforma Zoom, exploramos los desafíos diarios que enfrenta en su práctica médica. La doctora destacó la necesidad de herramientas tecnológicas eficientes para gestionar sus citas y comunicarse con otros profesionales de la salud y laboratorios. Mencionó que prefiere recibir pedidos médicos y resultados de pruebas de manera electrónica, utilizando plataformas seguras y fáciles de usar. En cuanto a la tecnología, el médico utilizó su computadora de escritorio con el navegador Chrome durante la videoconferencia. Además, expresó preocupación por la seguridad y privacidad de los datos médicos, destacando la importancia de medidas sólidas de protección de la información en línea.|
+|![Entrevista2.png](images/Entrevista2.png)|Gaby Manrique es una adulta de 50 años, que vive actualmente en La Molina. Sus sistemas operativos de preferencia son Android en móviles y Windows en ordenadores. El navegador que usa con mayor frecuencia es Microsoft Edge. Durante la entrevista con Gaby, llevada a cabo a través de una videoconferencia en la plataforma Zoom, exploramos los desafíos diarios que enfrenta en su práctica médica. La doctora destacó la necesidad de herramientas tecnológicas eficientes para gestionar sus citas y comunicarse con otros profesionales de la salud y laboratorios. Mencionó que prefiere recibir pedidos médicos y resultados de pruebas de manera electrónica, utilizando plataformas seguras y fáciles de usar. En cuanto a la tecnología, el médico utilizó su computadora de escritorio con el navegador Chrome durante la videoconferencia. Además, expresó preocupación por la seguridad y privacidad de los datos médicos, destacando la importancia de medidas sólidas de protección de la información en línea.|
 |URL de grabación|[upc-pre-202402-si657-SW71-MedTechSolutions-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EVqboYQCGwZCud-3FINbNTMByTfeiCoFC-BK3OS3VW6xww)|
 |Timing|25:34 - 33:12|
 
@@ -166,7 +163,7 @@ preferencia son iOS, el navegador que usa con frecuencia es Google Chrome. Nos c
 | - | - |
 |Edad|28 años|
 |Distrito|San Borja|
-|![](Aspose.Words.792b3f29-1b79-4f81-a9f3-108a751901fc.005.png)|Javier Puertas, médico traumatólogo de 28 años en Lima, enfrenta desafíos en la gestión del tiempo y la coordinación con otros especialistas. Utiliza Windows y Android para su trabajo y prefiere herramientas tecnológicas seguras y fáciles de usar. Destaca la necesidad de aplicaciones integradas para la gestión de citas y comunicación con otros médicos. Prioriza la seguridad, facilidad de uso e integración al elegir tecnología. Además, valora la telemedicina y la historia clínica electrónica, pero señala la importancia de recibir formación adecuada para utilizar estas herramientas eficazmente.|
+|![Entrevista3.png](images/Entrevista3.png)|Javier Puertas, médico traumatólogo de 28 años en Lima, enfrenta desafíos en la gestión del tiempo y la coordinación con otros especialistas. Utiliza Windows y Android para su trabajo y prefiere herramientas tecnológicas seguras y fáciles de usar. Destaca la necesidad de aplicaciones integradas para la gestión de citas y comunicación con otros médicos. Prioriza la seguridad, facilidad de uso e integración al elegir tecnología. Además, valora la telemedicina y la historia clínica electrónica, pero señala la importancia de recibir formación adecuada para utilizar estas herramientas eficazmente.|
 |URL de grabación|[upc-pre-202402-si657-SW71-MedTechSolutions-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EVqboYQCGwZCud-3FINbNTMByTfeiCoFC-BK3OS3VW6xww)|
 |Timing|33:13 - 43:08|
 
@@ -187,11 +184,9 @@ Los médicos entrevistados han destacado de manera uniforme la necesidad de herr
 Los Users personas que se muestran a continuación, fueron realizados a partir de la información recopilada de la sección de entrevistas. Estos nos ayudarán a describir de forma general nuestro segmento objetivo.
 
 - **Paciente:
-  ![](Aspose.Words.792b3f29-1b79-4f81-a9f3-108a751901fc.009.png)**
+  ![Userpersona1.png](images/Userpersona1.png)**
 - **Doctor:
-  ![](Aspose.Words.792b3f29-1b79-4f81-a9f3-108a751901fc.010.png)**
-- **Laboratorio:
-  ![](Aspose.Words.792b3f29-1b79-4f81-a9f3-108a751901fc.011.png)**
+  ![Userpersona2.png](images/Userpersona2.png)**
 
 ### 2.3.2. User Task Matrix.
 
@@ -243,22 +238,22 @@ En esta sección se presentan los User Journey Mapping de los segmentos objetivo
 
 **Paciente:**
 
-![](Aspose.Words.792b3f29-1b79-4f81-a9f3-108a751901fc.012.png)
+![JourneyMap1.png](images/JourneyMap1.png)
 
 **Doctor:**
 
-![](Aspose.Words.792b3f29-1b79-4f81-a9f3-108a751901fc.013.png)
+![JourneyMap2.png](images/JourneyMap2.png)
 
 ### 2.3.4. Empathy Mapping.
 
 En esta sección mostramos los empathy mapping de los segmentos objetivos realizados con la información recopilada de componentes anteriores.
 
 **Paciente:**
-IMAGEN
+![Empathymap.png](images/Empathymap.png)IMAGEN
 
 **Doctor:**
 
-**IMAGEN**
+![Empathymap2.png](images/Empathymap2.png)**IMAGEN**
 
 ### 2.3.5. As-is Scenario Mapping.
 
@@ -266,11 +261,11 @@ En esta sección se realizaron las distintas etapas de preparación, tales como 
 
 **Para el segmento 1 (Pacientes):**
 
-IMAGEN
+![AsIs1.jpg](images/AsIs1.jpg)IMAGEN
 
 **Para el segmento 2 (Doctores):**
 
-IMAGEN
+![AsIs2.jpg](images/AsIs2.jpg)IMAGEN
 
 
 # Capítulo III: Requirements Specification
