@@ -101,71 +101,67 @@ MedSystem puede destacarse en el mercado ofreciendo una plataforma de gestión d
 
 **Preguntas para el segmento objetivo paciente:**
 
-- *¿Qué te motivó a buscar atención médica en el área de traumatología?*
-- *¿Qué dispositivos de escritorio usas mayormente? ¿Y de móvil? ¿Por qué?*
-- *¿Qué desafíos has enfrentado al buscar tratamiento doctor para tu lesión o condición?*
-- *¿Qué características consideras más importantes al elegir a un especialista en traumatología?*
-- *¿Cómo prefieres programar tus citas médicas?*
-- *¿Qué tipo de información te gustaría tener disponible antes de una consulta médica?*
-- *¿Qué expectativas tienes en cuanto a la comunicación con tu doctor y el equipo doctor en general?*
-- *¿Qué te gustaría ver mejorado en la experiencia de atención médica en el área de traumatología?*
-- *¿Cómo prefieres recibir los resultados de tus exámenes médicos y pruebas diagnósticas?*
-- *¿Qué aspectos valoras más en una plataforma web para el seguimiento de tu tratamiento y la comunicación con tu doctor?*
-- *¿Qué preocupaciones tienen sobre la privacidad y seguridad de tus datos doctores en línea?*
+- _¿Cuáles son los mayores desafíos que enfrentas al cuidar tu salud cuando no estás en el consultorio médico?_
+- _¿Qué tipo de dispositivos tecnológicos (como celulares, tablets o computadoras) usas para cuidar o monitorear tu salud? ¿Por qué prefieres esos dispositivos?_
+- _¿Qué herramientas o funciones te gustaría tener para poder revisar en tiempo real cosas como tu oxigenación o ritmo cardíaco?_
+- _¿Qué características te parecen más importantes al usar una aplicación o tecnología para cuidar tu salud desde casa?_
+- _¿Cómo te gustaría recibir alertas o información importante si tu salud está en riesgo?_
+- _¿Qué crees que se podría mejorar en la comunicación entre los médicos y tus familiares cuando tú estás en una situación médica delicada?_
+- _¿Qué funciones te parecerían útiles en una aplicación que reúna información de sensores de salud (como pulseras o medidores) y que también te ayude con tu cuidado médico?_
+- _¿Cómo estás cuidando tu salud actualmente si tienes una enfermedad crónica o estás en recuperación fuera del hospital?_
+- _¿Qué tan importante es para ti la seguridad y privacidad de tus datos médicos cuando se recopilan con dispositivos tecnológicos?_
+- _¿Qué te gustaría que mejorara en la forma en que puedes ver o compartir tu historial médico, especialmente si incluye datos en tiempo real?_
+- _¿Qué piensas sobre el uso de tecnología como sensores o dispositivos conectados para mejorar tu atención médica o prevenir enfermedades?_
 
 **Preguntas para el segmento objetivo doctor:**
 
-- *¿Cuáles son los mayores desafíos que enfrentas en tu práctica diaria como doctor especializado en traumatología?*
-- *¿Qué dispositivos de escritorio usas mayormente? ¿Y de móvil? ¿Por qué?*
-- *¿Qué herramientas o recursos te ayudarían a optimizar la gestión de tus citas y comunicación con otros doctores y laboratorios?*
-- *¿Qué características consideras más importantes al elegir una solución tecnológica para la gestión de consultas y pacientes?*
-- *¿Cómo prefieres recibir información sobre los pacientes antes de una consulta?*
-- *¿Qué aspectos te gustaría mejorar en la comunicación con otros doctores y profesionales de la salud?*
-- *¿Qué funcionalidades consideramos cruciales en una plataforma de gestión de consultas médicas?*
-- *¿Cómo manejas típicamente la coordinación de atención entre diferentes especialistas y servicios doctores?*
-- *¿Qué medidas de seguridad y privacidad consideramos esenciales al compartir información médica en línea?*
-- *¿Qué te gustaría ver mejorado en la gestión de registros de doctores y documentación de pacientes?*
-- *¿Cuál es tu opinión sobre la integración de tecnología para mejorar la atención médica en traumatología?*
+- _¿Cuáles son los mayores desafíos que enfrentas al hacer seguimiento del estado de salud de tus pacientes fuera del consultorio?_
+- _¿Qué tipo de dispositivos tecnológicos (móviles, tablets, computadoras) usas para el seguimiento de pacientes? ¿Por qué prefieres esos dispositivos?_
+- _¿Qué herramientas o funcionalidades te serían útiles para monitorear signos vitales como oxigenación y ritmo cardíaco en tiempo real?_
+- _¿Qué características consideras más importantes al elegir una solución tecnológica para el monitoreo remoto de pacientes?_
+- _¿Cómo prefieres recibir alertas o información crítica sobre un paciente en situación de riesgo?_
+- _¿Qué aspectos te gustaría mejorar en la comunicación con los familiares de tus pacientes en situaciones médicas delicadas?_
+- _¿Qué funcionalidades consideras cruciales en una plataforma que integre datos de sensores IoT y gestión médica?_
+- _¿Cómo manejas actualmente la continuidad del cuidado de pacientes crónicos o en recuperación fuera del hospital?_
+- _¿Qué medidas de seguridad y privacidad consideras esenciales al manejar datos médicos recolectados por dispositivos IoT?_
+- _¿Qué mejoras te gustaría ver en el acceso y documentación del historial clínico relacionado con datos en tiempo real?_
+- _¿Cuál es tu opinión sobre el uso de tecnología IoT para mejorar la atención y la prevención en medicina?_
 
 ### 2.2.2. Registro de entrevistas.
 
+| Entrevista 2                           | Gonzalo Jaime Zapata Campos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Edad                                   | 20 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Distrito                               | San Martin de Porres                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ![Imagen 1.png](images/Imagen%201.png) | Gonzalo es un estudiante de 20 años que vive actualmente en San Martin de Porres. Sus sistemas operativos de preferencia son Ios en móviles y Windows en ordenadores. El navegador que usa con mayor frecuencia es Google Chrome. Nos comenta que ha tenido problemas anteriormente al momento de sacar cita, como el dijo no había una buena organización de citas por lo que para sacar una ha tenido que esperar mucho tiempo. Además habla de algunas características que le gustaría tener antes de poder sacar una cita y también otra para los envíos de los resultados de algún examen médico que hice, dependiendo de la gravedad de la situación, él pueda elegir entre que sea virtual o presencial. |
+| URL de grabación                       | [upc-pre-202402-si657-SW71-MedTechSolutions-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EVqboYQCGwZCud-3FINbNTMByTfeiCoFC-BK3OS3VW6xww)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Timing                                 | 07:56 - 14:47                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
-|Entrevista 2|Gonzalo Jaime Zapata Campos|
-| - | - |
-|Edad|20 años|
-|Distrito|San Martin de Porres|
-|![Imagen 1.png](images/Imagen%201.png)|Gonzalo es un estudiante de 20 años que vive actualmente en San Martin de Porres. Sus sistemas operativos de preferencia son Ios en móviles y Windows en ordenadores. El navegador que usa con mayor frecuencia es Google Chrome. Nos comenta que ha tenido problemas anteriormente al momento de sacar cita, como el dijo no había una buena organización de citas por lo que para sacar una ha tenido que esperar mucho tiempo. Además habla de algunas características que le gustaría tener antes de poder sacar una cita y también otra para los envíos de los resultados de algún examen médico que hice, dependiendo de la gravedad de la situación, él pueda elegir entre que sea virtual o presencial.|
-|URL de grabación|[upc-pre-202402-si657-SW71-MedTechSolutions-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EVqboYQCGwZCud-3FINbNTMByTfeiCoFC-BK3OS3VW6xww)|
-|Timing|07:56 - 14:47|
-
-
-|Entrevista 3|Jorge Villavicencio|
-| - | - |
-|Edad|64 años|
-|Distrito|Santiago de surco|
-|![Imagen3.png](images/Imagen3.png)|Jorge Villavicencio es un adulto de 64 años, que vive en Santiago de Surco, tiene como sistemas operativos de preferencia Windows en ordenador y IOS en móviles. Dentro de la entrevista realizada, podemos destacar la importancia que le da a la tecnologías al momento de la realización de citas médicas, como para la revisión de los resultados de sus chequeos médicos. Nos comenta el beneficio que brinda poder conocer al médico que lo atiende y poder coordinar de manera rápida  y efectiva una cita, evitando los típicos protocolos tediosos y posibles demoras que suceden a lo largo de este.|
-|URL de grabación|[upc-pre-202402-si657-SW71-MedTechSolutions-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EVqboYQCGwZCud-3FINbNTMByTfeiCoFC-BK3OS3VW6xww)|
-|Timing|14:48 - 25:33|
+| Entrevista 3                       | Jorge Villavicencio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Edad                               | 64 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Distrito                           | Santiago de surco                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ![Imagen3.png](images/Imagen3.png) | Jorge Villavicencio es un adulto de 64 años, que vive en Santiago de Surco, tiene como sistemas operativos de preferencia Windows en ordenador y IOS en móviles. Dentro de la entrevista realizada, podemos destacar la importancia que le da a la tecnologías al momento de la realización de citas médicas, como para la revisión de los resultados de sus chequeos médicos. Nos comenta el beneficio que brinda poder conocer al médico que lo atiende y poder coordinar de manera rápida y efectiva una cita, evitando los típicos protocolos tediosos y posibles demoras que suceden a lo largo de este. |
+| URL de grabación                   | [upc-pre-202402-si657-SW71-MedTechSolutions-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EVqboYQCGwZCud-3FINbNTMByTfeiCoFC-BK3OS3VW6xww)                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Timing                             | 14:48 - 25:33                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 **Segmento Médico**
 
+| Entrevista 1                               | Gaby Manrique                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Edad                                       | 50 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Distrito                                   | La Molina                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ![Entrevista2.png](images/Entrevista2.png) | Gaby Manrique es una adulta de 50 años, que vive actualmente en La Molina. Sus sistemas operativos de preferencia son Android en móviles y Windows en ordenadores. El navegador que usa con mayor frecuencia es Microsoft Edge. Durante la entrevista con Gaby, llevada a cabo a través de una videoconferencia en la plataforma Zoom, exploramos los desafíos diarios que enfrenta en su práctica médica. La doctora destacó la necesidad de herramientas tecnológicas eficientes para gestionar sus citas y comunicarse con otros profesionales de la salud y laboratorios. Mencionó que prefiere recibir pedidos médicos y resultados de pruebas de manera electrónica, utilizando plataformas seguras y fáciles de usar. En cuanto a la tecnología, el médico utilizó su computadora de escritorio con el navegador Chrome durante la videoconferencia. Además, expresó preocupación por la seguridad y privacidad de los datos médicos, destacando la importancia de medidas sólidas de protección de la información en línea. |
+| URL de grabación                           | [upc-pre-202402-si657-SW71-MedTechSolutions-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EVqboYQCGwZCud-3FINbNTMByTfeiCoFC-BK3OS3VW6xww)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Timing                                     | 25:34 - 33:12                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
-|Entrevista 1|Gaby Manrique|
-| - | - |
-|Edad|50 años|
-|Distrito|La Molina|
-|![Entrevista2.png](images/Entrevista2.png)|Gaby Manrique es una adulta de 50 años, que vive actualmente en La Molina. Sus sistemas operativos de preferencia son Android en móviles y Windows en ordenadores. El navegador que usa con mayor frecuencia es Microsoft Edge. Durante la entrevista con Gaby, llevada a cabo a través de una videoconferencia en la plataforma Zoom, exploramos los desafíos diarios que enfrenta en su práctica médica. La doctora destacó la necesidad de herramientas tecnológicas eficientes para gestionar sus citas y comunicarse con otros profesionales de la salud y laboratorios. Mencionó que prefiere recibir pedidos médicos y resultados de pruebas de manera electrónica, utilizando plataformas seguras y fáciles de usar. En cuanto a la tecnología, el médico utilizó su computadora de escritorio con el navegador Chrome durante la videoconferencia. Además, expresó preocupación por la seguridad y privacidad de los datos médicos, destacando la importancia de medidas sólidas de protección de la información en línea.|
-|URL de grabación|[upc-pre-202402-si657-SW71-MedTechSolutions-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EVqboYQCGwZCud-3FINbNTMByTfeiCoFC-BK3OS3VW6xww)|
-|Timing|25:34 - 33:12|
-
-
-|Entrevista 2|Javier Puertas|
-| - | - |
-|Edad|28 años|
-|Distrito|San Borja|
-|![Entrevista3.png](images/Entrevista3.png)|Javier Puertas, médico traumatólogo de 28 años en Lima, enfrenta desafíos en la gestión del tiempo y la coordinación con otros especialistas. Utiliza Windows y Android para su trabajo y prefiere herramientas tecnológicas seguras y fáciles de usar. Destaca la necesidad de aplicaciones integradas para la gestión de citas y comunicación con otros médicos. Prioriza la seguridad, facilidad de uso e integración al elegir tecnología. Además, valora la telemedicina y la historia clínica electrónica, pero señala la importancia de recibir formación adecuada para utilizar estas herramientas eficazmente.|
-|URL de grabación|[upc-pre-202402-si657-SW71-MedTechSolutions-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EVqboYQCGwZCud-3FINbNTMByTfeiCoFC-BK3OS3VW6xww)|
-|Timing|33:13 - 43:08|
+| Entrevista 2                               | Javier Puertas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Edad                                       | 28 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Distrito                                   | San Borja                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ![Entrevista3.png](images/Entrevista3.png) | Javier Puertas, médico traumatólogo de 28 años en Lima, enfrenta desafíos en la gestión del tiempo y la coordinación con otros especialistas. Utiliza Windows y Android para su trabajo y prefiere herramientas tecnológicas seguras y fáciles de usar. Destaca la necesidad de aplicaciones integradas para la gestión de citas y comunicación con otros médicos. Prioriza la seguridad, facilidad de uso e integración al elegir tecnología. Además, valora la telemedicina y la historia clínica electrónica, pero señala la importancia de recibir formación adecuada para utilizar estas herramientas eficazmente. |
+| URL de grabación                           | [upc-pre-202402-si657-SW71-MedTechSolutions-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EVqboYQCGwZCud-3FINbNTMByTfeiCoFC-BK3OS3VW6xww)                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Timing                                     | 33:13 - 43:08                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
 ### 2.2.3. Análisis de entrevistas.
 
@@ -192,45 +188,45 @@ Los Users personas que se muestran a continuación, fueron realizados a partir d
 
 En esta sección se presenta el user task matrix de los segmentos objetivos, con el fin de identificar la frecuencia de las actividades realizadas por los usuarios, y de esta manera se refleja la importancia de determinadas tareas.
 
-|Task|<p>Pacientes	</p><p>	</p>|Profesionales doctores|<p></p><p>Laboratorio</p>||||
-| - | - | - | - | :- | :- | :- |
-||Frecuencia|Importancia|Frecuencia|Importancia|Frecuencia|Importancia|
-|Programar una cita	|Alta|Alta|Alta|Alta|-|-|
-|Acceder a resultados de exámenes	|Media|Alta|Alta|Alta|Alta|Alta|
-|Realizar seguimiento de tratamiento	|Alta|Alta|Alta|Alta|-|-|
-|Agendar una cirugía	|Baja|Alta|Media|Alta|-|-|
-|Participar en consultas virtuales	|Baja|Alta|Media|Alta|-|-|
-|Recibir recordatorios automáticos de citas	|Alta|Alta|Alta|Alta|-|-|
-|Acceder a historias clínicas|-|-|Alta|Alta|-|-|
-|Consultar información sobre medicamentos|Media|Alta|Media|Alta|-|-|
-|Comunicarse con el especialista	|Alta|Alta|Media|Alta|Alta|Alta|
-|Proporcionar retroalimentación sobre la experiencia	|Baja|Media|-|-|-|-|
-|Solicitar análisis clínicos|Baja|Alta|-|-|Alta|Alta|
-|Enviar resultado de análisis|-|-|-|-|Alta|Alta|
+| Task                                                | <p>Pacientes </p><p> </p> | Profesionales doctores | <p></p><p>Laboratorio</p> |             |            |             |
+| --------------------------------------------------- | ------------------------- | ---------------------- | ------------------------- | :---------- | :--------- | :---------- |
+|                                                     | Frecuencia                | Importancia            | Frecuencia                | Importancia | Frecuencia | Importancia |
+| Programar una cita                                  | Alta                      | Alta                   | Alta                      | Alta        | -          | -           |
+| Acceder a resultados de exámenes                    | Media                     | Alta                   | Alta                      | Alta        | Alta       | Alta        |
+| Realizar seguimiento de tratamiento                 | Alta                      | Alta                   | Alta                      | Alta        | -          | -           |
+| Agendar una cirugía                                 | Baja                      | Alta                   | Media                     | Alta        | -          | -           |
+| Participar en consultas virtuales                   | Baja                      | Alta                   | Media                     | Alta        | -          | -           |
+| Recibir recordatorios automáticos de citas          | Alta                      | Alta                   | Alta                      | Alta        | -          | -           |
+| Acceder a historias clínicas                        | -                         | -                      | Alta                      | Alta        | -          | -           |
+| Consultar información sobre medicamentos            | Media                     | Alta                   | Media                     | Alta        | -          | -           |
+| Comunicarse con el especialista                     | Alta                      | Alta                   | Media                     | Alta        | Alta       | Alta        |
+| Proporcionar retroalimentación sobre la experiencia | Baja                      | Media                  | -                         | -           | -          | -           |
+| Solicitar análisis clínicos                         | Baja                      | Alta                   | -                         | -           | Alta       | Alta        |
+| Enviar resultado de análisis                        | -                         | -                      | -                         | -           | Alta       | Alta        |
 
 En base al User Task Matrix presentado, podemos destacar las siguientes tareas con mayor frecuencia e importancia para cada segmento de usuarios:
 
 **Pacientes:**
 
 - Programar una cita
-    - Explicación: Los pacientes programan citas con frecuencia y consideran esta tarea crucial para recibir atención médica oportuna.
+  - Explicación: Los pacientes programan citas con frecuencia y consideran esta tarea crucial para recibir atención médica oportuna.
 - Realizar seguimiento de tratamiento
-    - Explicación: Mantenerse al día con su tratamiento es vital para los pacientes, lo que refleja la alta frecuencia y la importancia atribuida a esta tarea.
+  - Explicación: Mantenerse al día con su tratamiento es vital para los pacientes, lo que refleja la alta frecuencia y la importancia atribuida a esta tarea.
 
 **Profesionales doctores:**
 
 - Acceder a resultados de exámenes
-    - Explicación: Los profesionales doctores necesitan consultar los resultados de los exámenes con frecuencia para tomar decisiones informadas sobre el tratamiento de sus pacientes.
+  - Explicación: Los profesionales doctores necesitan consultar los resultados de los exámenes con frecuencia para tomar decisiones informadas sobre el tratamiento de sus pacientes.
 - Acceder a historias clínicas
-    - Explicación: Las historias clínicas proporcionan antecedentes doctores completos y son esenciales para el diagnóstico y tratamiento adecuado de los pacientes.
+  - Explicación: Las historias clínicas proporcionan antecedentes doctores completos y son esenciales para el diagnóstico y tratamiento adecuado de los pacientes.
 
 Principales diferencias y coincidencias
 
 - Coincidencias:
-    - Tanto los pacientes como los profesionales doctores consideran que programar una cita es una tarea de alta frecuencia e importancia.
-    - Acceder a resultados de exámenes es crucial tanto para los profesionales doctores como para los laboratorios, reflejando una alta frecuencia e importancia en ambas categorías.
+  - Tanto los pacientes como los profesionales doctores consideran que programar una cita es una tarea de alta frecuencia e importancia.
+  - Acceder a resultados de exámenes es crucial tanto para los profesionales doctores como para los laboratorios, reflejando una alta frecuencia e importancia en ambas categorías.
 - Diferencias:
-    - Los pacientes valoran altamente el seguimiento de su tratamiento y recibir recordatorios automáticos de citas, mientras que los profesionales doctores ponen más énfasis en el acceso a historias clínicas y consultas virtuales.
+  - Los pacientes valoran altamente el seguimiento de su tratamiento y recibir recordatorios automáticos de citas, mientras que los profesionales doctores ponen más énfasis en el acceso a historias clínicas y consultas virtuales.
 
 ### 2.3.3. User Journey Mapping.
 
@@ -266,7 +262,6 @@ En esta sección se realizaron las distintas etapas de preparación, tales como 
 **Para el segmento 2 (Doctores):**
 
 ![AsIs2.jpg](images/AsIs2.jpg)IMAGEN
-
 
 # Capítulo III: Requirements Specification
 
