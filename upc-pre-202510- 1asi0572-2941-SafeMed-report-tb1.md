@@ -336,6 +336,12 @@ En esta sección se realizaron las distintas etapas de preparación, tales como 
 
 ## 3.3. Impact Mapping.
 
+- Paciente
+  <img src="CAP3-IMAGES/Impact1.png" alt="ImpactMapPaciente">
+
+- Doctor
+  <img src="CAP3-IMAGES/Impact2.png" alt="ImpactMapDoctor">
+
 ## 3.4. Product Backlog.
 
 | Orden | Epic ID | User Story ID | Título                                   | Descripción                                                                                                                                            | Story Points |
