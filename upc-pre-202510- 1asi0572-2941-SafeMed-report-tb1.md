@@ -67,8 +67,77 @@
 ## 4.1. Strategic-Level Domain-Driven Design.
 
 ### 4.1.1. EventStorming.
+Dentro de este punto nos encontramos con estos 9 pasos a realizar:
+
+**Step 1: Unstructured Exploration**
+
+En este paso, se detectaron los siguientes puntos, los cuales posteriormente fueron utilizados dentro del sistema.
+
+<img src="CAP4-IMAGES/EventStorming-Step-1.jpg" alt="Step1">
+
+**Step 2: Timelines:**
+
+En este paso se realizaron las distintas conexiones entre eventos del flujo de la aplicación.
+
+<img src="CAP4-IMAGES/EventStorming-Step-2.jpg" alt="Step2">
+
+
+**Step 3: Pain points**
+
+En este paso se colocaron los eventos críticos y sus respectivos pain events identificados.
+
+<img src="CAP4-IMAGES/EventStorming-Step-3.jpg" alt="Step3">
+
+**Step 4: Pivotal points**
+
+En este paso se incluyeron los pivotal points dentro del flujo de la aplicación.
+
+<img src="CAP4-IMAGES/EventStorming-Step-4.jpg" alt="Step4">
+
+**Step 5: Commands**
+En este paso se identificó los comandos realizados por sus respectivos actores.
+
+<img src="CAP4-IMAGES/EventStorming-Step-5.jpg" alt="Step5">
+
+**Step 6: Policies**
+En este paso se incluyeron las políticas, escenarios donde la aplicación ejecuta alguna acción.
+
+<img src="CAP4-IMAGES/EventStorming-Step-6.jpg" alt="Step6">
+
+**Step 7: Read Models**
+En este paso se realizó el modelo de lectura de cada sistema de la aplicación.
+
+<img src="CAP4-IMAGES/EventStorming-Step-7.jpg" alt="Step7">
+
+**Step 8: External systems**
+En este paso se identificaron algunos sistemas externos.
+
+<img src="CAP4-IMAGES/EventStorming-Step-8.jpg" alt="Step8">
+
+**Step 9: Aggregates**
+En este paso se implementan los agregados de cada sistema de la aplicación.
+
+<img src="CAP4-IMAGES/EventStorming-Step-9.jpg" alt="Step9">
 
 #### 4.1.1.1 Candidate Context Discovery.
+
+En este punto luego de la realización del Event storming, se identificaron los bounded context a trabajar. En este caso se lograron identificar 6.
+
+<img src="CAP4-IMAGES/IAM.jpg" alt="IAM">
+
+<img src="CAP4-IMAGES/Patient management.jpg" alt="Patient management">
+
+<img src="CAP4-IMAGES/Medical history & analytics.jpg" alt="Medical history & analytics">
+
+<img src="CAP4-IMAGES/Sensor monitoring.jpg" alt="Sensor monitoring">
+
+<img src="CAP4-IMAGES/Alert & emergency handling.jpg" alt="MAlert & emergency handling.jpg">
+
+<img src="CAP4-IMAGES/Notification service.jpg" alt="Notification service">
+
+Aqui podemos apresiarlo completo:
+
+<img src="CAP4-IMAGES/Candidate-Context-Discovery.jpg" alt="Candidate-Context-Discovery">
 
 #### 4.1.1.2 Domain Message Flows Modeling.
 
