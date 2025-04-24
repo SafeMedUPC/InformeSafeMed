@@ -32,7 +32,7 @@ Profesor: Leon Baca, Marco Antonio
 | Roca Huapaya, Orlando Arturo           | U201919742 |
 | Ventura Chancafe, Eduardo Renato       | U202212645 |
 
-#### Ciclo 202510
+#### Ciclo 2025-10
 
 ##### Abril, 2025
 
@@ -40,9 +40,23 @@ Profesor: Leon Baca, Marco Antonio
 
 # Registro de Versiones del informe
 
+| Versión | Fecha | Autor | Descripción de modificación |
+|---------|-------|--------|------------------------------|
+| 0.1     |       |        |                              |
+| 0.2     |       |        |                              |
+| 0.3     |       |        |                              |
+| 0.4     |       |        |                              |
+| 0.5     |       |        |                              |
+
 # Project Report Collaboration Insights
 
 # Student Outcome
+**ABET – EAC - Student Outcome 5**: Trabaja efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo; crea un entorno colaborativo e inclusivo y establece metas, planifica tareas y cumple objetivos 
+
+| Criterio específico | Acciones realizadas | Conclusiones |
+|---------------------|---------------------|--------------|
+| 5.c.1 Trabaja en equipo para proporcionar liderazgo en forma conjunta |  |  |
+| 5.c.2 Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos |  |  |
 
 # Capítulo I: Introducción
 
