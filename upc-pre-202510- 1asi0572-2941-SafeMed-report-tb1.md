@@ -131,7 +131,7 @@ En este punto luego de la realización del Event storming, se identificaron los 
 
 <img src="CAP4-IMAGES/Sensor monitoring.jpg" alt="Sensor monitoring">
 
-<img src="CAP4-IMAGES/Alert & emergency handling.jpg" alt="MAlert & emergency handling.jpg">
+<img src="CAP4-IMAGES/Alert & emergency handling.jpg" alt="Alert & emergency handling.jpg">
 
 <img src="CAP4-IMAGES/Notification service.jpg" alt="Notification service">
 
