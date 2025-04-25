@@ -173,7 +173,7 @@ Escenario: Doctor revisa sesiones pasadas del paciente
 
 - Sensor Monitoring
 
-<img src="CAP4-IMAGES/Bounded-Context-Canvases-Sensor Monitoring.jpg" alt="Bounded-Context-Canvases-Sensor Monitoring">
+<img src="CAP4-IMAGES/Bounded-Context-Canvases-Sensor monitoring.jpg" alt="Bounded-Context-Canvases-Sensor monitoring">
 
 - Alert & Emergency Handling
 
@@ -203,6 +203,13 @@ Se ha decidido hacer uso los patrones de Conformist y de Customer/Supplier:
 - Sensor Monitoring es conformista de Patient Management: adapta los modelos de paciente y contacto.
 
 - Alert & Emergency Handling es conformista de Sensor Monitoring: entiende el formato de eventos críticos sin imponer cambios.
+
+**Customer/Supplier**
+- Medical History & Analytics es cliente de Sensor Monitoring (supplier).
+
+- Notification Service es cliente de Alert & Emergency Handling (supplier).
+
+- Sensor Monitoring es cliente de IAM (para validar tokens y sesiones).
 
 <img src="CAP4-IMAGES/Context-Mapping.jpg" alt="Context-Mapping">
 
