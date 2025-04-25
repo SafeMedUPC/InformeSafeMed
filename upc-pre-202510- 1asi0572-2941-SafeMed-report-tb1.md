@@ -120,7 +120,7 @@ Debe ser intuitivo, fácil de configurar, seguro y confiable. La app debe mostra
 
 #### 1.2.2.4. Lean UX Canvas.
 
-
+![Lean UX Canvas](https://cdn.discordapp.com/attachments/1251414631180931113/1365458075829665813/5b59cc1a-b2c6-4d16-bb2c-a233897280d0.png?ex=680d616e&is=680c0fee&hm=3c9b17eeeb9ffa137d66bfb99a0bf29ba136583d0b48b19b09d52496d3e2963b&)
 
 ## 1.3. Segmentos objetivo.
 
