@@ -855,7 +855,7 @@ link: https://structurizr.com/share/101697/ddc19bf8-07c7-4949-ad6f-375475a613d5
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.1. Bounded Context: <IAM>
+### 4.2.1. Bounded Context: IAM
 
 El dominio de **Identity and Access Management (IAM)** en SafeMed es fundamental para la seguridad y el correcto funcionamiento de la plataforma. Su objetivo principal es controlar quién puede acceder al sistema y qué acciones puede realizar. Esto se logra mediante la gestión centralizada de usuarios (Pacientes y Doctores), la definición de roles y permisos, y la validación de la identidad y los privilegios en cada interacción con el sistema. El contexto IAM asegura que la información médica sensible esté protegida y que cada usuario opere dentro de los límites de su autorización.
 
@@ -1021,9 +1021,7 @@ Los componentes principales de esta capa son los **Controladores**, que gestiona
 | UsersController | PUT         | `/api/v1/iam/users/{userId}`             | Actualiza los datos del perfil de un usuario.     |
 | UsersController | GET         | `/api/v1/iam/users/{userId}/permissions` | Obtiene la lista de permisos de un usuario.       |
 
-## Enfoque
 
-Esta capa se centra en la comunicación externa y en la traducción de solicitudes, **sin implementar lógica de negocio compleja** que corresponde a las capas de Dominio o Aplicación.
 
 #### 4.2.1.3. Application Layer.
 
@@ -1161,7 +1159,7 @@ Esto permite mantener la **Capa de Dominio** pura y enfocada en la lógica de ne
 
 <img src= "CAP4-IMAGES/DatabaseDiagram.png">
 
-### 4.2.2. Bounded Context: <Patient Management>
+### 4.2.2. Bounded Context: Patient Management
 
 El dominio de **Patient Management** en SafeMed se centra en la gestión de la información y el estado de los pacientes dentro de la plataforma.
 
