@@ -289,6 +289,13 @@ Debe ser intuitivo, fácil de configurar, seguro y confiable. La app debe mostra
 
 ## 1.3. Segmentos objetivo.
 
+SafeMed está diseñado para atender dos segmentos principales de usuarios: **pacientes** y **doctores**.  
+Cada uno de estos grupos tiene necesidades específicas relacionadas con el monitoreo del ritmo cardíaco y la gestión de la salud en situaciones de emergencia.
+
+- Los **pacientes** son personas que padecen condiciones cardíacas y requieren un seguimiento constante de su ritmo cardíaco para prevenir complicaciones. En caso de detectar anomalías, el sistema puede alertar automáticamente a contactos de emergencia.
+
+- Los **doctores** son profesionales de la salud que supervisan de forma remota el estado cardíaco de sus pacientes. Además de visualizar en tiempo real las mediciones, tienen la capacidad de coordinar la asistencia médica, enviar ambulancias si es necesario y gestionar las citas médicas.
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores.
