@@ -1304,11 +1304,82 @@ Los componentes principales de esta capa son los **Controladores**, que gestiona
 
 
 #### 4.2.2.3. Application Layer.
+La **Capa de Aplicación** dentro del contexto de **Patient Management** en SafeMed es responsable de orquestar el flujo de trabajo para los casos de uso relacionados con la gestión de perfiles de pacientes, contactos de emergencia y asignaciones de médicos. 
+
+Actúa como una capa delgada que coordina las interacciones entre:
+- La Capa de Interfaz.
+- La Capa de Dominio.
+- La Capa de Infraestructura.
+
+Esta capa **no contiene lógica de negocio compleja**, sino que delega las decisiones y reglas a la Capa de Dominio y utiliza la Capa de Infraestructura para la persistencia y servicios externos.
+
+Los componentes principales son los **Command Handlers** y **Query Handlers**, que procesan **Commands** (acciones que cambian el estado) y **Queries** (solicitudes de información), respectivamente.
+
+---
+
+**Comandos (Commands)**
+
+Representan intenciones del usuario o del sistema para realizar una acción que cambia el estado del contexto Patient Management.
+
+| Comando                           | Descripción                                                   |
+|------------------------------------|---------------------------------------------------------------|
+| CreatePatientProfileCommand       | Solicita la creación de un nuevo perfil de paciente asociado a un usuario IAM. |
+| UpdatePatientProfileCommand       | Solicita la actualización de los datos del perfil de un paciente. |
+| AddEmergencyContactCommand        | Solicita añadir un contacto de emergencia a un paciente.       |
+| UpdateEmergencyContactCommand     | Solicita actualizar los datos de un contacto de emergencia.    |
+| RemoveEmergencyContactCommand     | Solicita eliminar un contacto de emergencia.                   |
+| AssignDoctorCommand               | Solicita la asignación de un médico a un paciente.              |
+| UpdateDoctorAssignmentCommand     | Solicita actualizar una asignación de médico (ej: desactivarla). |
+| MarkPrimaryEmergencyContactCommand| Solicita marcar un contacto de emergencia como principal.       |
+
+---
+
+**Queries**
+
+Representan solicitudes de información del usuario o del sistema que **no cambian el estado** del contexto Patient Management.
+
+| Query                              | Descripción                                                   |
+|------------------------------------|---------------------------------------------------------------|
+| GetPatientProfileQuery             | Solicita los detalles del perfil de un paciente por ID.       |
+| GetPatientContactsQuery            | Solicita todos los contactos de emergencia de un paciente.    |
+| GetPatientAssignmentsQuery         | Solicita todas las asignaciones de médicos de un paciente.     |
+| GetPatientsByDoctorQuery           | Solicita la lista de pacientes asignados a un médico.          |
+| GetPrimaryEmergencyContactQuery    | Solicita el contacto de emergencia principal de un paciente.   |
+
+---
+
+**Command Handlers**
+
+Componentes que procesan los **Commands**, orquestando la lógica de dominio y la persistencia.
+
+| Command Handler                           | Comandos que Maneja                       |
+|--------------------------------------------|-------------------------------------------|
+| CreatePatientProfileCommandHandler        | CreatePatientProfileCommand              |
+| UpdatePatientProfileCommandHandler        | UpdatePatientProfileCommand              |
+| AddEmergencyContactCommandHandler         | AddEmergencyContactCommand               |
+| UpdateEmergencyContactCommandHandler      | UpdateEmergencyContactCommand            |
+| RemoveEmergencyContactCommandHandler      | RemoveEmergencyContactCommand            |
+| AssignDoctorCommandHandler                | AssignDoctorCommand                      |
+| UpdateDoctorAssignmentCommandHandler      | UpdateDoctorAssignmentCommand            |
+| MarkPrimaryEmergencyContactCommandHandler | MarkPrimaryEmergencyContactCommand       |
+
+---
+
+**Query Handlers**
+
+Componentes que procesan las **Queries**, obteniendo datos a través de la Capa de Infraestructura o servicios de dominio.
+
+| Query Handler                           | Queries que Maneja                         |
+|-----------------------------------------|--------------------------------------------|
+| GetPatientProfileQueryHandler           | GetPatientProfileQuery                    |
+| GetPatientContactsQueryHandler          | GetPatientContactsQuery                   |
+| GetPatientAssignmentsQueryHandler       | GetPatientAssignmentsQuery                |
+| GetPatientsByDoctorQueryHandler         | GetPatientsByDoctorQuery                  |
+| GetPrimaryEmergencyContactQueryHandler  | GetPrimaryEmergencyContactQuery           |
 
 #### 4.2.2.4. Infrastructure Layer
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
-
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 
