@@ -849,9 +849,6 @@ link: https://structurizr.com/share/101697/ddc19bf8-07c7-4949-ad6f-375475a613d5
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.X. Bounded Context: <IAM>
-
-#### 4.2.X.1. Domain Layer.
-
 El dominio de **Identity and Access Management (IAM)** en SafeMed es fundamental para la seguridad y el correcto funcionamiento de la plataforma. Su objetivo principal es controlar quién puede acceder al sistema y qué acciones puede realizar. Esto se logra mediante la gestión centralizada de usuarios (Pacientes y Doctores), la definición de roles y permisos, y la validación de la identidad y los privilegios en cada interacción con el sistema. El contexto IAM asegura que la información médica sensible esté protegida y que cada usuario opere dentro de los límites de su autorización.
 
 ## Diccionario de Clases
@@ -901,6 +898,10 @@ En esta sección, presentamos el **Diccionario de Clases** para el contexto IAM,
 |-----------------|--------------|--------------------------------------------------|
 | RoleId          | int     | Clave foránea a la entidad Role.                |
 | PermissionId    | int     | Clave foránea a la entidad Permission.          |
+
+#### 4.2.X.1. Domain Layer.
+
+
 
 #### 4.2.X.2. Interface Layer.
 
