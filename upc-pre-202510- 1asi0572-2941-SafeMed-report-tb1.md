@@ -1267,6 +1267,42 @@ El dominio de **Patient Management** también necesita hacer referencia a entida
 - `IsCurrent(): boolean`
 #### 4.2.2.2. Interface Layer.
 
+La **Capa de Interfaz** para el contexto de **Patient Management** en SafeMed actúa como la fachada o el punto de entrada a las funcionalidades de este dominio. 
+
+Es responsable de:
+- Recibir las peticiones de las aplicaciones cliente (móvil y web) u otros servicios.
+- Validar los datos de entrada.
+- Invocar la lógica de negocio correspondiente en la Capa de Aplicación.
+- Formatear las respuestas que se enviarán de vuelta al cliente.
+
+Los componentes principales de esta capa son los **Controladores**, que gestionan los diferentes aspectos de la interacción del usuario con el dominio de Patient Management a través de endpoints API RESTful.
+
+**Controladores**
+
+| Controlador               | Responsabilidad Principal                                                              |
+|----------------------------|----------------------------------------------------------------------------------------|
+| PatientsController         | Gestiona las operaciones sobre los perfiles de pacientes (crear, obtener, actualizar). |
+| EmergencyContactsController| Gestiona los contactos de emergencia de un paciente (añadir, obtener, actualizar, eliminar). |
+| DoctorAssignmentsController| Gestiona la asignación de médicos a pacientes (asignar, obtener, finalizar).           |
+
+---
+
+**Endpoints Clave por Controlador**
+
+| Controlador                | Método HTTP | Endpoint                                                       | Descripción                                           |
+|-----------------------------|-------------|----------------------------------------------------------------|-------------------------------------------------------|
+| PatientsController          | POST        | `/api/v1/patients`                                             | Crea un nuevo perfil de paciente (asociado a un usuario IAM). |
+| PatientsController          | GET         | `/api/v1/patients/{patientId}`                                 | Obtiene los detalles de un perfil de paciente.        |
+| PatientsController          | PUT         | `/api/v1/patients/{patientId}`                                 | Actualiza los datos de un perfil de paciente.         |
+| EmergencyContactsController | POST        | `/api/v1/patients/{patientId}/emergency-contacts`              | Añade un contacto de emergencia a un paciente.        |
+| EmergencyContactsController | GET         | `/api/v1/patients/{patientId}/emergency-contacts`              | Obtiene todos los contactos de emergencia de un paciente. |
+| EmergencyContactsController | PUT         | `/api/v1/patients/{patientId}/emergency-contacts/{contactId}`  | Actualiza un contacto de emergencia.                  |
+| EmergencyContactsController | DELETE      | `/api/v1/patients/{patientId}/emergency-contacts/{contactId}`  | Elimina un contacto de emergencia.                    |
+| DoctorAssignmentsController | POST        | `/api/v1/patients/{patientId}/doctor-assignments`              | Asigna un médico a un paciente.                       |
+| DoctorAssignmentsController | GET         | `/api/v1/patients/{patientId}/doctor-assignments`              | Obtiene las asignaciones de médicos de un paciente.   |
+| DoctorAssignmentsController | PUT         | `/api/v1/patients/{patientId}/doctor-assignments/{assignmentId}`| Actualiza (ej: desactiva) una asignación de médico.    |
+
+
 #### 4.2.2.3. Application Layer.
 
 #### 4.2.2.4. Infrastructure Layer
