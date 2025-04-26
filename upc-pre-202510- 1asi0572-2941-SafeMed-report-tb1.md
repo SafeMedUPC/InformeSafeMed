@@ -1119,6 +1119,7 @@ Esto permite mantener la **Capa de Dominio** pura y enfocada en la lógica de ne
 
 
 #### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams.
+<img src= "CAP4-IMAGES/BoundedContextIAMDiagram.png">
 
 #### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams.
 
