@@ -1184,7 +1184,87 @@ En esta sección, presentamos las entidades y posibles objetos de valor clave qu
 | Email                  | string       | Correo electrónico del contacto de emergencia (opcional).                  |
 | IsPrimary              | boolean      | Indica si es el contacto de emergencia principal.                           |
 #### 4.2.2.1. Domain Layer.
+La **Capa de Dominio** del contexto de **Patient Management** encapsula las entidades, objetos de valor y reglas de negocio que rigen la información y el estado de los pacientes en SafeMed. 
 
+Es el corazón de este bounded context, donde reside la lógica esencial de la gestión de perfiles, contactos y asignaciones.
+
+El **Aggregate Root** principal en este dominio es la entidad **Patient**. El `Patient` es la entidad coherente a través de la cual se acceden y modifican sus partes constituyentes, como **EmergencyContact** y **DoctorAssignment**. Garantiza que las operaciones sobre los contactos y asignaciones mantengan la integridad del estado general del paciente.
+
+Las entidades **EmergencyContact** y **DoctorAssignment** son partes del agregado **Patient**. Sus ciclos de vida están gestionados por el `Patient`. 
+- **EmergencyContact** representa la información de personas a contactar en caso de una emergencia del paciente.
+- **DoctorAssignment** registra la relación entre un paciente y un médico específico dentro de la plataforma.
+
+El dominio de **Patient Management** también necesita hacer referencia a entidades de otros contextos sin poseerlas. Notablemente, un `Patient` y un `DoctorAssignment` referenciarán `Users` del contexto IAM (mediante sus IDs) para identificar al paciente usuario y al médico usuario asignado, respectivamente.
+
+
+**Aggregate Root**
+
+**Aggregate Root `Patient`**
+
+| Atributo                 | Tipo de Dato | Descripción |
+|----------------------------|--------------|-------------|
+| PatientId                  | GUID/UUID    | Identificador único del paciente. |
+| UserId                     | GUID/UUID    | Identificador del usuario asociado (IAM). |
+| DateOfBirth                | date         | Fecha de nacimiento del paciente. |
+| Gender                     | string       | Género del paciente. |
+| Address                    | string       | Dirección de residencia. |
+| PhoneNumber                | string       | Teléfono de contacto. |
+| MedicalHistorySummary      | string       | Resumen breve de historia médica relevante. |
+| List<EmergencyContact>     | -            | Lista de contactos de emergencia. |
+| List<DoctorAssignment>     | -            | Lista de asignaciones a doctores. |
+
+**Métodos:**
+- `Create(patientId, userId, dateOfBirth, gender, address, phoneNumber, medicalHistorySummary): Patient`
+- `UpdateProfile(dateOfBirth, gender, address, phoneNumber, medicalHistorySummary): void`
+- `AddEmergencyContact(contactId, fullName, relationship, phoneNumber, email, isPrimary): void`
+- `RemoveEmergencyContact(contactId): void`
+- `UpdateEmergencyContact(contactId, fullName, relationship, phoneNumber, email, isPrimary): void`
+- `MarkPrimaryEmergencyContact(contactId): void`
+- `AssignDoctor(assignmentId, doctorUserId, assignmentDate): void`
+- `RemoveDoctorAssignment(assignmentId): void`
+- `GetPrimaryEmergencyContact(): Optional<EmergencyContact>`
+- `GetActiveDoctorAssignment(): Optional<DoctorAssignment>`
+- `GetEmergencyContactById(contactId): Optional<EmergencyContact>`
+- `GetDoctorAssignmentById(assignmentId): Optional<DoctorAssignment>`
+
+---
+
+**Entities (dentro del Agregado Patient)**
+
+### Entity `EmergencyContact`
+
+| Atributo     | Tipo de Dato | Descripción |
+|--------------|--------------|-------------|
+| ContactId    | GUID/UUID    | Identificador único del contacto de emergencia. |
+| PatientId    | GUID/UUID    | Identificador del paciente asociado. |
+| FullName     | string       | Nombre completo del contacto. |
+| Relationship | string       | Relación con el paciente (ej: "Hijo", "Cónyuge"). |
+| PhoneNumber  | string       | Número de teléfono de contacto. |
+| Email        | string       | Correo electrónico del contacto (opcional). |
+| IsPrimary    | boolean      | Indica si es el contacto principal. |
+
+**Métodos:**
+- `UpdateDetails(fullName, relationship, phoneNumber, email): void`
+- `MarkAsPrimary(): void`
+- `MarkAsSecondary(): void`
+
+---
+
+### Entity `DoctorAssignment`
+
+| Atributo      | Tipo de Dato | Descripción |
+|---------------|--------------|-------------|
+| AssignmentId  | GUID/UUID    | Identificador único de la asignación. |
+| PatientId     | GUID/UUID    | Identificador del paciente asociado. |
+| DoctorUserId  | GUID/UUID    | Identificador del médico usuario asignado (IAM). |
+| AssignmentDate| datetime     | Fecha en que se realizó la asignación. |
+| EndDate       | datetime     | Fecha en que terminó la asignación (si aplica). |
+| IsActive      | boolean      | Indica si la asignación está activa. |
+
+**Métodos:**
+- `Activate(): void`
+- `Deactivate(endDate): void`
+- `IsCurrent(): boolean`
 #### 4.2.2.2. Interface Layer.
 
 #### 4.2.2.3. Application Layer.
