@@ -1006,6 +1006,68 @@ Los componentes principales de esta capa son los **Controladores**, que gestiona
 Esta capa se centra en la comunicación externa y en la traducción de solicitudes, **sin implementar lógica de negocio compleja** que corresponde a las capas de Dominio o Aplicación.
 
 #### 4.2.X.3. Application Layer.
+La **Capa de Aplicación** dentro del contexto de **Identity and Access Management (IAM)** en SafeMed es responsable de orquestar el flujo de trabajo para los casos de uso relacionados con la gestión de usuarios y accesos. 
+
+Actúa como una capa delgada que coordina las interacciones entre:
+- La Capa de Interfaz.
+- La Capa de Dominio.
+- La Capa de Infraestructura.
+
+Esta capa **no contiene lógica de negocio compleja**, sino que delega las decisiones y reglas a la Capa de Dominio y utiliza la Capa de Infraestructura para la persistencia y servicios externos.
+
+Los componentes principales de esta capa son los **Command Handlers** y **Query Handlers**, que procesan los **Commands** (intenciones de cambiar el estado del sistema) y **Queries** (intenciones de obtener información), respectivamente.
+
+**Comandos (Commands)**
+
+Representan intenciones del usuario o del sistema para realizar una acción que cambia el estado del contexto IAM.
+
+| Comando                    | Descripción                                           |
+|-----------------------------|-------------------------------------------------------|
+| RegisterUserCommand         | Solicita el registro de un nuevo usuario en el sistema. |
+| LoginUserCommand            | Solicita la autenticación de un usuario.               |
+| UpdateUserProfileCommand    | Solicita la actualización de los datos de perfil de un usuario. |
+| AssignRoleToUserCommand     | Solicita la asignación de un rol específico a un usuario. |
+| ChangePasswordCommand       | Solicita el cambio de contraseña de un usuario.        |
+
+**Queries**
+
+Representan solicitudes de información del usuario o del sistema que **no cambian el estado** del contexto IAM.
+
+| Query                       | Descripción                                           |
+|------------------------------|-------------------------------------------------------|
+| GetUserProfileQuery          | Solicita los datos de perfil de un usuario por su ID. |
+| GetUserPermissionsQuery      | Solicita la lista de permisos asociados a un usuario. |
+| GetAllRolesQuery             | Solicita la lista de todos los roles disponibles.     |
+
+**Command Handlers**
+
+Componentes que procesan los **Commands**, orquestando la lógica de dominio y la persistencia.
+
+| Command Handler                  | Comandos que Maneja                |
+|-----------------------------------|------------------------------------|
+| RegisterUserCommandHandler        | RegisterUserCommand               |
+| LoginUserCommandHandler           | LoginUserCommand                  |
+| UpdateUserProfileCommandHandler   | UpdateUserProfileCommand          |
+| AssignRoleToUserCommandHandler    | AssignRoleToUserCommand           |
+| ChangePasswordCommandHandler      | ChangePasswordCommand             |
+
+**Query Handlers**
+
+Componentes que procesan las **Queries**, obteniendo datos a través de la Capa de Infraestructura o servicios de dominio.
+
+| Query Handler                    | Queries que Maneja                 |
+|-----------------------------------|------------------------------------|
+| GetUserProfileQueryHandler        | GetUserProfileQuery               |
+| GetUserPermissionsQueryHandler    | GetUserPermissionsQuery           |
+| GetAllRolesQueryHandler           | GetAllRolesQuery                  |
+
+**Otros Componentes**
+
+Además de los **Command Handlers** y **Query Handlers**, la Capa de Aplicación también puede incluir **Event Handlers** que reaccionan a eventos de dominio publicados por este o por otros contextos (por ejemplo, un `UserRegisteredEventHandler` que envía un correo de confirmación).
+
+La **Capa de Aplicación** garantiza que las operaciones:
+- Se ejecuten de manera transaccional.
+- Manejen las dependencias necesarias (como inyectar repositorios o servicios de dominio en los handlers).
 
 #### 4.2.X.4. Infrastructure Layer.
 
