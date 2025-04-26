@@ -848,9 +848,59 @@ link: https://structurizr.com/share/101697/ddc19bf8-07c7-4949-ad6f-375475a613d5
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.X. Bounded Context: <Bounded Context Name>
+### 4.2.X. Bounded Context: <IAM>
 
 #### 4.2.X.1. Domain Layer.
+
+El dominio de **Identity and Access Management (IAM)** en SafeMed es fundamental para la seguridad y el correcto funcionamiento de la plataforma. Su objetivo principal es controlar quién puede acceder al sistema y qué acciones puede realizar. Esto se logra mediante la gestión centralizada de usuarios (Pacientes y Doctores), la definición de roles y permisos, y la validación de la identidad y los privilegios en cada interacción con el sistema. El contexto IAM asegura que la información médica sensible esté protegida y que cada usuario opere dentro de los límites de su autorización.
+
+## Diccionario de Clases
+
+En esta sección, presentamos el **Diccionario de Clases** para el contexto IAM, detallando las entidades principales que gestionan la identidad y el acceso en SafeMed.
+
+ 1. User
+
+| Atributo        | Tipo de Dato | Descripción                                      |
+|-----------------|--------------|--------------------------------------------------|
+| UserId          | GUID    | Identificador único del usuario.                 |
+| Email           | string       | Correo electrónico, usado para el inicio de sesión. |
+| PasswordHash    | string       | Contraseña del usuario (cifrada).                |
+| FirstName       | string       | Nombre del usuario.                             |
+| LastName        | string       | Apellido del usuario.                           |
+| UserType        | enum         | Tipo de usuario (Paciente, Doctor).             |
+| RegistrationDate| datetime     | Fecha en que se registró el usuario.             |
+| IsActive        | boolean      | Indica si la cuenta del usuario está activa.     |
+| LastLoginDate   | datetime     | Fecha del último inicio de sesión.               |
+
+2. Role
+
+| Atributo        | Tipo de Dato | Descripción                                      |
+|-----------------|--------------|--------------------------------------------------|
+| RoleId          | int     | Identificador único del rol.                    |
+| RoleName        | string       | Nombre descriptivo del rol ("Paciente", "Doctor"). |
+| Description     | string       | Breve descripción de las responsabilidades del rol. |
+
+3. Permission
+
+| Atributo        | Tipo de Dato | Descripción                                      |
+|-----------------|--------------|--------------------------------------------------|
+| PermissionId    | int     | Identificador único del permiso.                |
+| PermissionName  | string       | Nombre técnico del permiso ("view_heart_rate"). |
+| Description     | string       | Breve descripción de la acción permitida.        |
+
+4. UserRole
+
+| Atributo        | Tipo de Dato | Descripción                                      |
+|-----------------|--------------|--------------------------------------------------|
+| UserId          | GUID    | Clave foránea a la entidad User.                |
+| RoleId          | int     | Clave foránea a la entidad Role.                |
+
+5. RolePermission
+
+| Atributo        | Tipo de Dato | Descripción                                      |
+|-----------------|--------------|--------------------------------------------------|
+| RoleId          | int     | Clave foránea a la entidad Role.                |
+| PermissionId    | int     | Clave foránea a la entidad Permission.          |
 
 #### 4.2.X.2. Interface Layer.
 
