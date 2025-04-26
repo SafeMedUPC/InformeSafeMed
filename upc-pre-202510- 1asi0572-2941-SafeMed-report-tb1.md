@@ -158,7 +158,7 @@ Visión: Ser la plataforma líder en Latinoamérica en soluciones digitales para
 | Foto                                                                                                                                                                                                                                  | Nombre y Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Foto Manuel](CAP1-IMAGES/FotoManuel.jpg)                                                                                                                                                                                            | **Nombre:** Manuel Alonso Gutierrez Zumaeta <br>**Código:** u202112353 <br>**Descripción:** Soy Manuel Gutierrez, estudiante de la carrera de Ingeniería de Software, tengo 20 años. Tengo experiencia en el desarrollo de aplicaciones web, tanto frontend como backend, programación móvil en Flutter. Me considero una persona responsable y que se propone hacer un buen trabajo.                                                                                                                               |
-| ![Foto Marco](CAP1-IMAGES/mendezmarco.png)                                                                                                                                                                                                        | **Nombre:** Marco Aurelio Mendez Rosales <br>**Código:** u200218273<br>**Descripción:** Soy Marco Mendez, estudiante de la carrera de Ingeniería de softwar, tengo 22 años, me gusta crear soluciones que puedan ayudar a los demás.                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ![Foto Marco](CAP1-IMAGES/mendezmarco.png)                                                                                                                                                                                            | **Nombre:** Marco Aurelio Mendez Rosales <br>**Código:** u200218273<br>**Descripción:** Soy Marco Mendez, estudiante de la carrera de Ingeniería de softwar, tengo 22 años, me gusta crear soluciones que puedan ayudar a los demás.                                                                                                                                                                                                                                                                                |
 | ![Foto Miquel](ruta/a/la/foto)                                                                                                                                                                                                        | **Nombre:** <br>**Código:** <br>**Descripción:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | ![Foto Eduardo](ruta/a/la/foto)                                                                                                                                                                                                       | **Nombre:** <br>**Código:** <br>**Descripción:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | ![Foto Orlando](https://cdn.discordapp.com/attachments/877299205696262227/1365191908304879666/Captura_de_pantalla_2024-06-16_173218.png?ex=680c698a&is=680b180a&hm=2a5b43302b228e7f9097a0e64bc85d4669760f53401359d703cf1d9ba3b3d3c9&) | **Nombre:** Orlando Arturo Roca Huapaya <br>**Código:** u201919742<br>**Descripción:** Como estudiante de ingeniería de software, mi contribución al equipo se centra en mis conocimientos en la planificación y diseño de software. A lo largo de mi formación he podido desarrollar proyectos utilizando Java, lo que me da una ventaja significativa con el sistema que trabajamos. Estoy entusiasmado por aplicar mis habilidades en el desarrollo y trabajar junto al equipo para alcanzar nuestros objetivos. |
@@ -849,57 +849,59 @@ link: https://structurizr.com/share/101697/ddc19bf8-07c7-4949-ad6f-375475a613d5
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.1. Bounded Context: <IAM>
+
 El dominio de **Identity and Access Management (IAM)** en SafeMed es fundamental para la seguridad y el correcto funcionamiento de la plataforma. Su objetivo principal es controlar quién puede acceder al sistema y qué acciones puede realizar. Esto se logra mediante la gestión centralizada de usuarios (Pacientes y Doctores), la definición de roles y permisos, y la validación de la identidad y los privilegios en cada interacción con el sistema. El contexto IAM asegura que la información médica sensible esté protegida y que cada usuario opere dentro de los límites de su autorización.
 
 ## Diccionario de Clases
 
 En esta sección, presentamos el **Diccionario de Clases** para el contexto IAM, detallando las entidades principales que gestionan la identidad y el acceso en SafeMed.
 
- 1. User
+1.  User
 
-| Atributo        | Tipo de Dato | Descripción                                      |
-|-----------------|--------------|--------------------------------------------------|
-| UserId          | GUID    | Identificador único del usuario.                 |
-| Email           | string       | Correo electrónico, usado para el inicio de sesión. |
-| PasswordHash    | string       | Contraseña del usuario (cifrada).                |
-| FirstName       | string       | Nombre del usuario.                             |
-| LastName        | string       | Apellido del usuario.                           |
-| UserType        | enum         | Tipo de usuario (Paciente, Doctor).             |
-| RegistrationDate| datetime     | Fecha en que se registró el usuario.             |
-| IsActive        | boolean      | Indica si la cuenta del usuario está activa.     |
-| LastLoginDate   | datetime     | Fecha del último inicio de sesión.               |
+| Atributo         | Tipo de Dato | Descripción                                         |
+| ---------------- | ------------ | --------------------------------------------------- |
+| UserId           | GUID         | Identificador único del usuario.                    |
+| Email            | string       | Correo electrónico, usado para el inicio de sesión. |
+| PasswordHash     | string       | Contraseña del usuario (cifrada).                   |
+| FirstName        | string       | Nombre del usuario.                                 |
+| LastName         | string       | Apellido del usuario.                               |
+| UserType         | enum         | Tipo de usuario (Paciente, Doctor).                 |
+| RegistrationDate | datetime     | Fecha en que se registró el usuario.                |
+| IsActive         | boolean      | Indica si la cuenta del usuario está activa.        |
+| LastLoginDate    | datetime     | Fecha del último inicio de sesión.                  |
 
 2. Role
 
-| Atributo        | Tipo de Dato | Descripción                                      |
-|-----------------|--------------|--------------------------------------------------|
-| RoleId          | int     | Identificador único del rol.                    |
-| RoleName        | string       | Nombre descriptivo del rol ("Paciente", "Doctor"). |
-| Description     | string       | Breve descripción de las responsabilidades del rol. |
+| Atributo    | Tipo de Dato | Descripción                                         |
+| ----------- | ------------ | --------------------------------------------------- |
+| RoleId      | int          | Identificador único del rol.                        |
+| RoleName    | string       | Nombre descriptivo del rol ("Paciente", "Doctor").  |
+| Description | string       | Breve descripción de las responsabilidades del rol. |
 
 3. Permission
 
-| Atributo        | Tipo de Dato | Descripción                                      |
-|-----------------|--------------|--------------------------------------------------|
-| PermissionId    | int     | Identificador único del permiso.                |
-| PermissionName  | string       | Nombre técnico del permiso ("view_heart_rate"). |
-| Description     | string       | Breve descripción de la acción permitida.        |
+| Atributo       | Tipo de Dato | Descripción                                     |
+| -------------- | ------------ | ----------------------------------------------- |
+| PermissionId   | int          | Identificador único del permiso.                |
+| PermissionName | string       | Nombre técnico del permiso ("view_heart_rate"). |
+| Description    | string       | Breve descripción de la acción permitida.       |
 
 4. UserRole
 
-| Atributo        | Tipo de Dato | Descripción                                      |
-|-----------------|--------------|--------------------------------------------------|
-| UserId          | GUID    | Clave foránea a la entidad User.                |
-| RoleId          | int     | Clave foránea a la entidad Role.                |
+| Atributo | Tipo de Dato | Descripción                      |
+| -------- | ------------ | -------------------------------- |
+| UserId   | GUID         | Clave foránea a la entidad User. |
+| RoleId   | int          | Clave foránea a la entidad Role. |
 
 5. RolePermission
 
-| Atributo        | Tipo de Dato | Descripción                                      |
-|-----------------|--------------|--------------------------------------------------|
-| RoleId          | int     | Clave foránea a la entidad Role.                |
-| PermissionId    | int     | Clave foránea a la entidad Permission.          |
+| Atributo     | Tipo de Dato | Descripción                            |
+| ------------ | ------------ | -------------------------------------- |
+| RoleId       | int          | Clave foránea a la entidad Role.       |
+| PermissionId | int          | Clave foránea a la entidad Permission. |
 
 #### 4.2.1.1. Domain Layer.
+
 En la capa de dominio se modelan los conceptos centrales del contexto IAM siguiendo los principios de **Domain-Driven Design**, adaptados a las necesidades de **SafeMed**.
 
 El agregado raíz **User** representa a un usuario dentro del sistema SafeMed, ya sea un **Paciente** o un **Doctor**. La entidad **User** es el punto de control principal para las operaciones de identidad y acceso. Cada **User** está asociado a uno o varios **Role** a través de la entidad de enlace **UserRole**.
@@ -913,6 +915,7 @@ Adicionalmente, los **servicios de dominio**, como un **UserAuthenticationServic
 **Aggregates**
 
 **Aggregate `User**
+
 - **UserId** (GUID/UUID)
 - **Email** (string)
 - **PasswordHash** (string)
@@ -925,6 +928,7 @@ Adicionalmente, los **servicios de dominio**, como un **UserAuthenticationServic
 - **List<UserRole> userRoles**
 
 **Métodos:**
+
 - `Register(email, password, userType): User`
 - `Authenticate(password, hashedPassword): boolean`
 - `UpdateProfile(firstName, lastName): void`
@@ -935,47 +939,56 @@ Adicionalmente, los **servicios de dominio**, como un **UserAuthenticationServic
 **Entities**
 
 **Entity `Role**
+
 - **RoleId** (int/GUID)
 - **RoleName** (string)
 - **Description** (string)
 
 **Métodos:**
+
 - `GetPermissions(permissionRepository): List<Permission>`
 
 **Entity `Permission**
+
 - **PermissionId** (int/GUID)
 - **PermissionName** (string)
 - **Description** (string)
 
 **Entity `UserRole**
+
 - **UserId** (GUID/UUID)
 - **RoleId** (int/GUID)
 
 **Value Objects**
 
 **Value Object `UserType**
+
 - **Paciente**
 - **Doctor**
 
 **Métodos estándar de enum:**
+
 - `name(): string`
 - `values(): UserType[]`
 
 **Domain Services**
 
 **UserAuthenticationService**
+
 - `Authenticate(email, password, userRepository): User`
 - `GenerateAuthToken(user): string`
 - `ValidateAuthToken(token): User`
 
 **UserRegistrationService**
+
 - `RegisterNewUser(email, password, userType, userRepository, roleRepository): User`
 
 #### 4.2.1.2. Interface Layer.
 
-La **Capa de Interfaz** para el contexto de **Identity and Access Management (IAM)** en SafeMed sirve como la capa de presentación y adaptación que expone las funcionalidades del dominio a las aplicaciones cliente (móvil y web) y potencialmente a otros servicios. 
+La **Capa de Interfaz** para el contexto de **Identity and Access Management (IAM)** en SafeMed sirve como la capa de presentación y adaptación que expone las funcionalidades del dominio a las aplicaciones cliente (móvil y web) y potencialmente a otros servicios.
 
 Se encarga de:
+
 - Recibir las peticiones externas.
 - Validar los datos de entrada.
 - Invocar la lógica de negocio correspondiente en la Capa de Aplicación.
@@ -985,30 +998,32 @@ Los componentes principales de esta capa son los **Controladores**, que gestiona
 
 **Controladores**
 
-| Controlador      | Responsabilidad Principal                                      |
-|------------------|-----------------------------------------------------------------|
-| AuthController   | Maneja las operaciones de autenticación (registro, login, logout). |
-| UsersController  | Gestiona los perfiles de usuario y consultas relacionadas.      |
+| Controlador     | Responsabilidad Principal                                          |
+| --------------- | ------------------------------------------------------------------ |
+| AuthController  | Maneja las operaciones de autenticación (registro, login, logout). |
+| UsersController | Gestiona los perfiles de usuario y consultas relacionadas.         |
 
 **Endpoints Clave por Controlador**
 
-| Controlador      | Método HTTP | Endpoint                                  | Descripción                                           |
-|------------------|-------------|------------------------------------------|-------------------------------------------------------|
-| AuthController   | POST        | `/api/v1/iam/auth/register`              | Registra un nuevo usuario (Paciente o Doctor).        |
-| AuthController   | POST        | `/api/v1/iam/auth/login`                 | Autentica a un usuario y devuelve un token.           |
-| AuthController   | POST        | `/api/v1/iam/auth/logout`                | Cierra la sesión o invalida el token del usuario.     |
-| UsersController  | GET         | `/api/v1/iam/users/{userId}`             | Obtiene los detalles del perfil de un usuario.        |
-| UsersController  | PUT         | `/api/v1/iam/users/{userId}`             | Actualiza los datos del perfil de un usuario.         |
-| UsersController  | GET         | `/api/v1/iam/users/{userId}/permissions` | Obtiene la lista de permisos de un usuario.           |
+| Controlador     | Método HTTP | Endpoint                                 | Descripción                                       |
+| --------------- | ----------- | ---------------------------------------- | ------------------------------------------------- |
+| AuthController  | POST        | `/api/v1/iam/auth/register`              | Registra un nuevo usuario (Paciente o Doctor).    |
+| AuthController  | POST        | `/api/v1/iam/auth/login`                 | Autentica a un usuario y devuelve un token.       |
+| AuthController  | POST        | `/api/v1/iam/auth/logout`                | Cierra la sesión o invalida el token del usuario. |
+| UsersController | GET         | `/api/v1/iam/users/{userId}`             | Obtiene los detalles del perfil de un usuario.    |
+| UsersController | PUT         | `/api/v1/iam/users/{userId}`             | Actualiza los datos del perfil de un usuario.     |
+| UsersController | GET         | `/api/v1/iam/users/{userId}/permissions` | Obtiene la lista de permisos de un usuario.       |
 
 ## Enfoque
 
 Esta capa se centra en la comunicación externa y en la traducción de solicitudes, **sin implementar lógica de negocio compleja** que corresponde a las capas de Dominio o Aplicación.
 
 #### 4.2.1.3. Application Layer.
-La **Capa de Aplicación** dentro del contexto de **Identity and Access Management (IAM)** en SafeMed es responsable de orquestar el flujo de trabajo para los casos de uso relacionados con la gestión de usuarios y accesos. 
+
+La **Capa de Aplicación** dentro del contexto de **Identity and Access Management (IAM)** en SafeMed es responsable de orquestar el flujo de trabajo para los casos de uso relacionados con la gestión de usuarios y accesos.
 
 Actúa como una capa delgada que coordina las interacciones entre:
+
 - La Capa de Interfaz.
 - La Capa de Dominio.
 - La Capa de Infraestructura.
@@ -1021,61 +1036,63 @@ Los componentes principales de esta capa son los **Command Handlers** y **Query 
 
 Representan intenciones del usuario o del sistema para realizar una acción que cambia el estado del contexto IAM.
 
-| Comando                    | Descripción                                           |
-|-----------------------------|-------------------------------------------------------|
-| RegisterUserCommand         | Solicita el registro de un nuevo usuario en el sistema. |
-| LoginUserCommand            | Solicita la autenticación de un usuario.               |
-| UpdateUserProfileCommand    | Solicita la actualización de los datos de perfil de un usuario. |
-| AssignRoleToUserCommand     | Solicita la asignación de un rol específico a un usuario. |
-| ChangePasswordCommand       | Solicita el cambio de contraseña de un usuario.        |
+| Comando                  | Descripción                                                     |
+| ------------------------ | --------------------------------------------------------------- |
+| RegisterUserCommand      | Solicita el registro de un nuevo usuario en el sistema.         |
+| LoginUserCommand         | Solicita la autenticación de un usuario.                        |
+| UpdateUserProfileCommand | Solicita la actualización de los datos de perfil de un usuario. |
+| AssignRoleToUserCommand  | Solicita la asignación de un rol específico a un usuario.       |
+| ChangePasswordCommand    | Solicita el cambio de contraseña de un usuario.                 |
 
 **Queries**
 
 Representan solicitudes de información del usuario o del sistema que **no cambian el estado** del contexto IAM.
 
-| Query                       | Descripción                                           |
-|------------------------------|-------------------------------------------------------|
-| GetUserProfileQuery          | Solicita los datos de perfil de un usuario por su ID. |
-| GetUserPermissionsQuery      | Solicita la lista de permisos asociados a un usuario. |
-| GetAllRolesQuery             | Solicita la lista de todos los roles disponibles.     |
+| Query                   | Descripción                                           |
+| ----------------------- | ----------------------------------------------------- |
+| GetUserProfileQuery     | Solicita los datos de perfil de un usuario por su ID. |
+| GetUserPermissionsQuery | Solicita la lista de permisos asociados a un usuario. |
+| GetAllRolesQuery        | Solicita la lista de todos los roles disponibles.     |
 
 **Command Handlers**
 
 Componentes que procesan los **Commands**, orquestando la lógica de dominio y la persistencia.
 
-| Command Handler                  | Comandos que Maneja                |
-|-----------------------------------|------------------------------------|
-| RegisterUserCommandHandler        | RegisterUserCommand               |
-| LoginUserCommandHandler           | LoginUserCommand                  |
-| UpdateUserProfileCommandHandler   | UpdateUserProfileCommand          |
-| AssignRoleToUserCommandHandler    | AssignRoleToUserCommand           |
-| ChangePasswordCommandHandler      | ChangePasswordCommand             |
+| Command Handler                 | Comandos que Maneja      |
+| ------------------------------- | ------------------------ |
+| RegisterUserCommandHandler      | RegisterUserCommand      |
+| LoginUserCommandHandler         | LoginUserCommand         |
+| UpdateUserProfileCommandHandler | UpdateUserProfileCommand |
+| AssignRoleToUserCommandHandler  | AssignRoleToUserCommand  |
+| ChangePasswordCommandHandler    | ChangePasswordCommand    |
 
 **Query Handlers**
 
 Componentes que procesan las **Queries**, obteniendo datos a través de la Capa de Infraestructura o servicios de dominio.
 
-| Query Handler                    | Queries que Maneja                 |
-|-----------------------------------|------------------------------------|
-| GetUserProfileQueryHandler        | GetUserProfileQuery               |
-| GetUserPermissionsQueryHandler    | GetUserPermissionsQuery           |
-| GetAllRolesQueryHandler           | GetAllRolesQuery                  |
+| Query Handler                  | Queries que Maneja      |
+| ------------------------------ | ----------------------- |
+| GetUserProfileQueryHandler     | GetUserProfileQuery     |
+| GetUserPermissionsQueryHandler | GetUserPermissionsQuery |
+| GetAllRolesQueryHandler        | GetAllRolesQuery        |
 
 **Otros Componentes**
 
 Además de los **Command Handlers** y **Query Handlers**, la Capa de Aplicación también puede incluir **Event Handlers** que reaccionan a eventos de dominio publicados por este o por otros contextos (por ejemplo, un `UserRegisteredEventHandler` que envía un correo de confirmación).
 
-
 #### 4.2.1.4. Infrastructure Layer.
-La **Capa de Infraestructura** implementa los mecanismos de persistencia requeridos para soportar el dominio de IAM de SafeMed y gestionar la interacción con la base de datos subyacente. 
+
+La **Capa de Infraestructura** implementa los mecanismos de persistencia requeridos para soportar el dominio de IAM de SafeMed y gestionar la interacción con la base de datos subyacente.
 
 En esta capa:
+
 - Se materializan las interfaces de repositorio definidas en la Capa de Dominio.
 - Se utiliza un **ORM** (Object-Relational Mapper) para manejar las operaciones de acceso a datos.
 
-Los repositorios proporcionan métodos necesarios para guardar, recuperar y buscar entidades del dominio IAM (**User**, **Role**, **Permission**). 
+Los repositorios proporcionan métodos necesarios para guardar, recuperar y buscar entidades del dominio IAM (**User**, **Role**, **Permission**).
 
 Además de las operaciones CRUD básicas, se implementan métodos de consulta específicos, como:
+
 - Buscar un usuario por su correo electrónico.
 - Verificar la existencia de un rol por su nombre.
 
@@ -1084,10 +1101,12 @@ Esto permite mantener la **Capa de Dominio** pura y enfocada en la lógica de ne
 **Repositorios Clave**
 
 **Infrastructure Repository `UserRepository**
+
 - **Implementa**: `IUserRepository`
 - **Tecnología**: ORM (ej: Entity Framework Core)
 
 **Métodos:**
+
 - `FindByEmail(email: string): Optional<User>`
 - `ExistsByEmail(email: string): boolean`
 - `Add(user: User): void`
@@ -1097,10 +1116,12 @@ Esto permite mantener la **Capa de Dominio** pura y enfocada en la lógica de ne
 ---
 
 **Infrastructure Repository `RoleRepository**
+
 - **Implementa**: `IRoleRepository`
 - **Tecnología**: ORM (ej: Entity Framework Core)
 
 **Métodos:**
+
 - `FindByName(name: string): Optional<Role>`
 - `ExistsByName(name: string): boolean`
 - `FindById(roleId: int): Optional<Role>`
@@ -1109,35 +1130,42 @@ Esto permite mantener la **Capa de Dominio** pura y enfocada en la lógica de ne
 ---
 
 **Infrastructure Repository `PermissionRepository**
+
 - **Implementa**: `IPermissionRepository`
 - **Tecnología**: ORM (ej: Entity Framework Core)
 
 **Métodos:**
+
 - `FindByName(name: string): Optional<Permission>`
 - `FindById(permissionId: int): Optional<Permission>`
 - `GetAll(): List<Permission>`
 
-
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
+
 <img src= "CAP4-IMAGES/BoundedContextIAMDiagram.png">
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+
 <img src= "CAP4-IMAGES/Class Diagram.png">
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram.
+
 <img src= "CAP4-IMAGES/DatabaseDiagram.png">
 
 ### 4.2.2. Bounded Context: <Patient Management>
-El dominio de **Patient Management** en SafeMed se centra en la gestión de la información y el estado de los pacientes dentro de la plataforma. 
+
+El dominio de **Patient Management** en SafeMed se centra en la gestión de la información y el estado de los pacientes dentro de la plataforma.
 
 Su responsabilidad principal es:
+
 - Mantener los perfiles de los pacientes.
 - Gestionar sus contactos de emergencia.
 - Establecer las relaciones con los médicos encargados de su cuidado.
 
 Este contexto asegura que:
+
 - La información demográfica y de contacto del paciente esté actualizada.
 - Las asignaciones a médicos y contactos de emergencia estén correctamente configuradas.
 - Se permita el monitoreo y respuesta oportuna en caso de emergencias.
@@ -1148,72 +1176,75 @@ En esta sección, presentamos las entidades y posibles objetos de valor clave qu
 
 1. Patient
 
-| Atributo              | Tipo de Dato | Descripción                                                                 |
-|------------------------|--------------|-----------------------------------------------------------------------------|
-| PatientId              | GUID/UUID    | Identificador único del paciente. Clave primaria.                          |
-| UserId                 | GUID/UUID    | Clave foránea al User en el contexto IAM. Identifica el usuario asociado.   |
-| DateOfBirth            | date         | Fecha de nacimiento del paciente.                                           |
-| Gender                 | string       | Género del paciente.                                                       |
-| Address                | string       | Dirección de residencia del paciente.                                       |
-| PhoneNumber            | string       | Número de teléfono de contacto del paciente.                               |
-| MedicalHistorySummary  | string       | Resumen breve de la historia médica relevante (no historia clínica completa). |
+| Atributo              | Tipo de Dato | Descripción                                                                   |
+| --------------------- | ------------ | ----------------------------------------------------------------------------- |
+| PatientId             | GUID/UUID    | Identificador único del paciente. Clave primaria.                             |
+| UserId                | GUID/UUID    | Clave foránea al User en el contexto IAM. Identifica el usuario asociado.     |
+| DateOfBirth           | date         | Fecha de nacimiento del paciente.                                             |
+| Gender                | string       | Género del paciente.                                                          |
+| Address               | string       | Dirección de residencia del paciente.                                         |
+| PhoneNumber           | string       | Número de teléfono de contacto del paciente.                                  |
+| MedicalHistorySummary | string       | Resumen breve de la historia médica relevante (no historia clínica completa). |
 
 ---
 
 2. DoctorAssignment
 
-| Atributo              | Tipo de Dato | Descripción                                                                |
-|------------------------|--------------|----------------------------------------------------------------------------|
-| AssignmentId           | GUID/UUID    | Identificador único de la asignación. Clave primaria.                      |
-| PatientId              | GUID/UUID    | Clave foránea al Patient. Identifica al paciente asignado.                 |
-| DoctorUserId           | GUID/UUID    | Clave foránea al User (con rol Doctor) en el contexto IAM.                  |
-| AssignmentDate         | datetime     | Fecha en que se realizó la asignación.                                      |
-| IsActive               | boolean      | Indica si la asignación del médico está activa actualmente.                |
+| Atributo       | Tipo de Dato | Descripción                                                 |
+| -------------- | ------------ | ----------------------------------------------------------- |
+| AssignmentId   | GUID/UUID    | Identificador único de la asignación. Clave primaria.       |
+| PatientId      | GUID/UUID    | Clave foránea al Patient. Identifica al paciente asignado.  |
+| DoctorUserId   | GUID/UUID    | Clave foránea al User (con rol Doctor) en el contexto IAM.  |
+| AssignmentDate | datetime     | Fecha en que se realizó la asignación.                      |
+| IsActive       | boolean      | Indica si la asignación del médico está activa actualmente. |
 
 ---
 
 3. EmergencyContact
 
-| Atributo              | Tipo de Dato | Descripción                                                                 |
-|------------------------|--------------|-----------------------------------------------------------------------------|
-| ContactId              | GUID/UUID    | Identificador único del contacto de emergencia. Clave primaria.             |
-| PatientId              | GUID/UUID    | Clave foránea al Patient. Identifica al paciente asociado.                  |
-| FullName               | string       | Nombre completo del contacto de emergencia.                                |
-| Relationship           | string       | Parentesco o relación con el paciente (ej: "Hijo", "Cónyuge").              |
-| PhoneNumber            | string       | Número de teléfono del contacto de emergencia (para SMS).                  |
-| Email                  | string       | Correo electrónico del contacto de emergencia (opcional).                  |
-| IsPrimary              | boolean      | Indica si es el contacto de emergencia principal.                           |
+| Atributo     | Tipo de Dato | Descripción                                                     |
+| ------------ | ------------ | --------------------------------------------------------------- |
+| ContactId    | GUID/UUID    | Identificador único del contacto de emergencia. Clave primaria. |
+| PatientId    | GUID/UUID    | Clave foránea al Patient. Identifica al paciente asociado.      |
+| FullName     | string       | Nombre completo del contacto de emergencia.                     |
+| Relationship | string       | Parentesco o relación con el paciente (ej: "Hijo", "Cónyuge").  |
+| PhoneNumber  | string       | Número de teléfono del contacto de emergencia (para SMS).       |
+| Email        | string       | Correo electrónico del contacto de emergencia (opcional).       |
+| IsPrimary    | boolean      | Indica si es el contacto de emergencia principal.               |
+
 #### 4.2.2.1. Domain Layer.
-La **Capa de Dominio** del contexto de **Patient Management** encapsula las entidades, objetos de valor y reglas de negocio que rigen la información y el estado de los pacientes en SafeMed. 
+
+La **Capa de Dominio** del contexto de **Patient Management** encapsula las entidades, objetos de valor y reglas de negocio que rigen la información y el estado de los pacientes en SafeMed.
 
 Es el corazón de este bounded context, donde reside la lógica esencial de la gestión de perfiles, contactos y asignaciones.
 
 El **Aggregate Root** principal en este dominio es la entidad **Patient**. El `Patient` es la entidad coherente a través de la cual se acceden y modifican sus partes constituyentes, como **EmergencyContact** y **DoctorAssignment**. Garantiza que las operaciones sobre los contactos y asignaciones mantengan la integridad del estado general del paciente.
 
-Las entidades **EmergencyContact** y **DoctorAssignment** son partes del agregado **Patient**. Sus ciclos de vida están gestionados por el `Patient`. 
+Las entidades **EmergencyContact** y **DoctorAssignment** son partes del agregado **Patient**. Sus ciclos de vida están gestionados por el `Patient`.
+
 - **EmergencyContact** representa la información de personas a contactar en caso de una emergencia del paciente.
 - **DoctorAssignment** registra la relación entre un paciente y un médico específico dentro de la plataforma.
 
 El dominio de **Patient Management** también necesita hacer referencia a entidades de otros contextos sin poseerlas. Notablemente, un `Patient` y un `DoctorAssignment` referenciarán `Users` del contexto IAM (mediante sus IDs) para identificar al paciente usuario y al médico usuario asignado, respectivamente.
 
-
 **Aggregate Root**
 
 **Aggregate Root `Patient`**
 
-| Atributo                 | Tipo de Dato | Descripción |
-|----------------------------|--------------|-------------|
-| PatientId                  | GUID/UUID    | Identificador único del paciente. |
-| UserId                     | GUID/UUID    | Identificador del usuario asociado (IAM). |
-| DateOfBirth                | date         | Fecha de nacimiento del paciente. |
-| Gender                     | string       | Género del paciente. |
-| Address                    | string       | Dirección de residencia. |
-| PhoneNumber                | string       | Teléfono de contacto. |
-| MedicalHistorySummary      | string       | Resumen breve de historia médica relevante. |
-| List<EmergencyContact>     | -            | Lista de contactos de emergencia. |
-| List<DoctorAssignment>     | -            | Lista de asignaciones a doctores. |
+| Atributo               | Tipo de Dato | Descripción                                 |
+| ---------------------- | ------------ | ------------------------------------------- |
+| PatientId              | GUID/UUID    | Identificador único del paciente.           |
+| UserId                 | GUID/UUID    | Identificador del usuario asociado (IAM).   |
+| DateOfBirth            | date         | Fecha de nacimiento del paciente.           |
+| Gender                 | string       | Género del paciente.                        |
+| Address                | string       | Dirección de residencia.                    |
+| PhoneNumber            | string       | Teléfono de contacto.                       |
+| MedicalHistorySummary  | string       | Resumen breve de historia médica relevante. |
+| List<EmergencyContact> | -            | Lista de contactos de emergencia.           |
+| List<DoctorAssignment> | -            | Lista de asignaciones a doctores.           |
 
 **Métodos:**
+
 - `Create(patientId, userId, dateOfBirth, gender, address, phoneNumber, medicalHistorySummary): Patient`
 - `UpdateProfile(dateOfBirth, gender, address, phoneNumber, medicalHistorySummary): void`
 - `AddEmergencyContact(contactId, fullName, relationship, phoneNumber, email, isPrimary): void`
@@ -1233,17 +1264,18 @@ El dominio de **Patient Management** también necesita hacer referencia a entida
 
 ### Entity `EmergencyContact`
 
-| Atributo     | Tipo de Dato | Descripción |
-|--------------|--------------|-------------|
-| ContactId    | GUID/UUID    | Identificador único del contacto de emergencia. |
-| PatientId    | GUID/UUID    | Identificador del paciente asociado. |
-| FullName     | string       | Nombre completo del contacto. |
+| Atributo     | Tipo de Dato | Descripción                                       |
+| ------------ | ------------ | ------------------------------------------------- |
+| ContactId    | GUID/UUID    | Identificador único del contacto de emergencia.   |
+| PatientId    | GUID/UUID    | Identificador del paciente asociado.              |
+| FullName     | string       | Nombre completo del contacto.                     |
 | Relationship | string       | Relación con el paciente (ej: "Hijo", "Cónyuge"). |
-| PhoneNumber  | string       | Número de teléfono de contacto. |
-| Email        | string       | Correo electrónico del contacto (opcional). |
-| IsPrimary    | boolean      | Indica si es el contacto principal. |
+| PhoneNumber  | string       | Número de teléfono de contacto.                   |
+| Email        | string       | Correo electrónico del contacto (opcional).       |
+| IsPrimary    | boolean      | Indica si es el contacto principal.               |
 
 **Métodos:**
+
 - `UpdateDetails(fullName, relationship, phoneNumber, email): void`
 - `MarkAsPrimary(): void`
 - `MarkAsSecondary(): void`
@@ -1252,24 +1284,27 @@ El dominio de **Patient Management** también necesita hacer referencia a entida
 
 ### Entity `DoctorAssignment`
 
-| Atributo      | Tipo de Dato | Descripción |
-|---------------|--------------|-------------|
-| AssignmentId  | GUID/UUID    | Identificador único de la asignación. |
-| PatientId     | GUID/UUID    | Identificador del paciente asociado. |
-| DoctorUserId  | GUID/UUID    | Identificador del médico usuario asignado (IAM). |
-| AssignmentDate| datetime     | Fecha en que se realizó la asignación. |
-| EndDate       | datetime     | Fecha en que terminó la asignación (si aplica). |
-| IsActive      | boolean      | Indica si la asignación está activa. |
+| Atributo       | Tipo de Dato | Descripción                                      |
+| -------------- | ------------ | ------------------------------------------------ |
+| AssignmentId   | GUID/UUID    | Identificador único de la asignación.            |
+| PatientId      | GUID/UUID    | Identificador del paciente asociado.             |
+| DoctorUserId   | GUID/UUID    | Identificador del médico usuario asignado (IAM). |
+| AssignmentDate | datetime     | Fecha en que se realizó la asignación.           |
+| EndDate        | datetime     | Fecha en que terminó la asignación (si aplica).  |
+| IsActive       | boolean      | Indica si la asignación está activa.             |
 
 **Métodos:**
+
 - `Activate(): void`
 - `Deactivate(endDate): void`
 - `IsCurrent(): boolean`
+
 #### 4.2.2.2. Interface Layer.
 
-La **Capa de Interfaz** para el contexto de **Patient Management** en SafeMed actúa como la fachada o el punto de entrada a las funcionalidades de este dominio. 
+La **Capa de Interfaz** para el contexto de **Patient Management** en SafeMed actúa como la fachada o el punto de entrada a las funcionalidades de este dominio.
 
 Es responsable de:
+
 - Recibir las peticiones de las aplicaciones cliente (móvil y web) u otros servicios.
 - Validar los datos de entrada.
 - Invocar la lógica de negocio correspondiente en la Capa de Aplicación.
@@ -1279,34 +1314,35 @@ Los componentes principales de esta capa son los **Controladores**, que gestiona
 
 **Controladores**
 
-| Controlador               | Responsabilidad Principal                                                              |
-|----------------------------|----------------------------------------------------------------------------------------|
-| PatientsController         | Gestiona las operaciones sobre los perfiles de pacientes (crear, obtener, actualizar). |
-| EmergencyContactsController| Gestiona los contactos de emergencia de un paciente (añadir, obtener, actualizar, eliminar). |
-| DoctorAssignmentsController| Gestiona la asignación de médicos a pacientes (asignar, obtener, finalizar).           |
+| Controlador                 | Responsabilidad Principal                                                                    |
+| --------------------------- | -------------------------------------------------------------------------------------------- |
+| PatientsController          | Gestiona las operaciones sobre los perfiles de pacientes (crear, obtener, actualizar).       |
+| EmergencyContactsController | Gestiona los contactos de emergencia de un paciente (añadir, obtener, actualizar, eliminar). |
+| DoctorAssignmentsController | Gestiona la asignación de médicos a pacientes (asignar, obtener, finalizar).                 |
 
 ---
 
 **Endpoints Clave por Controlador**
 
-| Controlador                | Método HTTP | Endpoint                                                       | Descripción                                           |
-|-----------------------------|-------------|----------------------------------------------------------------|-------------------------------------------------------|
-| PatientsController          | POST        | `/api/v1/patients`                                             | Crea un nuevo perfil de paciente (asociado a un usuario IAM). |
-| PatientsController          | GET         | `/api/v1/patients/{patientId}`                                 | Obtiene los detalles de un perfil de paciente.        |
-| PatientsController          | PUT         | `/api/v1/patients/{patientId}`                                 | Actualiza los datos de un perfil de paciente.         |
-| EmergencyContactsController | POST        | `/api/v1/patients/{patientId}/emergency-contacts`              | Añade un contacto de emergencia a un paciente.        |
-| EmergencyContactsController | GET         | `/api/v1/patients/{patientId}/emergency-contacts`              | Obtiene todos los contactos de emergencia de un paciente. |
-| EmergencyContactsController | PUT         | `/api/v1/patients/{patientId}/emergency-contacts/{contactId}`  | Actualiza un contacto de emergencia.                  |
-| EmergencyContactsController | DELETE      | `/api/v1/patients/{patientId}/emergency-contacts/{contactId}`  | Elimina un contacto de emergencia.                    |
-| DoctorAssignmentsController | POST        | `/api/v1/patients/{patientId}/doctor-assignments`              | Asigna un médico a un paciente.                       |
-| DoctorAssignmentsController | GET         | `/api/v1/patients/{patientId}/doctor-assignments`              | Obtiene las asignaciones de médicos de un paciente.   |
-| DoctorAssignmentsController | PUT         | `/api/v1/patients/{patientId}/doctor-assignments/{assignmentId}`| Actualiza (ej: desactiva) una asignación de médico.    |
-
+| Controlador                 | Método HTTP | Endpoint                                                         | Descripción                                                   |
+| --------------------------- | ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------- |
+| PatientsController          | POST        | `/api/v1/patients`                                               | Crea un nuevo perfil de paciente (asociado a un usuario IAM). |
+| PatientsController          | GET         | `/api/v1/patients/{patientId}`                                   | Obtiene los detalles de un perfil de paciente.                |
+| PatientsController          | PUT         | `/api/v1/patients/{patientId}`                                   | Actualiza los datos de un perfil de paciente.                 |
+| EmergencyContactsController | POST        | `/api/v1/patients/{patientId}/emergency-contacts`                | Añade un contacto de emergencia a un paciente.                |
+| EmergencyContactsController | GET         | `/api/v1/patients/{patientId}/emergency-contacts`                | Obtiene todos los contactos de emergencia de un paciente.     |
+| EmergencyContactsController | PUT         | `/api/v1/patients/{patientId}/emergency-contacts/{contactId}`    | Actualiza un contacto de emergencia.                          |
+| EmergencyContactsController | DELETE      | `/api/v1/patients/{patientId}/emergency-contacts/{contactId}`    | Elimina un contacto de emergencia.                            |
+| DoctorAssignmentsController | POST        | `/api/v1/patients/{patientId}/doctor-assignments`                | Asigna un médico a un paciente.                               |
+| DoctorAssignmentsController | GET         | `/api/v1/patients/{patientId}/doctor-assignments`                | Obtiene las asignaciones de médicos de un paciente.           |
+| DoctorAssignmentsController | PUT         | `/api/v1/patients/{patientId}/doctor-assignments/{assignmentId}` | Actualiza (ej: desactiva) una asignación de médico.           |
 
 #### 4.2.2.3. Application Layer.
-La **Capa de Aplicación** dentro del contexto de **Patient Management** en SafeMed es responsable de orquestar el flujo de trabajo para los casos de uso relacionados con la gestión de perfiles de pacientes, contactos de emergencia y asignaciones de médicos. 
+
+La **Capa de Aplicación** dentro del contexto de **Patient Management** en SafeMed es responsable de orquestar el flujo de trabajo para los casos de uso relacionados con la gestión de perfiles de pacientes, contactos de emergencia y asignaciones de médicos.
 
 Actúa como una capa delgada que coordina las interacciones entre:
+
 - La Capa de Interfaz.
 - La Capa de Dominio.
 - La Capa de Infraestructura.
@@ -1321,16 +1357,16 @@ Los componentes principales son los **Command Handlers** y **Query Handlers**, q
 
 Representan intenciones del usuario o del sistema para realizar una acción que cambia el estado del contexto Patient Management.
 
-| Comando                           | Descripción                                                   |
-|------------------------------------|---------------------------------------------------------------|
-| CreatePatientProfileCommand       | Solicita la creación de un nuevo perfil de paciente asociado a un usuario IAM. |
-| UpdatePatientProfileCommand       | Solicita la actualización de los datos del perfil de un paciente. |
-| AddEmergencyContactCommand        | Solicita añadir un contacto de emergencia a un paciente.       |
-| UpdateEmergencyContactCommand     | Solicita actualizar los datos de un contacto de emergencia.    |
-| RemoveEmergencyContactCommand     | Solicita eliminar un contacto de emergencia.                   |
-| AssignDoctorCommand               | Solicita la asignación de un médico a un paciente.              |
-| UpdateDoctorAssignmentCommand     | Solicita actualizar una asignación de médico (ej: desactivarla). |
-| MarkPrimaryEmergencyContactCommand| Solicita marcar un contacto de emergencia como principal.       |
+| Comando                            | Descripción                                                                    |
+| ---------------------------------- | ------------------------------------------------------------------------------ |
+| CreatePatientProfileCommand        | Solicita la creación de un nuevo perfil de paciente asociado a un usuario IAM. |
+| UpdatePatientProfileCommand        | Solicita la actualización de los datos del perfil de un paciente.              |
+| AddEmergencyContactCommand         | Solicita añadir un contacto de emergencia a un paciente.                       |
+| UpdateEmergencyContactCommand      | Solicita actualizar los datos de un contacto de emergencia.                    |
+| RemoveEmergencyContactCommand      | Solicita eliminar un contacto de emergencia.                                   |
+| AssignDoctorCommand                | Solicita la asignación de un médico a un paciente.                             |
+| UpdateDoctorAssignmentCommand      | Solicita actualizar una asignación de médico (ej: desactivarla).               |
+| MarkPrimaryEmergencyContactCommand | Solicita marcar un contacto de emergencia como principal.                      |
 
 ---
 
@@ -1338,13 +1374,13 @@ Representan intenciones del usuario o del sistema para realizar una acción que 
 
 Representan solicitudes de información del usuario o del sistema que **no cambian el estado** del contexto Patient Management.
 
-| Query                              | Descripción                                                   |
-|------------------------------------|---------------------------------------------------------------|
-| GetPatientProfileQuery             | Solicita los detalles del perfil de un paciente por ID.       |
-| GetPatientContactsQuery            | Solicita todos los contactos de emergencia de un paciente.    |
-| GetPatientAssignmentsQuery         | Solicita todas las asignaciones de médicos de un paciente.     |
-| GetPatientsByDoctorQuery           | Solicita la lista de pacientes asignados a un médico.          |
-| GetPrimaryEmergencyContactQuery    | Solicita el contacto de emergencia principal de un paciente.   |
+| Query                           | Descripción                                                  |
+| ------------------------------- | ------------------------------------------------------------ |
+| GetPatientProfileQuery          | Solicita los detalles del perfil de un paciente por ID.      |
+| GetPatientContactsQuery         | Solicita todos los contactos de emergencia de un paciente.   |
+| GetPatientAssignmentsQuery      | Solicita todas las asignaciones de médicos de un paciente.   |
+| GetPatientsByDoctorQuery        | Solicita la lista de pacientes asignados a un médico.        |
+| GetPrimaryEmergencyContactQuery | Solicita el contacto de emergencia principal de un paciente. |
 
 ---
 
@@ -1352,16 +1388,16 @@ Representan solicitudes de información del usuario o del sistema que **no cambi
 
 Componentes que procesan los **Commands**, orquestando la lógica de dominio y la persistencia.
 
-| Command Handler                           | Comandos que Maneja                       |
-|--------------------------------------------|-------------------------------------------|
-| CreatePatientProfileCommandHandler        | CreatePatientProfileCommand              |
-| UpdatePatientProfileCommandHandler        | UpdatePatientProfileCommand              |
-| AddEmergencyContactCommandHandler         | AddEmergencyContactCommand               |
-| UpdateEmergencyContactCommandHandler      | UpdateEmergencyContactCommand            |
-| RemoveEmergencyContactCommandHandler      | RemoveEmergencyContactCommand            |
-| AssignDoctorCommandHandler                | AssignDoctorCommand                      |
-| UpdateDoctorAssignmentCommandHandler      | UpdateDoctorAssignmentCommand            |
-| MarkPrimaryEmergencyContactCommandHandler | MarkPrimaryEmergencyContactCommand       |
+| Command Handler                           | Comandos que Maneja                |
+| ----------------------------------------- | ---------------------------------- |
+| CreatePatientProfileCommandHandler        | CreatePatientProfileCommand        |
+| UpdatePatientProfileCommandHandler        | UpdatePatientProfileCommand        |
+| AddEmergencyContactCommandHandler         | AddEmergencyContactCommand         |
+| UpdateEmergencyContactCommandHandler      | UpdateEmergencyContactCommand      |
+| RemoveEmergencyContactCommandHandler      | RemoveEmergencyContactCommand      |
+| AssignDoctorCommandHandler                | AssignDoctorCommand                |
+| UpdateDoctorAssignmentCommandHandler      | UpdateDoctorAssignmentCommand      |
+| MarkPrimaryEmergencyContactCommandHandler | MarkPrimaryEmergencyContactCommand |
 
 ---
 
@@ -1369,33 +1405,34 @@ Componentes que procesan los **Commands**, orquestando la lógica de dominio y l
 
 Componentes que procesan las **Queries**, obteniendo datos a través de la Capa de Infraestructura o servicios de dominio.
 
-| Query Handler                           | Queries que Maneja                         |
-|-----------------------------------------|--------------------------------------------|
-| GetPatientProfileQueryHandler           | GetPatientProfileQuery                    |
-| GetPatientContactsQueryHandler          | GetPatientContactsQuery                   |
-| GetPatientAssignmentsQueryHandler       | GetPatientAssignmentsQuery                |
-| GetPatientsByDoctorQueryHandler         | GetPatientsByDoctorQuery                  |
-| GetPrimaryEmergencyContactQueryHandler  | GetPrimaryEmergencyContactQuery           |
+| Query Handler                          | Queries que Maneja              |
+| -------------------------------------- | ------------------------------- |
+| GetPatientProfileQueryHandler          | GetPatientProfileQuery          |
+| GetPatientContactsQueryHandler         | GetPatientContactsQuery         |
+| GetPatientAssignmentsQueryHandler      | GetPatientAssignmentsQuery      |
+| GetPatientsByDoctorQueryHandler        | GetPatientsByDoctorQuery        |
+| GetPrimaryEmergencyContactQueryHandler | GetPrimaryEmergencyContactQuery |
 
 #### 4.2.2.4. Infrastructure Layer
-La **Capa de Infraestructura** para **Patient Management** se encarga de la persistencia de los datos relacionados con los perfiles de pacientes, contactos de emergencia y asignaciones de médicos. 
+
+La **Capa de Infraestructura** para **Patient Management** se encarga de la persistencia de los datos relacionados con los perfiles de pacientes, contactos de emergencia y asignaciones de médicos.
 
 Sus responsabilidades principales son:
+
 - Implementar los repositorios definidos en la Capa de Dominio.
 - Interactuar con la base de datos subyacente para almacenar y recuperar la información del agregado **Patient** y sus partes constituyentes (**EmergencyContact**, **DoctorAssignment**).
 - Abstraer los detalles técnicos de la base de datos del resto del bounded context.
 
 Los componentes principales de esta capa incluyen las implementaciones concretas de los **repositorios** y, potencialmente, **servicios de bajo nivel** específicos para este contexto.
 
-
 ## Componentes de Infraestructura Clave
 
-| Componente                 | Tipo                         | Descripción                                                                                           | Tecnología/Implementación Típica             |
-|-----------------------------|------------------------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------|
-| PatientRepository           | Implementación Repositorio   | Implementa la interfaz `IPatientRepository`. Gestiona la persistencia transaccional del agregado completo `Patient` (incluyendo `EmergencyContact` y `DoctorAssignment`). | ORM            |
-| PatientManagementDbContext  | Contexto DB/ORM              | Configuración y gestión del acceso a la base de datos específico para el esquema de Patient Management. | ORM            |
-| EmergencyContactRepository  | Implementación Repositorio   | Podría ser gestionado por `PatientRepository` si se modela como entidad interna, o como repositorio secundario para acceso directo. | ORM           |
-| DoctorAssignmentRepository  | Implementación Repositorio   | Podría ser gestionado por `PatientRepository` o como repositorio secundario si requiere un ciclo de vida independiente. | ORM           |
+| Componente                 | Tipo                       | Descripción                                                                                                                                                               | Tecnología/Implementación Típica |
+| -------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| PatientRepository          | Implementación Repositorio | Implementa la interfaz `IPatientRepository`. Gestiona la persistencia transaccional del agregado completo `Patient` (incluyendo `EmergencyContact` y `DoctorAssignment`). | ORM                              |
+| PatientManagementDbContext | Contexto DB/ORM            | Configuración y gestión del acceso a la base de datos específico para el esquema de Patient Management.                                                                   | ORM                              |
+| EmergencyContactRepository | Implementación Repositorio | Podría ser gestionado por `PatientRepository` si se modela como entidad interna, o como repositorio secundario para acceso directo.                                       | ORM                              |
+| DoctorAssignmentRepository | Implementación Repositorio | Podría ser gestionado por `PatientRepository` o como repositorio secundario si requiere un ciclo de vida independiente.                                                   | ORM                              |
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 
@@ -1403,7 +1440,209 @@ Los componentes principales de esta capa incluyen las implementaciones concretas
 
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 
-
 #### 4.2.2.6.2. Bounded Context Database Design Diagram.
 
+### 4.2.3. Bounded Context: Sensor Monitoring
 
+El dominio de **Sensor Monitoring** en SafeMed es fundamental para la supervisión en tiempo real de la salud del paciente. Su objetivo principal es capturar, almacenar y visualizar los datos del **ritmo cardíaco** provenientes de sensores conectados, permitiendo a pacientes y doctores realizar un seguimiento continuo y seguro de los signos vitales. Este contexto asegura que los datos biométricos se registren de manera precisa y estén disponibles en la aplicación para su visualización, análisis y toma de decisiones médicas.
+
+## Diccionario de Clases
+
+En esta sección, presentamos el **Diccionario de Clases** para el contexto de **Sensor Monitoring**, detallando las entidades principales que gestionan la captura y manejo del ritmo cardíaco.
+
+1. HeartRateReading
+
+| Atributo     | Tipo de Dato | Descripción                                     |
+| ------------ | ------------ | ----------------------------------------------- |
+| ReadingId    | GUID         | Identificador único de la lectura.              |
+| PatientId    | GUID         | Identificador del paciente asociado.            |
+| Timestamp    | datetime     | Momento exacto de la lectura.                   |
+| HeartRateBPM | int          | Ritmo cardíaco registrado (latidos por minuto). |
+
+2. SensorDevice
+
+| Atributo     | Tipo de Dato | Descripción                          |
+| ------------ | ------------ | ------------------------------------ |
+| DeviceId     | GUID         | Identificador único del dispositivo. |
+| SerialNumber | string       | Número de serie del sensor.          |
+| PatientId    | GUID         | Identificador del paciente asignado. |
+| IsActive     | boolean      | Estado de activación del sensor.     |
+
+3. MonitoringSession
+
+| Atributo  | Tipo de Dato | Descripción                                       |
+| --------- | ------------ | ------------------------------------------------- |
+| SessionId | GUID         | Identificador único de la sesión de monitoreo.    |
+| PatientId | GUID         | Paciente monitoreado en esta sesión.              |
+| StartTime | datetime     | Inicio de la sesión.                              |
+| EndTime   | datetime?    | Fin de la sesión (opcional mientras esté activa). |
+
+#### 4.2.3.1. Domain Layer
+
+En la capa de dominio se modelan los conceptos centrales del contexto **Sensor Monitoring** siguiendo los principios de **Domain-Driven Design**, adaptados a **SafeMed**.
+
+El agregado raíz **MonitoringSession** representa una sesión activa o histórica de monitoreo del paciente. Cada **MonitoringSession** está asociada a múltiples **HeartRateReading**, que representan las mediciones capturadas.
+
+El **SensorDevice** se modela como una entidad que establece el vínculo físico entre el paciente y el sistema.
+
+**Aggregates**
+
+**Aggregate `MonitoringSession`**
+
+- **SessionId** (GUID)
+- **PatientId** (GUID)
+- **StartTime** (datetime)
+- **EndTime** (datetime?)
+- **List<HeartRateReading> readings**
+
+**Métodos:**
+
+- `StartSession(patientId): MonitoringSession`
+- `EndSession(): void`
+- `AddHeartRateReading(heartRateBPM, timestamp): void`
+- `GetAverageHeartRate(): double`
+
+**Entities**
+
+**Entity `HeartRateReading`**
+
+- **ReadingId** (GUID)
+- **PatientId** (GUID)
+- **Timestamp** (datetime)
+- **HeartRateBPM** (int)
+
+**Entity `SensorDevice`**
+
+- **DeviceId** (GUID)
+- **SerialNumber** (string)
+- **PatientId** (GUID)
+- **IsActive** (boolean)
+
+**Value Objects**
+
+No se definen Value Objects complejos en este contexto básico, pero podría incluirse más adelante uno para medidas de señales biométricas.
+
+**Domain Services**
+
+**RealTimeMonitoringService**
+
+- `ProcessSensorData(sensorInput): HeartRateReading`
+- `DetectAnomalies(heartRateReading): AnomalyAlert?`
+
+#### 4.2.3.2. Interface Layer
+
+La **Capa de Interfaz** para el contexto de **Sensor Monitoring** en SafeMed sirve como la puerta de entrada para recibir las lecturas del sensor y mostrar los datos en tiempo real a los usuarios.
+
+Se encarga de:
+
+- Recibir las lecturas de los sensores.
+- Validar datos de entrada.
+- Disparar casos de uso en la Capa de Aplicación.
+- Formatear y enviar respuestas.
+
+**Controladores**
+
+| Controlador                 | Responsabilidad Principal                     |
+| --------------------------- | --------------------------------------------- |
+| SensorDataController        | Recibir y registrar datos de ritmo cardíaco.  |
+| MonitoringSessionController | Gestionar sesiones de monitoreo de pacientes. |
+
+**Endpoints Clave por Controlador**
+
+| Controlador                 | Método HTTP | Endpoint                                        | Descripción                                  |
+| --------------------------- | ----------- | ----------------------------------------------- | -------------------------------------------- |
+| SensorDataController        | POST        | `/api/v1/sensors/data`                          | Recibir nueva lectura de ritmo cardíaco.     |
+| MonitoringSessionController | POST        | `/api/v1/sensors/sessions/start`                | Iniciar una nueva sesión de monitoreo.       |
+| MonitoringSessionController | POST        | `/api/v1/sensors/sessions/end`                  | Finalizar una sesión de monitoreo activa.    |
+| MonitoringSessionController | GET         | `/api/v1/sensors/sessions/{sessionId}`          | Obtener detalles de una sesión de monitoreo. |
+| MonitoringSessionController | GET         | `/api/v1/sensors/sessions/{sessionId}/readings` | Obtener lecturas asociadas a una sesión.     |
+
+## Enfoque
+
+Esta capa se centra en la comunicación externa (sensores, apps móviles, web), validando la estructura de los datos y orquestando la lógica de aplicación.
+
+#### 4.2.3.3. Application Layer
+
+La **Capa de Aplicación** coordina el flujo de trabajo entre las capas de Interfaz, Dominio e Infraestructura para los casos de uso de monitoreo de ritmo cardíaco.
+
+**Comandos (Commands)**
+
+| Comando                         | Descripción                                             |
+| ------------------------------- | ------------------------------------------------------- |
+| StartMonitoringSessionCommand   | Iniciar una nueva sesión de monitoreo para un paciente. |
+| EndMonitoringSessionCommand     | Finalizar una sesión de monitoreo activa.               |
+| RegisterHeartRateReadingCommand | Registrar una nueva lectura de ritmo cardíaco.          |
+
+**Queries**
+
+| Query                     | Descripción                                    |
+| ------------------------- | ---------------------------------------------- |
+| GetMonitoringSessionQuery | Obtener los detalles de una sesión específica. |
+| GetHeartRateReadingsQuery | Obtener todas las lecturas de una sesión.      |
+
+**Command Handlers**
+
+| Command Handler                        | Comandos que Maneja             |
+| -------------------------------------- | ------------------------------- |
+| StartMonitoringSessionCommandHandler   | StartMonitoringSessionCommand   |
+| EndMonitoringSessionCommandHandler     | EndMonitoringSessionCommand     |
+| RegisterHeartRateReadingCommandHandler | RegisterHeartRateReadingCommand |
+
+**Query Handlers**
+
+| Query Handler                    | Queries que Maneja        |
+| -------------------------------- | ------------------------- |
+| GetMonitoringSessionQueryHandler | GetMonitoringSessionQuery |
+| GetHeartRateReadingsQueryHandler | GetHeartRateReadingsQuery |
+
+**Otros Componentes**
+
+Se podrían incluir Event Handlers para alertas de anomalías detectadas durante el monitoreo en tiempo real.
+
+#### 4.2.3.4. Infrastructure Layer
+
+La **Capa de Infraestructura** maneja la persistencia de datos de sesiones y lecturas de ritmo cardíaco provenientes de los sensores.
+
+**Repositorios Clave**
+
+**Infrastructure Repository `MonitoringSessionRepository`**
+
+- **Implementa**: `IMonitoringSessionRepository`
+- **Tecnología**: ORM (ej: Entity Framework Core)
+
+**Métodos:**
+
+- `StartSession(patientId: GUID): MonitoringSession`
+- `EndSession(sessionId: GUID): void`
+- `FindById(sessionId: GUID): Optional<MonitoringSession>`
+
+---
+
+**Infrastructure Repository `HeartRateReadingRepository`**
+
+- **Implementa**: `IHeartRateReadingRepository`
+- **Tecnología**: ORM (ej: Entity Framework Core)
+
+**Métodos:**
+
+- `AddReading(reading: HeartRateReading): void`
+- `FindReadingsBySession(sessionId: GUID): List<HeartRateReading>`
+
+---
+
+**Infrastructure Repository `SensorDeviceRepository`**
+
+- **Implementa**: `ISensorDeviceRepository`
+- **Tecnología**: ORM (ej: Entity Framework Core)
+
+**Métodos:**
+
+- `FindBySerialNumber(serialNumber: string): Optional<SensorDevice>`
+- `ActivateSensor(deviceId: GUID): void`
+- `DeactivateSensor(deviceId: GUID): void`
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
+
+#### 4.2.3.6.2. Bounded Context Database Design Diagram.
