@@ -41,12 +41,12 @@ Profesor: Leon Baca, Marco Antonio
 # Registro de Versiones del informe
 
 | Versión | Fecha | Autor | Descripción de modificación |
-|---------|-------|--------|------------------------------|
-| 0.1     |       |        |                              |
-| 0.2     |       |        |                              |
-| 0.3     |       |        |                              |
-| 0.4     |       |        |                              |
-| 0.5     |       |        |                              |
+| ------- | ----- | ----- | --------------------------- |
+| 0.1     |       |       |                             |
+| 0.2     |       |       |                             |
+| 0.3     |       |       |                             |
+| 0.4     |       |       |                             |
+| 0.5     |       |       |                             |
 
 # Project Report Collaboration Insights
 
@@ -54,13 +54,13 @@ Profesor: Leon Baca, Marco Antonio
 
 Para la entrega de la TB1 se realizó una reunión donde se asignaron las responsabilidades a cada integrante del equipo. A continuación se muestra la siguiente tabla con los detalles:
 
-| Integrante              | Responsabilidad |
-|-------------------------|-----------------|
-| De la Piedra, Miquel    |  Capitulo 4, Entrevista       |
-| Gutierrez, Manuel       |      Capitulo 2, Entrevista            |
-| Mendez, Marco           |         Capitulo 4, Entrevista           |
-| Roca, Orlando           |      Capitulo 1, Entrevista              |
-| Ventura, Eduardo        |      Capitulo3, Entrevista              |
+| Integrante           | Responsabilidad        |
+| -------------------- | ---------------------- |
+| De la Piedra, Miquel | Capitulo 4, Entrevista |
+| Gutierrez, Manuel    | Capitulo 2, Entrevista |
+| Mendez, Marco        | Capitulo 4, Entrevista |
+| Roca, Orlando        | Capitulo 1, Entrevista |
+| Ventura, Eduardo     | Capitulo3, Entrevista  |
 
 Durante la elaboración de las aplicaciones, tanto web como mobile, se realizaron commits respectivos con el fin de mantener el orden y un control de versiones eficiente.
 
@@ -75,69 +75,76 @@ Para tener mejor precisión en los integrantes del equipo, a continuación prese
 A continuación se presentan las capturas del repositorio de GitHub donde se realizaron los avances correspondientes.
 
 # Tabla de contenidos
-  - [Student Outcome](#student-outcome)
-  
-  ## Capítulo I: Introducción
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-  
-  ## Capítulo II: Requirements Elicitation & Analysis
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-  
-  ## Capítulo III: Requirements Specification
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
-  
-  ## Capítulo IV: Solution Software Design
-  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-    - [4.1.1. EventStorming](#411-eventstorming)
-      - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
-      - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-      - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-    - [4.1.2. Context Mapping](#412-context-mapping)
-    - [4.1.3. Software Architecture](#413-software-architecture)
-      - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
-      - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
-      - [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
-      - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
+
+- [Student Outcome](#student-outcome)
+
+## Capítulo I: Introducción
+
+- [1.1. Startup Profile](#11-startup-profile)
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+- [1.2. Solution Profile](#12-solution-profile)
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+
+## Capítulo II: Requirements Elicitation & Analysis
+
+- [2.1. Competidores](#21-competidores)
+  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+- [2.2. Entrevistas](#22-entrevistas)
+  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+- [2.3. Needfinding](#23-needfinding)
+  - [2.3.1. User Personas](#231-user-personas)
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)
+  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+- [2.4. Ubiquitous Language](#24-ubiquitous-language)
+
+## Capítulo III: Requirements Specification
+
+- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+- [3.2. User Stories](#32-user-stories)
+- [3.3. Impact Mapping](#33-impact-mapping)
+- [3.4. Product Backlog](#34-product-backlog)
+
+## Capítulo IV: Solution Software Design
+
+- [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+  - [4.1.1. EventStorming](#411-eventstorming)
+    - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
+    - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+    - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+  - [4.1.2. Context Mapping](#412-context-mapping)
+  - [4.1.3. Software Architecture](#413-software-architecture)
+    - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
+    - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
+    - [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
+    - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
 
 # Student Outcome
-**ABET – EAC - Student Outcome 5**: Trabaja efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo; crea un entorno colaborativo e inclusivo y establece metas, planifica tareas y cumple objetivos 
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---------------------|---------------------|--------------|
-| 5.c.1 Trabaja en equipo para proporcionar liderazgo en forma conjunta |  |  |
-| 5.c.2 Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos |  |  |
+**ABET – EAC - Student Outcome 5**: Trabaja efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo; crea un entorno colaborativo e inclusivo y establece metas, planifica tareas y cumple objetivos
+
+| Criterio específico                                                                                  | Acciones realizadas | Conclusiones |
+| ---------------------------------------------------------------------------------------------------- | ------------------- | ------------ |
+| 5.c.1 Trabaja en equipo para proporcionar liderazgo en forma conjunta                                |                     |              |
+| 5.c.2 Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos |                     |              |
 
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
+
 SafeMed es una startup tecnológica creada por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC), enfocada en el desarrollo de soluciones innovadoras para el sector salud mediante el uso de tecnologías IoT. Nuestro propósito es brindar herramientas digitales que permitan mejorar la calidad de vida de pacientes con enfermedades crónicas, facilitando el monitoreo remoto de sus signos vitales y proporcionando canales de comunicación directa entre familiares y profesionales médicos.
 
 SafeMed nace como respuesta a la creciente necesidad de una atención médica más preventiva, accesible y en tiempo real. A través de nuestro sistema inteligente, buscamos detectar de forma oportuna alteraciones en la salud de los pacientes y notificar automáticamente a las personas responsables de su cuidado, ayudando a reducir tiempos de respuesta y mejorar la gestión médica.
@@ -147,17 +154,19 @@ Misión: Salvar vidas a través de tecnología accesible e inteligente, brindand
 Visión: Ser la plataforma líder en Latinoamérica en soluciones digitales para el monitoreo remoto de salud, reconocida por su innovación, confiabilidad y contribución al bienestar de los pacientes.
 
 ### 1.1.2. Perfiles de integrantes del equipo
-| Foto                                       | Nombre y Descripción                                                                                          |
-| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
-| ![Foto Manuel](CAP1-IMAGES/FotoManuel.jpg) | **Nombre:** Manuel Alonso Gutierrez Zumaeta <br>**Código:** u202112353 <br>**Descripción:** Soy Manuel Gutierrez, estudiante de la carrera de Ingeniería de Software, tengo 20 años. Tengo experiencia en el desarrollo de aplicaciones web, tanto frontend como backend, programación móvil en Flutter. Me considero una persona responsable y que se propone hacer un buen trabajo.                                                      |
-| ![Foto Marcos](ruta/a/la/foto)              | **Nombre:** <br>**Código:** <br>**Descripción:**                                                              |
-| ![Foto Miquel](ruta/a/la/foto)             | **Nombre:** <br>**Código:** <br>**Descripción:**                                                              |
-| ![Foto Eduardo](ruta/a/la/foto)               | **Nombre:** <br>**Código:** <br>**Descripción:**                                                              |
-| ![Foto Orlando](https://cdn.discordapp.com/attachments/877299205696262227/1365191908304879666/Captura_de_pantalla_2024-06-16_173218.png?ex=680c698a&is=680b180a&hm=2a5b43302b228e7f9097a0e64bc85d4669760f53401359d703cf1d9ba3b3d3c9&)               | **Nombre:** Orlando Arturo Roca Huapaya <br>**Código:** u201919742<br>**Descripción:** Como estudiante de ingeniería de software, mi contribución al equipo se centra en mis conocimientos en la planificación y diseño de software. A lo largo de     mi formación he podido desarrollar proyectos utilizando Java, lo que me da una ventaja significativa con el sistema que trabajamos. Estoy entusiasmado por aplicar mis habilidades en el desarrollo y trabajar junto al equipo para alcanzar         nuestros objetivos.                                                             |
+
+| Foto                                                                                                                                                                                                                                  | Nombre y Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Foto Manuel](CAP1-IMAGES/FotoManuel.jpg)                                                                                                                                                                                            | **Nombre:** Manuel Alonso Gutierrez Zumaeta <br>**Código:** u202112353 <br>**Descripción:** Soy Manuel Gutierrez, estudiante de la carrera de Ingeniería de Software, tengo 20 años. Tengo experiencia en el desarrollo de aplicaciones web, tanto frontend como backend, programación móvil en Flutter. Me considero una persona responsable y que se propone hacer un buen trabajo.                                                                                                                               |
+| ![Foto Marcos](ruta/a/la/foto)                                                                                                                                                                                                        | **Nombre:** <br>**Código:** <br>**Descripción:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ![Foto Miquel](ruta/a/la/foto)                                                                                                                                                                                                        | **Nombre:** <br>**Código:** <br>**Descripción:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ![Foto Eduardo](ruta/a/la/foto)                                                                                                                                                                                                       | **Nombre:** <br>**Código:** <br>**Descripción:**                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ![Foto Orlando](https://cdn.discordapp.com/attachments/877299205696262227/1365191908304879666/Captura_de_pantalla_2024-06-16_173218.png?ex=680c698a&is=680b180a&hm=2a5b43302b228e7f9097a0e64bc85d4669760f53401359d703cf1d9ba3b3d3c9&) | **Nombre:** Orlando Arturo Roca Huapaya <br>**Código:** u201919742<br>**Descripción:** Como estudiante de ingeniería de software, mi contribución al equipo se centra en mis conocimientos en la planificación y diseño de software. A lo largo de mi formación he podido desarrollar proyectos utilizando Java, lo que me da una ventaja significativa con el sistema que trabajamos. Estoy entusiasmado por aplicar mis habilidades en el desarrollo y trabajar junto al equipo para alcanzar nuestros objetivos. |
 
 ## 1.2. Solution Profile
 
 ### 1.2.1 Antecedentes y problemática
+
 Las enfermedades cardiovasculares y otros trastornos relacionados con los signos vitales representan una de las principales causas de hospitalizaciones y muertes a nivel mundial. Según datos de la Organización Mundial de la Salud (OMS), millones de personas sufren cada año eventos de salud que podrían ser evitados o tratados de manera más efectiva si existieran mecanismos de monitoreo continuo fuera del ámbito hospitalario.
 
 Actualmente, muchos pacientes con condiciones de riesgo no cuentan con dispositivos accesibles que les permitan una vigilancia constante de su estado de salud en tiempo real. La ausencia de monitoreo domiciliario efectivo genera que las alteraciones en signos vitales pasen desapercibidas, retrasando la intervención médica oportuna. Además, la falta de notificaciones inmediatas a familiares o médicos contribuye a incrementar la gravedad de los eventos de emergencia.
@@ -165,29 +174,37 @@ Actualmente, muchos pacientes con condiciones de riesgo no cuentan con dispositi
 En respuesta a esta necesidad, SafeMed propone una solución que integra tecnología IoT mediante sensores de frecuencia cardiaca conectados a una aplicación móvil, permitiendo el monitoreo remoto en tiempo real. La plataforma no solo alerta automáticamente a familiares y médicos ante cualquier desviación crítica, sino que también ofrece herramientas de gestión médica para mejorar el seguimiento clínico de los pacientes.
 
 #### What (¿Qué?):
+
 Falta de monitoreo remoto continuo de signos vitales que permita alertar de forma automática y oportuna sobre posibles emergencias de salud.
 
 #### When (¿Cuándo?):
+
 Durante la vida diaria del paciente, especialmente en momentos sin supervisión directa de profesionales médicos.
 
 #### Where (¿Dónde?):
+
 En el hogar, en el trabajo o cualquier lugar donde el paciente se encuentre fuera de un entorno hospitalario.
 
 #### Who (¿Quién?):
+
 Pacientes con enfermedades cardiovasculares, adultos mayores, personas con condiciones médicas crónicas, sus familiares, y profesionales de salud encargados de su cuidado.
 
 #### Why (¿Por qué?):
+
 La falta de soluciones accesibles y eficientes para el monitoreo constante incrementa el riesgo de que eventos críticos no sean detectados a tiempo.
 
 #### How (¿Cómo?):
+
 A través de un sensor portátil que mide la frecuencia cardiaca en tiempo real, conectado a una aplicación móvil que genera alertas automáticas a familiares y médicos.
 
 #### How Much (¿Cuánto?):
+
 Estudios recientes en Latinoamérica estiman que cerca del 30% de las hospitalizaciones por eventos cardiovasculares podrían ser prevenidas mediante sistemas de alerta temprana en el hogar (fuente simulada para ilustrar).
 
 ### 1.2.2 Lean UX Process.
 
 #### 1.2.2.1. Lean UX Problem Statements.
+
 El sistema de atención médica actual presenta una limitación importante: no garantiza un monitoreo continuo ni alertas inmediatas para pacientes con condiciones crónicas o de riesgo, especialmente fuera de los entornos hospitalarios. Esta carencia expone a los pacientes a situaciones de emergencia que podrían ser prevenidas o atendidas de forma más oportuna.
 
 Hemos observado que, en el entorno domiciliario, los pacientes en riesgo no cuentan con soluciones accesibles para detectar alteraciones críticas en sus signos vitales ni mecanismos automáticos de alerta hacia sus familiares o doctores de confianza. Esta brecha genera un aumento en la gravedad de los episodios médicos, incrementa los costos de atención hospitalaria y afecta negativamente la calidad de vida tanto de los pacientes como de sus familias.
@@ -197,10 +214,13 @@ Hemos observado que, en el entorno domiciliario, los pacientes en riesgo no cuen
 #### 1.2.2.2. Lean UX Assumptions.
 
 ##### User Assumptions:
+
 ##### ¿Quién es el usuario?
+
 Pacientes con condiciones de salud que requieren monitoreo constante (como enfermedades cardiovasculares), sus familiares directos y médicos tratantes.
 
 ##### ¿Dónde encaja nuestro producto en su trabajo o vida?
+
 SafeMed se integra en la vida cotidiana del paciente y su familia, proporcionando monitoreo continuo de signos vitales, generando alertas inmediatas en caso de anomalías, y facilitando la gestión médica a distancia.
 
 ##### ¿Qué problemas tiene que resolver nuestro producto?
@@ -212,12 +232,15 @@ Falta de notificaciones inmediatas ante emergencias.
 Dificultad en el seguimiento médico remoto y en la toma de decisiones oportunas.
 
 ##### ¿Cuándo y cómo es usado nuestro producto?
+
 SafeMed se usa diariamente de manera pasiva: el sensor mide continuamente la frecuencia cardiaca, y la aplicación móvil procesa los datos en tiempo real. Solo en caso de detectar valores anormales, se envían notificaciones automáticas a familiares y médicos.
 
 ##### ¿Cómo debe verse y comportarse nuestro producto?
+
 Debe ser intuitivo, fácil de configurar, seguro y confiable. La app debe mostrar la información de manera clara, con gráficos sencillos de interpretar, y notificar con rapidez y precisión ante cualquier riesgo.
 
 ##### Business Assumptions:
+
 - Creo que mis usuarios necesitan una solución de software eficiente y accesible para la personalización de su auto, evitando que otras personas o empresas los estafen.
 
 - Estas necesidades se pueden satisfacer mediante una aplicación móvil intuitiva y segura que guíe a los usuarios a través del proceso de personalización automotriz y les proporcione transparencia en las transacciones.
@@ -242,7 +265,7 @@ Debe ser intuitivo, fácil de configurar, seguro y confiable. La app debe mostra
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
-- Creemos que al proporcionar un monitoreo continuo de signos vitales y alertas automáticas en tiempo real a familiares y médicos, los usuarios podrán detectar de manera temprana eventos críticos de salud. 
+- Creemos que al proporcionar un monitoreo continuo de signos vitales y alertas automáticas en tiempo real a familiares y médicos, los usuarios podrán detectar de manera temprana eventos críticos de salud.
 
   Sabremos que hemos tenido éxito
 
@@ -250,15 +273,15 @@ Debe ser intuitivo, fácil de configurar, seguro y confiable. La app debe mostra
 
 - Creemos que al ofrecer una aplicación móvil intuitiva y segura que centralice la información médica de los pacientes, facilitaremos el seguimiento remoto de la salud y mejoraremos la continuidad del tratamiento médico.
 
-  Sabremos que hemos tenido éxito 
+  Sabremos que hemos tenido éxito
 
   Cuando el 70% de los médicos usuarios consulte semanalmente los reportes de signos vitales, y cuando la adherencia a planes de tratamiento por parte de pacientes monitorizados aumente en un 25%.
 
-- Creemos que al proporcionar tranquilidad y confianza mediante alertas tempranas y un historial accesible de la salud del paciente, incrementaremos la satisfacción de las familias y su confianza en el sistema. 
+- Creemos que al proporcionar tranquilidad y confianza mediante alertas tempranas y un historial accesible de la salud del paciente, incrementaremos la satisfacción de las familias y su confianza en el sistema.
 
-  Sabremos que hemos tenido éxito 
+  Sabremos que hemos tenido éxito
 
-  Cuando el 90% de los usuarios familiares reporten sentirse más tranquilos respecto al estado de salud de su ser querido tras un mes de uso, y cuando la tasa de renovación de suscripciones al servicio supere el 75% luego   de los primeros tres meses.
+  Cuando el 90% de los usuarios familiares reporten sentirse más tranquilos respecto al estado de salud de su ser querido tras un mes de uso, y cuando la tasa de renovación de suscripciones al servicio supere el 75% luego de los primeros tres meses.
 
 #### 1.2.2.4. Lean UX Canvas.
 
@@ -327,13 +350,13 @@ MedSystem puede destacarse en el mercado ofreciendo una plataforma de gestión d
 
 ### 2.2.2. Registro de entrevistas.
 
-| Entrevista 2                           | Gonzalo Jaime Zapata Campos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Edad                                   | 20 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Distrito                               | San Martin de Porres                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ![Imagen 1.png](images/Imagen%201.png) | Gonzalo es un estudiante de 20 años que vive actualmente en San Martin de Porres. Sus sistemas operativos de preferencia son Ios en móviles y Windows en ordenadores. El navegador que usa con mayor frecuencia es Google Chrome. Nos comenta que ha tenido problemas anteriormente al momento de sacar cita, como el dijo no había una buena organización de citas por lo que para sacar una ha tenido que esperar mucho tiempo. Además habla de algunas características que le gustaría tener antes de poder sacar una cita y también otra para los envíos de los resultados de algún examen médico que hice, dependiendo de la gravedad de la situación, él pueda elegir entre que sea virtual o presencial. |
-| URL de grabación                       | [upc-pre-202402-si657-SW71-MedTechSolutions-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EVqboYQCGwZCud-3FINbNTMByTfeiCoFC-BK3OS3VW6xww)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Timing                                 | 07:56 - 14:47                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Entrevista 1                               | Brian Roca                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Edad                                       | 24 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Distrito                                   | Surco                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ![Imagen 1.png](CAP2-IMAGES/ManuelEnt.png) | Brian es un joven de 24 años que vive en el distrito de Surco. El nos cuenta que padece de problemas con el corazon desde una corta edad debido a que es un problema congenito. Nos comenta que a veces tiene problemas en lo que control su ritmo cardiaco o ponerse en comunicacion con su doctor, pues a pesar de saber cuando se siente mal a veces es inesperedo algun tipo de ataque que necesite una atencion rapido por parte del doctor y e sus familiares. Brian comento que le seria se mucha utilidad tener una aplicacion qque se conecte a un sensor par que pueda controlar su ritmo cardiaco para saber en que momentos le puede ocurrir algo aunque el no se sienta mal, ademas de una funcionalidad que le permita a sus familiares saber si estan en peligro no |
+| URL de grabación                           | [upc-pre-202402-si657-SW71-MedTechSolutions-needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EVqboYQCGwZCud-3FINbNTMByTfeiCoFC-BK3OS3VW6xww)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Timing                                     | 07:56 - 14:47                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 | Entrevista 3                       | Jorge Villavicencio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -578,6 +601,7 @@ En esta sección se realizaron las distintas etapas de preparación, tales como 
 ## 4.1. Strategic-Level Domain-Driven Design.
 
 ### 4.1.1. EventStorming.
+
 Dentro de este punto nos encontramos con estos 9 pasos a realizar:
 
 **Step 1: Unstructured Exploration**
@@ -591,7 +615,6 @@ En este paso, se detectaron los siguientes puntos, los cuales posteriormente fue
 En este paso se realizaron las distintas conexiones entre eventos del flujo de la aplicación.
 
 <img src="CAP4-IMAGES/EventStorming-Step-2.jpg" alt="Step2">
-
 
 **Step 3: Pain points**
 
@@ -701,6 +724,7 @@ Escenario: Doctor revisa sesiones pasadas del paciente
 ### 4.1.2. Context Mapping.
 
 Dentro del Event storming, se identificaron 6 bounded context:
+
 - IAM
 - Patient management
 - Medical hisotry & analytics
@@ -711,11 +735,13 @@ Dentro del Event storming, se identificaron 6 bounded context:
 Se ha decidido hacer uso los patrones de Conformist y de Customer/Supplier:
 
 **Conformist:**
+
 - Sensor Monitoring es conformista de Patient Management: adapta los modelos de paciente y contacto.
 
 - Alert & Emergency Handling es conformista de Sensor Monitoring: entiende el formato de eventos críticos sin imponer cambios.
 
 **Customer/Supplier**
+
 - Medical History & Analytics es cliente de Sensor Monitoring (supplier).
 
 - Notification Service es cliente de Alert & Emergency Handling (supplier).
@@ -774,18 +800,19 @@ MedSystem centraliza toda la interacción entre usuarios humanos (pacientes y do
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams.
 
-| Container              | Technology            | Main Responsibility                              |
-|-------------------------|------------------------|--------------------------------------------------|
-| **Web/Mobile App**       | Flutter / React        | Interface for patients and doctors              |
-| **API Gateway**          | Node.js / Express      | Management of REST requests and authentication  |
-| **IAM Service**          | Auth0 / Custom Auth    | Handling login, roles, and permissions           |
-| **Sensor Monitoring**    | Python + MQTT          | Collection and validation of heart rate sensor data |
-| **Alert Engine**         | Node.js                | Detection of anomalies and alert generation     |
-| **Notification Service** | Firebase / SMTP        | Sending notifications to patients and doctors   |
-| **Medical History API**  | Python / FastAPI       | Consultation of medical histories and reports   |
-| **Database**             | PostgreSQL / MongoDB   | Storage of users, sessions, and medical records |
+| Container                | Technology           | Main Responsibility                                 |
+| ------------------------ | -------------------- | --------------------------------------------------- |
+| **Web/Mobile App**       | Flutter / React      | Interface for patients and doctors                  |
+| **API Gateway**          | Node.js / Express    | Management of REST requests and authentication      |
+| **IAM Service**          | Auth0 / Custom Auth  | Handling login, roles, and permissions              |
+| **Sensor Monitoring**    | Python + MQTT        | Collection and validation of heart rate sensor data |
+| **Alert Engine**         | Node.js              | Detection of anomalies and alert generation         |
+| **Notification Service** | Firebase / SMTP      | Sending notifications to patients and doctors       |
+| **Medical History API**  | Python / FastAPI     | Consultation of medical histories and reports       |
+| **Database**             | PostgreSQL / MongoDB | Storage of users, sessions, and medical records     |
 
 **Notes:**
+
 - The app distinguishes between patients and doctors through roles managed in IAM.
 - Critical alerts generated by the system are automatically sent to the assigned doctor.
 
@@ -818,6 +845,7 @@ Entorno de despliegue:
 <img src="CAP4-IMAGES/Deployment-Diagrams.png" alt="DeploymentDiagrams">
 
 link: https://structurizr.com/share/101697/ddc19bf8-07c7-4949-ad6f-375475a613d5
+
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.X. Bounded Context: <Bounded Context Name>
