@@ -1155,7 +1155,7 @@ Esto permite mantener la **Capa de Dominio** pura y enfocada en la lógica de ne
 
 #### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
 
-<img src= "CAP4-IMAGES/Class Diagram.png">
+<img src= "CAP4-IMAGES/IAMClassDiagram.png">
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
@@ -1269,7 +1269,7 @@ El dominio de **Patient Management** también necesita hacer referencia a entida
 
 **Entities (dentro del Agregado Patient)**
 
-### Entity `EmergencyContact`
+**Entity `EmergencyContact**
 
 | Atributo     | Tipo de Dato | Descripción                                       |
 | ------------ | ------------ | ------------------------------------------------- |
@@ -1287,9 +1287,7 @@ El dominio de **Patient Management** también necesita hacer referencia a entida
 - `MarkAsPrimary(): void`
 - `MarkAsSecondary(): void`
 
----
-
-### Entity `DoctorAssignment`
+**Entity `DoctorAssignment**
 
 | Atributo       | Tipo de Dato | Descripción                                      |
 | -------------- | ------------ | ------------------------------------------------ |
@@ -1450,7 +1448,7 @@ Los componentes principales de esta capa incluyen las implementaciones concretas
 <img src= "CAP4-IMAGES/PatientManagementClassDiagram.png">
 
 #### 4.2.2.6.2. Bounded Context Database Design Diagram.
-<img src= "CAP4-IMAGES/PatientManagementDB.png" witdh:"100" height: "100">
+<img src= "CAP4-IMAGES/PatientManagementDB.png">
 
 ### 4.2.3. Bounded Context: Sensor Monitoring
 
