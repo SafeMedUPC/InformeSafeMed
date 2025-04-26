@@ -1065,11 +1065,58 @@ Componentes que procesan las **Queries**, obteniendo datos a través de la Capa 
 
 Además de los **Command Handlers** y **Query Handlers**, la Capa de Aplicación también puede incluir **Event Handlers** que reaccionan a eventos de dominio publicados por este o por otros contextos (por ejemplo, un `UserRegisteredEventHandler` que envía un correo de confirmación).
 
-La **Capa de Aplicación** garantiza que las operaciones:
-- Se ejecuten de manera transaccional.
-- Manejen las dependencias necesarias (como inyectar repositorios o servicios de dominio en los handlers).
 
 #### 4.2.X.4. Infrastructure Layer.
+La **Capa de Infraestructura** implementa los mecanismos de persistencia requeridos para soportar el dominio de IAM de SafeMed y gestionar la interacción con la base de datos subyacente. 
+
+En esta capa:
+- Se materializan las interfaces de repositorio definidas en la Capa de Dominio.
+- Se utiliza un **ORM** (Object-Relational Mapper) para manejar las operaciones de acceso a datos.
+
+Los repositorios proporcionan métodos necesarios para guardar, recuperar y buscar entidades del dominio IAM (**User**, **Role**, **Permission**). 
+
+Además de las operaciones CRUD básicas, se implementan métodos de consulta específicos, como:
+- Buscar un usuario por su correo electrónico.
+- Verificar la existencia de un rol por su nombre.
+
+Esto permite mantener la **Capa de Dominio** pura y enfocada en la lógica de negocio, favoreciendo una arquitectura limpia y sostenible.
+
+**Repositorios Clave**
+
+**Infrastructure Repository `UserRepository**
+- **Implementa**: `IUserRepository`
+- **Tecnología**: ORM (ej: Entity Framework Core)
+
+**Métodos:**
+- `FindByEmail(email: string): Optional<User>`
+- `ExistsByEmail(email: string): boolean`
+- `Add(user: User): void`
+- `Update(user: User): void`
+- `FindById(userId: GUID): Optional<User>`
+
+---
+
+**Infrastructure Repository `RoleRepository**
+- **Implementa**: `IRoleRepository`
+- **Tecnología**: ORM (ej: Entity Framework Core)
+
+**Métodos:**
+- `FindByName(name: string): Optional<Role>`
+- `ExistsByName(name: string): boolean`
+- `FindById(roleId: int): Optional<Role>`
+- `GetAll(): List<Role>`
+
+---
+
+**Infrastructure Repository `PermissionRepository**
+- **Implementa**: `IPermissionRepository`
+- **Tecnología**: ORM (ej: Entity Framework Core)
+
+**Métodos:**
+- `FindByName(name: string): Optional<Permission>`
+- `FindById(permissionId: int): Optional<Permission>`
+- `GetAll(): List<Permission>`
+
 
 #### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams.
 
