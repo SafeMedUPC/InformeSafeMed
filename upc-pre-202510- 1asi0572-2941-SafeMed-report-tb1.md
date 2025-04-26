@@ -1378,6 +1378,24 @@ Componentes que procesan las **Queries**, obteniendo datos a través de la Capa 
 | GetPrimaryEmergencyContactQueryHandler  | GetPrimaryEmergencyContactQuery           |
 
 #### 4.2.2.4. Infrastructure Layer
+La **Capa de Infraestructura** para **Patient Management** se encarga de la persistencia de los datos relacionados con los perfiles de pacientes, contactos de emergencia y asignaciones de médicos. 
+
+Sus responsabilidades principales son:
+- Implementar los repositorios definidos en la Capa de Dominio.
+- Interactuar con la base de datos subyacente para almacenar y recuperar la información del agregado **Patient** y sus partes constituyentes (**EmergencyContact**, **DoctorAssignment**).
+- Abstraer los detalles técnicos de la base de datos del resto del bounded context.
+
+Los componentes principales de esta capa incluyen las implementaciones concretas de los **repositorios** y, potencialmente, **servicios de bajo nivel** específicos para este contexto.
+
+
+## Componentes de Infraestructura Clave
+
+| Componente                 | Tipo                         | Descripción                                                                                           | Tecnología/Implementación Típica             |
+|-----------------------------|------------------------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------|
+| PatientRepository           | Implementación Repositorio   | Implementa la interfaz `IPatientRepository`. Gestiona la persistencia transaccional del agregado completo `Patient` (incluyendo `EmergencyContact` y `DoctorAssignment`). | ORM            |
+| PatientManagementDbContext  | Contexto DB/ORM              | Configuración y gestión del acceso a la base de datos específico para el esquema de Patient Management. | ORM            |
+| EmergencyContactRepository  | Implementación Repositorio   | Podría ser gestionado por `PatientRepository` si se modela como entidad interna, o como repositorio secundario para acceso directo. | ORM           |
+| DoctorAssignmentRepository  | Implementación Repositorio   | Podría ser gestionado por `PatientRepository` o como repositorio secundario si requiere un ciclo de vida independiente. | ORM           |
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 
