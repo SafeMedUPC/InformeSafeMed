@@ -971,9 +971,39 @@ Adicionalmente, los **servicios de dominio**, como un **UserAuthenticationServic
 **UserRegistrationService**
 - `RegisterNewUser(email, password, userType, userRepository, roleRepository): User`
 
-
-
 #### 4.2.X.2. Interface Layer.
+
+La **Capa de Interfaz** para el contexto de **Identity and Access Management (IAM)** en SafeMed sirve como la capa de presentación y adaptación que expone las funcionalidades del dominio a las aplicaciones cliente (móvil y web) y potencialmente a otros servicios. 
+
+Se encarga de:
+- Recibir las peticiones externas.
+- Validar los datos de entrada.
+- Invocar la lógica de negocio correspondiente en la Capa de Aplicación.
+- Formatear las respuestas.
+
+Los componentes principales de esta capa son los **Controladores**, que gestionan los diferentes aspectos de la interacción del usuario con el sistema IAM a través de endpoints API.
+
+**Controladores**
+
+| Controlador      | Responsabilidad Principal                                      |
+|------------------|-----------------------------------------------------------------|
+| AuthController   | Maneja las operaciones de autenticación (registro, login, logout). |
+| UsersController  | Gestiona los perfiles de usuario y consultas relacionadas.      |
+
+**Endpoints Clave por Controlador**
+
+| Controlador      | Método HTTP | Endpoint                                  | Descripción                                           |
+|------------------|-------------|------------------------------------------|-------------------------------------------------------|
+| AuthController   | POST        | `/api/v1/iam/auth/register`              | Registra un nuevo usuario (Paciente o Doctor).        |
+| AuthController   | POST        | `/api/v1/iam/auth/login`                 | Autentica a un usuario y devuelve un token.           |
+| AuthController   | POST        | `/api/v1/iam/auth/logout`                | Cierra la sesión o invalida el token del usuario.     |
+| UsersController  | GET         | `/api/v1/iam/users/{userId}`             | Obtiene los detalles del perfil de un usuario.        |
+| UsersController  | PUT         | `/api/v1/iam/users/{userId}`             | Actualiza los datos del perfil de un usuario.         |
+| UsersController  | GET         | `/api/v1/iam/users/{userId}/permissions` | Obtiene la lista de permisos de un usuario.           |
+
+## Enfoque
+
+Esta capa se centra en la comunicación externa y en la traducción de solicitudes, **sin implementar lógica de negocio compleja** que corresponde a las capas de Dominio o Aplicación.
 
 #### 4.2.X.3. Application Layer.
 
