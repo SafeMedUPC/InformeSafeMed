@@ -50,7 +50,31 @@ Profesor: Leon Baca, Marco Antonio
 
 # Project Report Collaboration Insights
 
-#Tabla de contenidos
+## TB1
+
+Para la entrega de la TB1 se realizó una reunión donde se asignaron las responsabilidades a cada integrante del equipo. A continuación se muestra la siguiente tabla con los detalles:
+
+| Integrante              | Responsabilidad |
+|-------------------------|-----------------|
+| De la Piedra, Miquel    |  Capitulo 4, Entrevista       |
+| Gutierrez, Manuel       |      Capitulo 2, Entrevista            |
+| Mendez, Marco           |         Capitulo 4, Entrevista           |
+| Roca, Orlando           |      Capitulo 1, Entrevista              |
+| Ventura, Eduardo        |      Capitulo3, Entrevista              |
+
+Durante la elaboración de las aplicaciones, tanto web como mobile, se realizaron commits respectivos con el fin de mantener el orden y un control de versiones eficiente.
+
+Para tener mejor precisión en los integrantes del equipo, a continuación presentamos los usuarios de GitHub de los integrantes:
+
+- Miquel De la Piedra (@MiquelDlp)
+- Manuel Gutierrez (@ManuGZ)
+- Marco Mendez (@)
+- Orlando Roca (@OrlandoRoca)
+- Eduardo Ventura (@Eduvent)
+
+A continuación se presentan las capturas del repositorio de GitHub donde se realizaron los avances correspondientes.
+
+# Tabla de contenidos
 - [Student Outcome](#student-outcome)
 
 ## Capítulo I: Introducción
