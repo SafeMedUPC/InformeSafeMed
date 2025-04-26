@@ -78,7 +78,7 @@ Visión: Ser la plataforma líder en Latinoamérica en soluciones digitales para
 | ![Foto Marcos](ruta/a/la/foto)              | **Nombre:** <br>**Código:** <br>**Descripción:**                                                              |
 | ![Foto Miquel](ruta/a/la/foto)             | **Nombre:** <br>**Código:** <br>**Descripción:**                                                              |
 | ![Foto Eduardo](ruta/a/la/foto)               | **Nombre:** <br>**Código:** <br>**Descripción:**                                                              |
-| ![Foto Orlando](ruta/a/la/foto)               | **Nombre:** <br>**Código:** <br>**Descripción:**                                                              |
+| ![Foto Orlando](https://cdn.discordapp.com/attachments/877299205696262227/1365191908304879666/Captura_de_pantalla_2024-06-16_173218.png?ex=680c698a&is=680b180a&hm=2a5b43302b228e7f9097a0e64bc85d4669760f53401359d703cf1d9ba3b3d3c9&)               | **Nombre:** Orlando Arturo Roca Huapaya <br>**Código:** u201919742<br>**Descripción:** Como estudiante de ingeniería de software, mi contribución al equipo se centra en mis conocimientos en la planificación y diseño de software. A lo largo de     mi formación he podido desarrollar proyectos utilizando Java, lo que me da una ventaja significativa con el sistema que trabajamos. Estoy entusiasmado por aplicar mis habilidades en el desarrollo y trabajar junto al equipo para alcanzar         nuestros objetivos.                                                             |
 
 ## 1.2. Solution Profile
 
