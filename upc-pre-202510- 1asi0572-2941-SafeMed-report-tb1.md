@@ -1129,8 +1129,60 @@ Esto permite mantener la **Capa de Dominio** pura y enfocada en la lógica de ne
 #### 4.2.1.6.2. Bounded Context Database Design Diagram.
 <img src= "CAP4-IMAGES/DatabaseDiagram.png">
 
-### 4.2.2. Bounded Context: <>
+### 4.2.2. Bounded Context: <Patient Management>
+El dominio de **Patient Management** en SafeMed se centra en la gestión de la información y el estado de los pacientes dentro de la plataforma. 
 
+Su responsabilidad principal es:
+- Mantener los perfiles de los pacientes.
+- Gestionar sus contactos de emergencia.
+- Establecer las relaciones con los médicos encargados de su cuidado.
+
+Este contexto asegura que:
+- La información demográfica y de contacto del paciente esté actualizada.
+- Las asignaciones a médicos y contactos de emergencia estén correctamente configuradas.
+- Se permita el monitoreo y respuesta oportuna en caso de emergencias.
+
+**Diccionario de Clases**
+
+En esta sección, presentamos las entidades y posibles objetos de valor clave que forman parte del dominio de **Patient Management**.
+
+1. Patient
+
+| Atributo              | Tipo de Dato | Descripción                                                                 |
+|------------------------|--------------|-----------------------------------------------------------------------------|
+| PatientId              | GUID/UUID    | Identificador único del paciente. Clave primaria.                          |
+| UserId                 | GUID/UUID    | Clave foránea al User en el contexto IAM. Identifica el usuario asociado.   |
+| DateOfBirth            | date         | Fecha de nacimiento del paciente.                                           |
+| Gender                 | string       | Género del paciente.                                                       |
+| Address                | string       | Dirección de residencia del paciente.                                       |
+| PhoneNumber            | string       | Número de teléfono de contacto del paciente.                               |
+| MedicalHistorySummary  | string       | Resumen breve de la historia médica relevante (no historia clínica completa). |
+
+---
+
+2. DoctorAssignment
+
+| Atributo              | Tipo de Dato | Descripción                                                                |
+|------------------------|--------------|----------------------------------------------------------------------------|
+| AssignmentId           | GUID/UUID    | Identificador único de la asignación. Clave primaria.                      |
+| PatientId              | GUID/UUID    | Clave foránea al Patient. Identifica al paciente asignado.                 |
+| DoctorUserId           | GUID/UUID    | Clave foránea al User (con rol Doctor) en el contexto IAM.                  |
+| AssignmentDate         | datetime     | Fecha en que se realizó la asignación.                                      |
+| IsActive               | boolean      | Indica si la asignación del médico está activa actualmente.                |
+
+---
+
+3. EmergencyContact
+
+| Atributo              | Tipo de Dato | Descripción                                                                 |
+|------------------------|--------------|-----------------------------------------------------------------------------|
+| ContactId              | GUID/UUID    | Identificador único del contacto de emergencia. Clave primaria.             |
+| PatientId              | GUID/UUID    | Clave foránea al Patient. Identifica al paciente asociado.                  |
+| FullName               | string       | Nombre completo del contacto de emergencia.                                |
+| Relationship           | string       | Parentesco o relación con el paciente (ej: "Hijo", "Cónyuge").              |
+| PhoneNumber            | string       | Número de teléfono del contacto de emergencia (para SMS).                  |
+| Email                  | string       | Correo electrónico del contacto de emergencia (opcional).                  |
+| IsPrimary              | boolean      | Indica si es el contacto de emergencia principal.                           |
 #### 4.2.2.1. Domain Layer.
 
 #### 4.2.2.2. Interface Layer.
