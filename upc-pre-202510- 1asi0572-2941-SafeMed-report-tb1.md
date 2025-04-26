@@ -1442,12 +1442,15 @@ Los componentes principales de esta capa incluyen las implementaciones concretas
 | DoctorAssignmentRepository | Implementación Repositorio | Podría ser gestionado por `PatientRepository` o como repositorio secundario si requiere un ciclo de vida independiente.                                                   | ORM                              |
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+<img src= "CAP4-IMAGES/BoundedContextPatientManagementComponentDiagram.png">
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
+<img src= "CAP4-IMAGES/PatientManagementClassDiagram.png">
 
 #### 4.2.2.6.2. Bounded Context Database Design Diagram.
+<img src= "CAP4-IMAGES/PatientManagementDB.png" witdh:"100" height: "100">
 
 ### 4.2.3. Bounded Context: Sensor Monitoring
 
