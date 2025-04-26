@@ -1127,4 +1127,5 @@ Esto permite mantener la **Capa de Dominio** pura y enfocada en la lógica de ne
 <img src= "CAP4-IMAGES/Class Diagram.png">
 
 #### 4.2.X.6.2. Bounded Context Database Design Diagram.
-<img src= "CAP4-IMAGES/DataBaseDiagram.png">
+<img src= "CAP4-IMAGES/DatabaseDiagram.png">
+
