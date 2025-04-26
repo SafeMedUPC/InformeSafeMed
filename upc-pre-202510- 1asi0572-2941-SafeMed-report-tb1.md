@@ -848,7 +848,7 @@ link: https://structurizr.com/share/101697/ddc19bf8-07c7-4949-ad6f-375475a613d5
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.X. Bounded Context: <IAM>
+### 4.2.1. Bounded Context: <IAM>
 El dominio de **Identity and Access Management (IAM)** en SafeMed es fundamental para la seguridad y el correcto funcionamiento de la plataforma. Su objetivo principal es controlar quién puede acceder al sistema y qué acciones puede realizar. Esto se logra mediante la gestión centralizada de usuarios (Pacientes y Doctores), la definición de roles y permisos, y la validación de la identidad y los privilegios en cada interacción con el sistema. El contexto IAM asegura que la información médica sensible esté protegida y que cada usuario opere dentro de los límites de su autorización.
 
 ## Diccionario de Clases
@@ -899,7 +899,7 @@ En esta sección, presentamos el **Diccionario de Clases** para el contexto IAM,
 | RoleId          | int     | Clave foránea a la entidad Role.                |
 | PermissionId    | int     | Clave foránea a la entidad Permission.          |
 
-#### 4.2.X.1. Domain Layer.
+#### 4.2.1.1. Domain Layer.
 En la capa de dominio se modelan los conceptos centrales del contexto IAM siguiendo los principios de **Domain-Driven Design**, adaptados a las necesidades de **SafeMed**.
 
 El agregado raíz **User** representa a un usuario dentro del sistema SafeMed, ya sea un **Paciente** o un **Doctor**. La entidad **User** es el punto de control principal para las operaciones de identidad y acceso. Cada **User** está asociado a uno o varios **Role** a través de la entidad de enlace **UserRole**.
@@ -971,7 +971,7 @@ Adicionalmente, los **servicios de dominio**, como un **UserAuthenticationServic
 **UserRegistrationService**
 - `RegisterNewUser(email, password, userType, userRepository, roleRepository): User`
 
-#### 4.2.X.2. Interface Layer.
+#### 4.2.1.2. Interface Layer.
 
 La **Capa de Interfaz** para el contexto de **Identity and Access Management (IAM)** en SafeMed sirve como la capa de presentación y adaptación que expone las funcionalidades del dominio a las aplicaciones cliente (móvil y web) y potencialmente a otros servicios. 
 
@@ -1005,7 +1005,7 @@ Los componentes principales de esta capa son los **Controladores**, que gestiona
 
 Esta capa se centra en la comunicación externa y en la traducción de solicitudes, **sin implementar lógica de negocio compleja** que corresponde a las capas de Dominio o Aplicación.
 
-#### 4.2.X.3. Application Layer.
+#### 4.2.1.3. Application Layer.
 La **Capa de Aplicación** dentro del contexto de **Identity and Access Management (IAM)** en SafeMed es responsable de orquestar el flujo de trabajo para los casos de uso relacionados con la gestión de usuarios y accesos. 
 
 Actúa como una capa delgada que coordina las interacciones entre:
@@ -1066,7 +1066,7 @@ Componentes que procesan las **Queries**, obteniendo datos a través de la Capa 
 Además de los **Command Handlers** y **Query Handlers**, la Capa de Aplicación también puede incluir **Event Handlers** que reaccionan a eventos de dominio publicados por este o por otros contextos (por ejemplo, un `UserRegisteredEventHandler` que envía un correo de confirmación).
 
 
-#### 4.2.X.4. Infrastructure Layer.
+#### 4.2.1.4. Infrastructure Layer.
 La **Capa de Infraestructura** implementa los mecanismos de persistencia requeridos para soportar el dominio de IAM de SafeMed y gestionar la interacción con la base de datos subyacente. 
 
 En esta capa:
@@ -1118,14 +1118,35 @@ Esto permite mantener la **Capa de Dominio** pura y enfocada en la lógica de ne
 - `GetAll(): List<Permission>`
 
 
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 <img src= "CAP4-IMAGES/BoundedContextIAMDiagram.png">
 
-#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams.
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 
-#### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams.
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
 <img src= "CAP4-IMAGES/Class Diagram.png">
 
-#### 4.2.X.6.2. Bounded Context Database Design Diagram.
+#### 4.2.1.6.2. Bounded Context Database Design Diagram.
 <img src= "CAP4-IMAGES/DatabaseDiagram.png">
+
+### 4.2.2. Bounded Context: <>
+
+#### 4.2.2.1. Domain Layer.
+
+#### 4.2.2.2. Interface Layer.
+
+#### 4.2.2.3. Application Layer.
+
+#### 4.2.2.4. Infrastructure Layer
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
+
+
+#### 4.2.2.6.2. Bounded Context Database Design Diagram.
+
 
