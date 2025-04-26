@@ -900,6 +900,76 @@ En esta sección, presentamos el **Diccionario de Clases** para el contexto IAM,
 | PermissionId    | int     | Clave foránea a la entidad Permission.          |
 
 #### 4.2.X.1. Domain Layer.
+En la capa de dominio se modelan los conceptos centrales del contexto IAM siguiendo los principios de **Domain-Driven Design**, adaptados a las necesidades de **SafeMed**.
+
+El agregado raíz **User** representa a un usuario dentro del sistema SafeMed, ya sea un **Paciente** o un **Doctor**. La entidad **User** es el punto de control principal para las operaciones de identidad y acceso. Cada **User** está asociado a uno o varios **Role** a través de la entidad de enlace **UserRole**.
+
+Las entidades **Role** y **Permission** definen los tipos de usuarios y las acciones que pueden realizar. Si bien los roles y permisos pueden ser gestionados hasta cierto punto, sus definiciones fundamentales y la validación del acceso residen en esta capa.
+
+El tipo de usuario (**UserType**), modelado como un **Value Object** o un simple atributo enumerado, establece la categoría principal del usuario (**Paciente** o **Doctor**).
+
+Adicionalmente, los **servicios de dominio**, como un **UserAuthenticationService**, pueden encapsular operaciones complejas que involucran múltiples entidades o que no son responsabilidad natural de una sola entidad, como el proceso de inicio de sesión que verifica credenciales y genera una sesión.
+
+## Aggregates
+
+### Aggregate `User`
+- **UserId** (GUID/UUID)
+- **Email** (string)
+- **PasswordHash** (string)
+- **FirstName** (string)
+- **LastName** (string)
+- **UserType** (enum: Paciente, Doctor)
+- **RegistrationDate** (datetime)
+- **IsActive** (boolean)
+- **LastLoginDate** (datetime)
+- **List<UserRole> userRoles**
+
+**Métodos:**
+- `Register(email, password, userType): User`
+- `Authenticate(password, hashedPassword): boolean`
+- `UpdateProfile(firstName, lastName): void`
+- `AssignRole(role): void`
+- `RemoveRole(roleId): void`
+- `HasPermission(permissionName, roleRepository): boolean`
+
+## Entities
+
+### Entity `Role`
+- **RoleId** (int/GUID)
+- **RoleName** (string)
+- **Description** (string)
+
+**Métodos:**
+- `GetPermissions(permissionRepository): List<Permission>`
+
+### Entity `Permission`
+- **PermissionId** (int/GUID)
+- **PermissionName** (string)
+- **Description** (string)
+
+### Entity `UserRole`
+- **UserId** (GUID/UUID)
+- **RoleId** (int/GUID)
+
+**Value Objects**
+
+### Value Object `UserType`
+- **Paciente**
+- **Doctor**
+
+**Métodos estándar de enum:**
+- `name(): string`
+- `values(): UserType[]`
+
+**Domain Services**
+
+### UserAuthenticationService
+- `Authenticate(email, password, userRepository): User`
+- `GenerateAuthToken(user): string`
+- `ValidateAuthToken(token): User`
+
+### UserRegistrationService
+- `RegisterNewUser(email, password, userType, userRepository, roleRepository): User`
 
 
 
