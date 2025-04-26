@@ -910,9 +910,9 @@ El tipo de usuario (**UserType**), modelado como un **Value Object** o un simple
 
 Adicionalmente, los **servicios de dominio**, como un **UserAuthenticationService**, pueden encapsular operaciones complejas que involucran múltiples entidades o que no son responsabilidad natural de una sola entidad, como el proceso de inicio de sesión que verifica credenciales y genera una sesión.
 
-## Aggregates
+**Aggregates**
 
-### Aggregate `User`
+**Aggregate `User**
 - **UserId** (GUID/UUID)
 - **Email** (string)
 - **PasswordHash** (string)
@@ -932,9 +932,9 @@ Adicionalmente, los **servicios de dominio**, como un **UserAuthenticationServic
 - `RemoveRole(roleId): void`
 - `HasPermission(permissionName, roleRepository): boolean`
 
-## Entities
+**Entities**
 
-### Entity `Role`
+**Entity `Role**
 - **RoleId** (int/GUID)
 - **RoleName** (string)
 - **Description** (string)
@@ -942,18 +942,18 @@ Adicionalmente, los **servicios de dominio**, como un **UserAuthenticationServic
 **Métodos:**
 - `GetPermissions(permissionRepository): List<Permission>`
 
-### Entity `Permission`
+**Entity `Permission**
 - **PermissionId** (int/GUID)
 - **PermissionName** (string)
 - **Description** (string)
 
-### Entity `UserRole`
+**Entity `UserRole**
 - **UserId** (GUID/UUID)
 - **RoleId** (int/GUID)
 
 **Value Objects**
 
-### Value Object `UserType`
+**Value Object `UserType**
 - **Paciente**
 - **Doctor**
 
@@ -963,12 +963,12 @@ Adicionalmente, los **servicios de dominio**, como un **UserAuthenticationServic
 
 **Domain Services**
 
-### UserAuthenticationService
+**UserAuthenticationService**
 - `Authenticate(email, password, userRepository): User`
 - `GenerateAuthToken(user): string`
 - `ValidateAuthToken(token): User`
 
-### UserRegistrationService
+**UserRegistrationService**
 - `RegisterNewUser(email, password, userType, userRepository, roleRepository): User`
 
 
