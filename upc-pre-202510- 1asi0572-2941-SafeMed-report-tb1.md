@@ -72,6 +72,13 @@ Misión: Salvar vidas a través de tecnología accesible e inteligente, brindand
 Visión: Ser la plataforma líder en Latinoamérica en soluciones digitales para el monitoreo remoto de salud, reconocida por su innovación, confiabilidad y contribución al bienestar de los pacientes.
 
 ### 1.1.2. Perfiles de integrantes del equipo
+| Foto                                       | Nombre y Descripción                                                                                          |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| ![Foto Manuel](CAP1/FotoManuel.png) | **Nombre:** Manuel Alonso Gutierrez Zumaeta <br>**Código:**u202112353 <br>**Descripción:** Soy Manuel Gutierrez, estudiante de la carrera de Ingeniería de Software, tengo 20 años. Tengo experiencia en el desarrollo de aplicaciones web, tanto frontend como backend, programación móvil en Flutter. Me considero una persona responsable y que se propone hacer un buen trabajo.                                                      |
+| ![Foto Marcos](ruta/a/la/foto)              | **Nombre:** <br>**Código:** <br>**Descripción:**                                                              |
+| ![Foto Miquel](ruta/a/la/foto)             | **Nombre:** <br>**Código:** <br>**Descripción:**                                                              |
+| ![Foto Eduardo](ruta/a/la/foto)               | **Nombre:** <br>**Código:** <br>**Descripción:**                                                              |
+| ![Foto Orlando](ruta/a/la/foto)               | **Nombre:** <br>**Código:** <br>**Descripción:**                                                              |
 
 ## 1.2. Solution Profile
 
