@@ -56,6 +56,14 @@
 
 ## 3.1. To-Be Scenario Mapping.
 
+- Segmento Objetivo: Paciente
+
+<img src="CAP3-IMAGES/ToBe1.png" alt="tobe1">
+
+- Segmento Objetivo: Doctor
+
+<img src="CAP3-IMAGES/ToBe2.png" alt="tobe2">
+
 ## 3.2. User Stories.
 
 #### - Epics
