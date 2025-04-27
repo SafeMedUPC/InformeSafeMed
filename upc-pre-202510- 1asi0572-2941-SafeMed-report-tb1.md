@@ -1693,3 +1693,7 @@ La **Capa de Infraestructura** maneja la persistencia de datos de sesiones y lec
 #### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
 <img src="CAP4-IMAGES/SensorMonitoringDBDiagram.jpg">
+
+
+# Anexos:
+- Video Exposicion TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/ERYan0Gr4ddPj0vWCWtqHtcBz1ElzzOZSzZhc3GBszgTUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1GoFPi
