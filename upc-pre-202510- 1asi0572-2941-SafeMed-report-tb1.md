@@ -1841,11 +1841,76 @@ En los wireframes de nuestra landing page, se han tenido en cuenta la usabilidad
 
 ### 6.1.1. Software Development Environment Configuration.
 
+En esta sección se describen brevemente todas las herramientas que se han utilizado para la elaboración del proyecto, se dividirán en dos partes.
+
+#### UX/UI Design:
+
+- Miro: Miro es una herramienta en línea colaborativa en tiempo real, esta permite crear diversos diagramas, mapas mentales, diagramas de flujo u otros artefactos que se necesiten en el proyecto.
+  Link: https://miro.com/es/
+- UXPressia: UXPressia es una herramienta enfocada en lo que es la experiencia de usuario, ya que esta permite crear User Personas, Customer Journey, Impact maps, etc.
+  Link: https://uxpressia.com/
+- Figma: Figma es una herramienta que se enfoca en el diseño de interfaces para los usuarios y prototipado de las páginas webs, además de que este también es colaborativo por lo cual todos pueden trabajar en un mismo proyecto en simultáneo.
+  Link: https://miro.com/es/
+- Structurizr: Es una página web donde nos permite desarrollar modelos en C4, de la arquitectura de nuestro proyecto describiendo los contenedores, componentes y contextos de nuestra solución web.
+  Link: https://structurizr.com/
+
+#### Software Development:
+
+- Github: Herramienta para guardar, a través de repositorios, los proyecto que se desarrollen, además que permite guardar un historial de versiones, utilizando Git
+  Link: https://github.com
+- Github Pages: Herramienta dentro de github que permite alojar una pagina web de un repositorio
+  HTML: Un lenguaje de marcado para crear tanto la estructura y el contenido de una página web.
+- JavaScript: Lenguaje de programación para agregar funcionalidad a las páginas webs
+- CSS: Lenguaje utilizado para dar estilo a las páginas webs
+- Visual Studio Code: Editor de código que se utiliza para realizar distintos trabajos con respecto a la programación, este soporta una gran cantidad de lenguajes, como Python, JavaScript, HTML, entre otros.
+  Link: https://code.visualstudio.com/
+
+#### Project Managment:
+
+Para el desarrollo del proyecto hemos usado distintas plataformas para hacer las coordinaciones de los avances, el primero fue un grupo por medio de WhatsApp donde compartimos las opiniones del trabajo y los avances realizados, después para las reuniones utilizamos Discord que nos permite hacer llamadas para una correcta coordinación del trabajo. En cuanto a los avances del trabajo utilizamos github donde hacíamos commit con cada avance significativo que hacemos en los repositorios
+
 ### 6.1.2. Source Code Management.
+
+Hemos creado los repositorios que usaremos a lo largo de el desarrollo del proyecto esto incluye el de la documentacion, landing page, frontend y backend.
+
+- URL del repositorio de documentacion: https://github.com/SafeMedUPC/InformeSafeMed/tree/main
+
+- URL del repositorio de la landing page: https://github.com/SafeMedUPC/SafeMed-LandingPage
+
+- URL del repositorio del Frontend:
+
+- URL del repositorio del Backend: https://github.com/SafeMedUPC/Medsystem-backend
 
 ### 6.1.3. Source Code Style Guide & Conventions.
 
+Para el desarrollo de nuestra solucion web emplearemos distintos lenguajes de programacion para la landing page el frontend y backend:
+
+#### HTML:
+
+- Indentación: Manténer una indentación clara para mejorar la legibilidad.
+- Semántica: Utilizar elementos HTML semánticos para una estructura clara y accesible.
+- Comentarios: Documentar el código HTML con comentarios claros y concisos.
+- Atributos Alt: Proporcionar textos alternativos para imágenes y otros elementos.
+
+#### CSS:
+
+- Nomenclatura de Clases: UtilizaR una convención de nomenclatura consistente, como BEM.
+- Separación de Intereses: Separar estilos del HTML utilizando clases y selectores específicos.
+- Reutilización de Estilos: Identificar estilos comunes y reutilízarlos para mantener la coherencia.
+
+#### JavaScript:
+
+- Nomenclatura de Variables: Utilizar nombres descriptivos, significativos y breves.
+- Modularidad: Dividir el código en módulos pequeños y reutilizables.
+- Manejo de Errores: Implementar un manejo de errores robusto.
+
 ### 6.1.4. Software Deployment Configuration.
+
+Para gestionar el despliegue de nuestra aplicación, hemos optado por utilizar GitHub y GitHub Pages.
+
+GitHub es una plataforma para alojar repositorios de Git. Permite colaborar de manera eficiente en proyectos de software, facilitando el seguimiento de cambios, la revisión de código y la gestión de versiones.
+
+Despues tambien esta GitHub Pages que es una función de GitHub que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. Con GitHub Pages, permitiendonos alojar nuestra pagina web sin tener que pagar un servidor externo.
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 
@@ -1853,9 +1918,26 @@ En los wireframes de nuestra landing page, se han tenido en cuenta la usabilidad
 
 #### 6.2.1.1. Sprint Planning 1.
 
+<p>Se planeó el primer sprint a través de una reunión dentro de la plataforma Discord. Para esto, se realizó una tabla que permitió registrar toda la información discutida.</p>
+
+| **Sprint #**                     | Sprint 1                                                                                                                                                                                                                                                                                                               |
+| :------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**   |                                                                                                                                                                                                                                                                                                                        |
+| Date                             | 2024-06-10                                                                                                                                                                                                                                                                                                             |
+| Time                             | 12:30 PM                                                                                                                                                                                                                                                                                                               |
+| Location                         | Virtual                                                                                                                                                                                                                                                                                                                |
+| Prepared by                      | Gutierrez Zumaeta, Manuel Alonso                                                                                                                                                                                                                                                                                       |
+| Attendees (to planning meeting)  | <p>De La Piedra Quintanilla, Erwin Miquel</p><p>Gutierrez Zumaeta, Manuel Alonso</p><p>Mendez Rosales, Marco Aurelio</p><p>Roca Huapaya, Orlando Arturo</p><p>Ventura Chancafe, Eduardo Renato</p>                                                                                                                     |
+| Sprint 1 - Review Summary        |                                                                                                                                                                                                                                                                                                                        |
+| Sprint 1 - Retrospective Summary | El equipo destacó como puntos positivos la buena organización en las tareas y el cumplimiento del cronograma. Como mejora, se mencionó la necesidad de definir con más precisión los criterios de aceptación de las historias de usuario y reforzar la documentación de los endpoints generados en este sprint.        |
+| **Sprint Goal & User Stories**   |                                                                                                                                                                                                                                                                                                                        |
+| Sprint 1 Goal                    | El objetivo principal de este sprint fue implementar la funcionalidad de agendamiento de citas médicas desde la app móvil para pacientes, y su visualización en la plataforma web por parte de los doctores. Además, se comenzó el desarrollo de la funcionalidad para el monitoreo del ritmo cardíaco en tiempo real. |
+| Sprint 1 Velocity                | 18                                                                                                                                                                                                                                                                                                                     |
+| Sum of Story Points              | 19                                                                                                                                                                                                                                                                                                                     |
+
 #### 6.2.1.2. Aspect Leaders and Collaborators.
 
-#### 6.2.1.3. Sprint Backlog n.
+#### 6.2.1.3. Sprint Backlog 1.
 
 #### 6.2.1.4. Development Evidence for Sprint Review.
 
