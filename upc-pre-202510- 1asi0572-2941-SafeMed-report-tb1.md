@@ -1770,6 +1770,7 @@ Se utiliza una estructura jerárquica para la *landing page*: Inicio → Seccion
 - **Chat** – mensajería médico-paciente con finalidad exclusiva de orientación clínica.
 - **Treatments for patient** – seguimiento y edición de tratamientos prescritos.
 - **Request history** – historial clínico y tratamientos previos del paciente.
+
 ### 5.2.3. SEO Tags and Meta Tags
 | Contexto | Title | Description                               | Keywords | Author       |
 |----------|-------|-------------------------------------------|----------|--------------|
@@ -1786,6 +1787,7 @@ La aplicación integra un motor de búsqueda optimizado que filtra rápidamente 
 ## 5.3. Landing Page UI Design.
 ### 5.3.1. Landing Page Wireframe.
 El diseño final mantiene la lógica de los wireframes originales, pero introduce una imagen de héroe de ancho completo con superposición oscura para mejorar el contraste del eslogan. Las secciones se alternan entre texto-izquierda/imagen-derecha y viceversa para conservar ritmo visual.
+
 1. **Hero** – título de bienvenida, eslogan y *call to action*.
    <img src="CAP5-IMAGES/Hero-wireframe.png">
 2. **About Us** – descripción de la empresa y valores (compromiso, trabajo en equipo, organización).
@@ -1799,6 +1801,7 @@ El diseño final mantiene la lógica de los wireframes originales, pero introduc
    <img src="CAP5-IMAGES/Wireframe - 7.png">
 6. **Contact** – información de teléfono, correo y ubicación; seguido de *footer* con enlaces rápidos y redes sociales.
    <img src="CAP5-IMAGES/Wireframe - 8.png">
+
 
 ### 5.3.2. Landing Page Mock-up.
 <img src="CAP5-IMAGES/Wireframe - 9.png">
