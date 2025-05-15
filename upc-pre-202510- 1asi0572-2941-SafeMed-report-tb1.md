@@ -1914,7 +1914,7 @@ Hemos creado los repositorios que usaremos a lo largo de el desarrollo del proye
 
 - URL del repositorio de la landing page: https://github.com/SafeMedUPC/SafeMed-LandingPage
 
-- URL del repositorio del Frontend:
+- URL del repositorio del Frontend: https://github.com/SafeMedUPC/MedSystemFrontend
 
 - URL del repositorio del Backend: https://github.com/SafeMedUPC/Medsystem-backend
 
