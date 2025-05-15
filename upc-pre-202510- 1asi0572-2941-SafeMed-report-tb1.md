@@ -1847,9 +1847,6 @@ El diseño final mantiene la lógica de los wireframes originales, pero introduc
 <img src="CAP5-IMAGES/web app 4 wireframe.jpeg">
 
 
-
-### 5.4.2. Applications Wireflow Diagrams.
-
 ### 5.4.2. Applications Mock-ups.
 <img src="CAP5-IMAGES/web app 1 mock up.jpeg">
 <img src="CAP5-IMAGES/web app 2 mock up.jpeg">
@@ -1860,10 +1857,10 @@ El diseño final mantiene la lógica de los wireframes originales, pero introduc
 <img src="CAP5-IMAGES/web app 7 mock up.jpeg">
 <img src="CAP5-IMAGES/web app 8 mock up.jpeg">
 
-### 5.4.3. Applications User Flow Diagrams.
 
 ## 5.5. Applications Prototyping.
 
+<img src="CAP5-IMAGES/monitoring.png">
 # Capítulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management.
