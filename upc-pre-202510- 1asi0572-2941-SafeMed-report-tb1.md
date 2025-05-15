@@ -1951,6 +1951,8 @@ Despues tambien esta GitHub Pages que es una función de GitHub que permite aloj
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
 
+<img src="CAP6-IMAGES/commits.png">
+
 # Anexos:
 
 - Video Exposicion TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/ERYan0Gr4ddPj0vWCWtqHtcBz1ElzzOZSzZhc3GBszgTUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1GoFPi
