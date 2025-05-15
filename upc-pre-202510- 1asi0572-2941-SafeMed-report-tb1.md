@@ -1962,6 +1962,24 @@ Despues tambien esta GitHub Pages que es una función de GitHub que permite aloj
 
 #### 6.2.1.2. Aspect Leaders and Collaborators.
 
+A continuación se presenta la asignación de líderes (L) y colaboradores (C) para cada aspecto del proyecto, basada en las tareas asignadas en las historias de usuario. Cada miembro del equipo es líder en el aspecto relacionado a sus responsabilidades principales y colaborador en los demás.
+
+| Team Member         | GitHub Username | Interfaz | Backend | Testing | Documentación | Integración |
+| ------------------- | --------------- | -------- | ------- | ------- | ------------- | ----------- |
+| Miquel De la Piedra | @MiquelDlp      | L        | C       | C       | C             | C           |
+| Manuel Gutierrez    | @ManuGZ         | L        | C       | C       | C             | C           |
+| Marco Mendez        | @cuak123        | L        | C       | C       | C             | C           |
+| Orlando Roca        | @OrlandoRoca    | C        | L       | C       | C             | C           |
+| Eduardo Ventura     | @Eduvent        | C        | L       | C       | C             | C           |
+
+_Notas:_
+
+- _Interfaz:_ Diseño y desarrollo de las vistas y componentes frontend.
+- _Backend:_ Programación y mantenimiento de endpoints y lógica del servidor.
+- _Testing:_ Validación y pruebas funcionales del sistema.
+- _Documentación:_ Elaboración de manuales, reportes y documentación técnica.
+- _Integración:_ Coordinación entre módulos y despliegue de la aplicación.
+
 #### 6.2.1.3. Sprint Backlog 1.
 
 <table>
@@ -2085,6 +2103,41 @@ Despues tambien esta GitHub Pages que es una función de GitHub que permite aloj
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
+Feature: Gestión de citas médicas y monitorización
+
+- User Story US01
+  Scenario: Agendar una cita desde la app
+  _Given_ que el paciente accede a la interfaz de agendamiento
+  _When_ crea una cita seleccionando fecha, hora y motivo
+  _Then_ la vista debe permitir validar el formulario y preparar los datos para enviar al backend
+  _And_ el backend debe registrar la cita médica con los datos del paciente
+
+- User Story US02
+  Scenario: Ver citas programadas
+  _Given_ que el paciente desea revisar sus citas agendadas
+  _When_ accede a la vista de citas programadas
+  _Then_ debe visualizar las citas con todos los detalles
+  _And_ el backend debe devolver las citas programadas por el usuario
+
+- User Story US03
+  Scenario: Cancelar o reprogramar una cita
+  _Given_ que el paciente tiene una cita agendada
+  _When_ decide cancelar o reprogramar la cita
+  _Then_ debe poder modificar o eliminar la cita desde el frontend
+
+- User Story US04
+  Scenario: Sincronización con agenda del doctor
+  _Given_ que el doctor desea revisar su agenda
+  _When_ accede a la vista de agenda
+  _Then_ debe visualizar sus citas ordenadas por día y hora
+
+- User Story US01 (Monitorización)
+  Scenario: Visualizar ritmo cardíaco en tiempo real
+  _Given_ que el paciente desea monitorear su ritmo cardíaco
+  _When_ accede al componente gráfico en la app
+  _Then_ debe mostrar datos en tiempo real
+  _And_ la app debe conectarse con los datos simulados y renderizarlos dinámicamente
+
 #### 6.2.1.6. Execution Evidence for Sprint Review.
 
 - Imagen del la aplicacion web corriendo en la consola de firebase y en la web
@@ -2093,6 +2146,12 @@ Despues tambien esta GitHub Pages que es una función de GitHub que permite aloj
 <img src="CAP6-IMAGES/web1.png">
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
+
+Iamgenes del backend corriendo localmente, de los bounded context mas importantes
+
+<img src="CAP6-IMAGES/treatments.png">
+<img src="CAP6-IMAGES/security.png">
+<img src="CAP6-IMAGES/appointments.png">
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 
@@ -2121,3 +2180,5 @@ Luego ponemos :
 # Anexos:
 
 - Video Exposicion TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/ERYan0Gr4ddPj0vWCWtqHtcBz1ElzzOZSzZhc3GBszgTUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1GoFPi
+
+- Video Exposicion TP: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/ERYan0Gr4ddPj0vWCWtqHtcBz1ElzzOZSzZhc3GBszgTUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1GoFPi
