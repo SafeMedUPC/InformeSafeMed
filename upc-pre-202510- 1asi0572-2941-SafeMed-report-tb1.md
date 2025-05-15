@@ -1710,9 +1710,13 @@ La **Capa de Infraestructura** maneja la persistencia de datos de sesiones y lec
 <img src="CAP4-IMAGES/SensorMonitoringDBDiagram.jpg">
 
 # Capítulo V: Solution UI/UX Design
+
 ## 5.1. Style Guidelines.
+
 ### 5.1.1. General Style Guidelines.
+
 #### Logotipo
+
 El logotipo actual de MedSystem es un isologotipo tipográfico. La palabra MED aparece en un azul claro que
 evoca confianza y salud, mientras que SYSTEM se muestra en negro para reforzar seriedad y fiabilidad.
 La línea inferior horizontal remata el conjunto y hace de ancla visual. Aunque en el prototipo original
@@ -1721,74 +1725,91 @@ la lectura y mejorar la escalabilidad en distintos dispositivos.<br>
 <img src="CAP5-IMAGES/logo.png">
 
 #### Tipografía
+
 - **Primaria – Poppins**: empleada en títulos, subtítulos y cuerpo de texto por su excelente legibilidad y estilo contemporáneo.
 - **Secundaria – Oswald**: se utiliza en subtítulos o cifras destacadas para aportar contraste.
-- **Respaldo – sans-serif genérico**: se declara como *fallback* por si la carga de las familias anteriores falla.
+- **Respaldo – sans-serif genérico**: se declara como _fallback_ por si la carga de las familias anteriores falla.
 
 <img src="CAP5-IMAGES/typography_1.png">
 <img src="CAP5-IMAGES/typography_2.png">
 
 #### Paleta de Colores
-| Uso específico                                    | Color            | Hex       |
-|--------------------------------------------------|------------------|-----------|
-| Títulos destacados, palabras clave (ej. “MED”)   | Azul principal   | `#103EF5` |
-| Fondo de botones primarios, gradientes oscuros   | Azul oscuro      | `#103EF5` |
-| Degradados de fondo, botones secundarios         | Azul claro       | `#78B9EE` |
-| Fondos de secciones, tarjetas, áreas de contenido| Blanco           | `#FFFFFF` |
-| Texto general, encabezados secundarios           | Negro            | `#000000` |
+
+| Uso específico                                    | Color          | Hex       |
+| ------------------------------------------------- | -------------- | --------- |
+| Títulos destacados, palabras clave (ej. “MED”)    | Azul principal | `#103EF5` |
+| Fondo de botones primarios, gradientes oscuros    | Azul oscuro    | `#103EF5` |
+| Degradados de fondo, botones secundarios          | Azul claro     | `#78B9EE` |
+| Fondos de secciones, tarjetas, áreas de contenido | Blanco         | `#FFFFFF` |
+| Texto general, encabezados secundarios            | Negro          | `#000000` |
+
 <img src="CAP5-IMAGES/color_1.png">
 <img src="CAP5-IMAGES/color_2.png">
 <img src="CAP5-IMAGES/color_3.png">
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
-Se prioriza una experiencia limpia y enfocada. Los azules transmiten calma y profesionalismo; el blanco aporta amplitud y facilita la lectura. Los tamaños de fuente se ajustan para garantizar accesibilidad. Todo el sistema visual mantiene consistencia entre la *landing* y la aplicación web.
+
+Se prioriza una experiencia limpia y enfocada. Los azules transmiten calma y profesionalismo; el blanco aporta amplitud y facilita la lectura. Los tamaños de fuente se ajustan para garantizar accesibilidad. Todo el sistema visual mantiene consistencia entre la _landing_ y la aplicación web.
 
 **Botones**
+
 - **Primario**: relleno con gradiente horizontal (`#003A64` → `#60D4FF`), texto blanco, bordes redondeados grandes.
 - **Secundario**: fondo blanco, borde 1 px con el mismo gradiente y texto en azul principal.
+
 #### Colores
+
 <img src="CAP5-IMAGES/color_1.png">
 <img src="CAP5-IMAGES/color_2.png">
 <img src="CAP5-IMAGES/color_3.png">
 
 #### Estilo de letras
+
 <img src="CAP5-IMAGES/typography_1.png">
 <img src="CAP5-IMAGES/typography_2.png">
 
 #### Botones
+
 Navbar
 <img src="CAP5-IMAGES/navbar.png">
 Footer
 <img src="CAP5-IMAGES/botones_2.png">
 
 ## 5.2. Information Architecture.
+
 ### 5.2.1. Organization Systems.
-Se utiliza una estructura jerárquica para la *landing page*: Inicio → Secciones temáticas (About Us, Product, Pricing, Team, Contact). Dentro de la aplicación, la navegación se divide por roles (pacientes, médicos, laboratorio) y se accede mediante un menú lateral.
+
+Se utiliza una estructura jerárquica para la _landing page_: Inicio → Secciones temáticas (About Us, Product, Pricing, Team, Contact). Dentro de la aplicación, la navegación se divide por roles (pacientes, médicos, laboratorio) y se accede mediante un menú lateral.
 
 ### 5.2.2. Labeling Systems.
+
 - **Appointments** – programación y listado de citas.
 - **Chat** – mensajería médico-paciente con finalidad exclusiva de orientación clínica.
 - **Treatments for patient** – seguimiento y edición de tratamientos prescritos.
 - **Request history** – historial clínico y tratamientos previos del paciente.
 
 ### 5.2.3. SEO Tags and Meta Tags
-| Contexto | Title | Description                               | Keywords | Author       |
-|----------|-------|-------------------------------------------|----------|--------------|
-| *Landing* | MedSystem | MedSystem – SafeMed Official Landing Page | appointments, treatments, doctors, patients, laboratories | SafeMed Team |
-| Web app | MedSystem | MedSystem – SafeMed Official Web Site     | appointments, clinic history, treatment tracking, medical tests, test results, registration, diagnosis | SafeMed Team |
+
+| Contexto  | Title     | Description                               | Keywords                                                                                               | Author       |
+| --------- | --------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------ |
+| _Landing_ | MedSystem | MedSystem – SafeMed Official Landing Page | appointments, treatments, doctors, patients, laboratories                                              | SafeMed Team |
+| Web app   | MedSystem | MedSystem – SafeMed Official Web Site     | appointments, clinic history, treatment tracking, medical tests, test results, registration, diagnosis | SafeMed Team |
 
 ### 5.2.4. Searching Systems.
+
 La aplicación integra un motor de búsqueda optimizado que filtra rápidamente pacientes, chats, historiales y resultados directamente desde la base de datos, incluso en escenarios de gran volumen.
 
 ### 5.2.5. Navigation Systems.
+
 - **Landing**: barra superior fija con anclas internas a cada sección.
-- **Aplicación**: barra lateral con iconos y rótulos; se adapta responsivamente a *drawer* en móvil.
+- **Aplicación**: barra lateral con iconos y rótulos; se adapta responsivamente a _drawer_ en móvil.
 
 ## 5.3. Landing Page UI Design.
+
 ### 5.3.1. Landing Page Wireframe.
+
 El diseño final mantiene la lógica de los wireframes originales, pero introduce una imagen de héroe de ancho completo con superposición oscura para mejorar el contraste del eslogan. Las secciones se alternan entre texto-izquierda/imagen-derecha y viceversa para conservar ritmo visual.
 
-1. **Hero** – título de bienvenida, eslogan y *call to action*.
+1. **Hero** – título de bienvenida, eslogan y _call to action_.
    <img src="CAP5-IMAGES/Hero-wireframe.png">
 2. **About Us** – descripción de la empresa y valores (compromiso, trabajo en equipo, organización).
    <img src="CAP5-IMAGES/Aboutus-wireframe.png">
@@ -1799,11 +1820,11 @@ El diseño final mantiene la lógica de los wireframes originales, pero introduc
    <img src="CAP5-IMAGES/Wireframe - 6.png">
 5. **Team** – galería adaptativa con foto y rol de cada integrante.
    <img src="CAP5-IMAGES/Wireframe - 7.png">
-6. **Contact** – información de teléfono, correo y ubicación; seguido de *footer* con enlaces rápidos y redes sociales.
+6. **Contact** – información de teléfono, correo y ubicación; seguido de _footer_ con enlaces rápidos y redes sociales.
    <img src="CAP5-IMAGES/Wireframe - 8.png">
 
-
 ### 5.3.2. Landing Page Mock-up.
+
 <img src="CAP5-IMAGES/Wireframe - 9.png">
 <img src="CAP5-IMAGES/Wireframe - 16.png">
 <img src="CAP5-IMAGES/Wireframe - 10.png">
@@ -2027,13 +2048,56 @@ Despues tambien esta GitHub Pages que es una función de GitHub que permite aloj
 
 #### 6.2.1.4. Development Evidence for Sprint Review.
 
+| Repository                   | Branch | Commit Id | Commit Message                                             | Commit Message Body | Commited on (Date)  |
+| ---------------------------- | ------ | --------- | ---------------------------------------------------------- | ------------------- | ------------------- |
+| SafeMedUPC/CAP5              | main   | f5d581f   | feat: added student outcomes                               |                     | 15/05/2025          |
+| SafeMedUPC/CAP5              | main   | dfd614f   | Mockups and wireflows                                      |                     | 15/05/2025          |
+| SafeMedUPC/CAP5              | main   | b2ad1a4   | Add files via upload                                       |                     | 15/05/2025          |
+| SafeMedUPC/CAP5              | main   | 515b21c   | Merge pull request #14 from SafeMedUPC/CAP5                |                     | 15/05/2025          |
+| SafeMedUPC/CAP5              | main   | 9535efa   | Merge branch 'main' into CAP5                              |                     | 15/05/2025          |
+| SafeMedUPC/CAP5              | main   | 3345e13   | add                                                        |                     | 15/05/2025          |
+| SafeMedUPC/CAP5              | main   | 8440ca6   | Update upc-pre-202510-1asi0572-2941-SafeMed-report-tb1.md  |                     | 15/05/2025          |
+| SafeMedUPC/CAP5              | main   | 4108947   | feat(cap5): add chapter from 5 to 5.3.2                    |                     | 15/05/2025          |
+| SafeMedUPC/CAP5              | main   | cf4c064   | Merge remote-tracking branch 'origin/main'                 |                     | 15/05/2025          |
+| SafeMedUPC/CAP5              | main   | 3990400   | feat(cap5): add chapter from 5 to 5.3.2                    |                     | 15/05/2025          |
+| SafeMedUPC/CAP5              | main   | c9cdcd2   | Merge pull request #11 from SafeMedUPC/CAP5                |                     | 15/05/2025          |
+| SafeMedUPC/CAP5              | main   | f6427d8   | feat: sprint backlog 1                                     |                     | 15/05/2025          |
+| SafeMedUPC/CAP5              | main   | 8ce9b1e   | feat:add images                                            |                     | 15/05/2025          |
+| SafeMedUPC/CAP5              | main   | be9552a   | Merge pull request #10 from SafeMedUPC/CAP5                |                     | 15/05/2025          |
+| SafeMedUPC/MedSystembackend  | main   | 42709b4   | Initial commit                                             |                     | 14/05/2025          |
+| SafeMedUPC/MedSystembackend  | master | c8b5a03   | fix: fix endpoints for authentication and doctors/patients |                     | 14/05/2025          |
+| SafeMedUPC/MedSystemFrontend | master | 42709b4   | Initial commit                                             |                     | 14/05/2025          |
+
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
 #### 6.2.1.6. Execution Evidence for Sprint Review.
 
+- Imagen del la aplicacion web corriendo en la consola de firebase y en la web
+
+<img src="CAP6-IMAGES/firebase5.png">
+<img src="CAP6-IMAGES/web1.png">
+
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+
+Usamos firebase pare el deployment
+
+En la terminal escribmos lo siguiente:
+
+- npm install -g firebase-tools
+- firebase login
+- firebase init
+  Nos debe aparecer esto
+  <img src="CAP6-IMAGES/firebase3.png">
+
+Luego ponemos :
+
+- npm run build
+  Por ultimo :
+- firebase deploy
+  <img src="CAP6-IMAGES/firebase4.png">
+  Nos dara el link: https://medsystem-b45f8.web.app
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
 
