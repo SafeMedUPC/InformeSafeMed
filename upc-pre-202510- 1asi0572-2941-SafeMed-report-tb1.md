@@ -160,12 +160,12 @@ Visión: Ser la plataforma líder en Latinoamérica en soluciones digitales para
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Foto                                                                                                                                                                                                                                  | Nombre y Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Foto Manuel](CAP1-IMAGES/FotoManuel.jpg)                                                                                                                                                                                            | **Nombre:** Manuel Alonso Gutierrez Zumaeta <br>**Código:** u202112353 <br>**Descripción:** Soy Manuel Gutierrez, estudiante de la carrera de Ingeniería de Software, tengo 20 años. Tengo experiencia en el desarrollo de aplicaciones web, tanto frontend como backend, programación móvil en Flutter. Me considero una persona responsable y que se propone hacer un buen trabajo.                                                                                                                                                        |
-| ![Foto Marco](CAP1-IMAGES/mendezmarco.png)                                                                                                                                                                                            | **Nombre:** Marco Aurelio Mendez Rosales <br>**Código:** u200218273<br>**Descripción:** Soy Marco Mendez, estudiante de la carrera de Ingeniería de softwar, tengo 22 años, me gusta crear soluciones que puedan ayudar a los demás.                                                                                                                                                                                                                                                                                                         |
-| ![Foto Miquel](CAP1-IMAGES/FotoMiquel.png)                                                                                                                                                                                            | **Nombre:** Erwin Miquel De la Piedra Quintanilla<br>**Código:** u202112179<br>**Descripción:** Soy Miquel De la Piedra, tengo 21 años, estudiante de la carrera de Ingeniería de Software. Poseo conocimientos relacionados a la programación en C++, Python, HTML y CSS. Además poseo experiencia con el manejo de bases de datos. Considero que estos conocimientos ayudarán a la realización de este trabajo, además de mejorar nuestros métodos de organización y trabajo en equipo.                                                    |
-| ![Foto Eduardo](CAP1-IMAGES/Eduardo.jpg)                                                                                                                                                                                              | **Nombre:** Eduarod Renato Ventura Chancafe<br>**Código:u202212645** <br>**Descripción: Soy estudiante universitario que cursa su 7to ciclo. Dentro del startup me encargo con el desarrollo del diseño ,QA y gestión del equipo, pues tengo conocimientos adicionales a los de mi sector. Además, apoyaré en el desarrollo del código trabajando de forma cohesionada con mis compañeros. Asimismo, cuento con conocimientos en herramientas como HTML, CSS, JavaScript, Python, C++, Cypress, NodeJs, NestJs y Agile Project Management.** |
+| Foto                                         | Nombre y Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Foto Manuel](CAP1-IMAGES/FotoManuel.jpg)   | **Nombre:** Manuel Alonso Gutierrez Zumaeta <br>**Código:** u202112353 <br>**Descripción:** Soy Manuel Gutierrez, estudiante de la carrera de Ingeniería de Software, tengo 20 años. Tengo experiencia en el desarrollo de aplicaciones web, tanto frontend como backend, programación móvil en Flutter. Me considero una persona responsable y que se propone hacer un buen trabajo.                                                                                                                                                        |
+| ![Foto Marco](CAP1-IMAGES/mendezmarco.png)   | **Nombre:** Marco Aurelio Mendez Rosales <br>**Código:** u200218273<br>**Descripción:** Soy Marco Mendez, estudiante de la carrera de Ingeniería de softwar, tengo 22 años, me gusta crear soluciones que puedan ayudar a los demás.                                                                                                                                                                                                                                                                                                         |
+| ![Foto Miquel](CAP1-IMAGES/FotoMiquel.png)   | **Nombre:** Erwin Miquel De la Piedra Quintanilla<br>**Código:** u202112179<br>**Descripción:** Soy Miquel De la Piedra, tengo 21 años, estudiante de la carrera de Ingeniería de Software. Poseo conocimientos relacionados a la programación en C++, Python, HTML y CSS. Además poseo experiencia con el manejo de bases de datos. Considero que estos conocimientos ayudarán a la realización de este trabajo, además de mejorar nuestros métodos de organización y trabajo en equipo.                                                    |
+| ![Foto Eduardo](CAP1-IMAGES/Eduardo.jpg)     | **Nombre:** Eduarod Renato Ventura Chancafe<br>**Código:u202212645** <br>**Descripción: Soy estudiante universitario que cursa su 7to ciclo. Dentro del startup me encargo con el desarrollo del diseño ,QA y gestión del equipo, pues tengo conocimientos adicionales a los de mi sector. Además, apoyaré en el desarrollo del código trabajando de forma cohesionada con mis compañeros. Asimismo, cuento con conocimientos en herramientas como HTML, CSS, JavaScript, Python, C++, Cypress, NodeJs, NestJs y Agile Project Management.** |
 | ![Foto Orlando](CAP1-IMAGES/FotoOrlando.png) | **Nombre:** Orlando Arturo Roca Huapaya <br>**Código:** u201919742<br>**Descripción:** Como estudiante de ingeniería de software, mi contribución al equipo se centra en mis conocimientos en la planificación y diseño de software. A lo largo de mi formación he podido desarrollar proyectos utilizando Java, lo que me da una ventaja significativa con el sistema que trabajamos. Estoy entusiasmado por aplicar mis habilidades en el desarrollo y trabajar junto al equipo para alcanzar nuestros objetivos.                          |
 
 ## 1.2. Solution Profile
@@ -364,77 +364,77 @@ MedSystem puede destacarse en el mercado ofreciendo una plataforma de gestión d
 
 # Entrevistas Segmento Pacientes
 
-| Entrevista | Datos |
-| :--- | :--- |
-| **Nombre** | Brian Roca |
-| **Edad** | 24 años |
-| **Distrito** | Surco |
-| **Imagen** | ![Imagen 1](CAP2-IMAGES/ManuelEnt.png) |
-| **Resumen** | Brian es un joven de 24 años que vive en Surco. Desde pequeño padece problemas congénitos del corazón. Comenta que, aunque reconoce cuándo se siente mal, a veces un ataque ocurre de manera inesperada, complicando el contacto rápido con su médico o familiares. Le sería muy útil una aplicación conectada a un sensor para monitorear su ritmo cardiaco y alertar tanto a él como a sus familiares en caso de peligro, incluso si no siente síntomas. |
-| **URL de Grabación** | [Grabación Brian](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EZa_nQ72FUdMu2Wy2wy11IgBxauc2VrjOMirpvYMf3rmMQ?e=7V1kHM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-| **Timing** | 00:00 - 11:15 |
+| Entrevista           | Datos                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| :------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**           | Brian Roca                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Edad**             | 24 años                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Distrito**         | Surco                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Imagen**           | ![Imagen 1](CAP2-IMAGES/ManuelEnt.png)                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Resumen**          | Brian es un joven de 24 años que vive en Surco. Desde pequeño padece problemas congénitos del corazón. Comenta que, aunque reconoce cuándo se siente mal, a veces un ataque ocurre de manera inesperada, complicando el contacto rápido con su médico o familiares. Le sería muy útil una aplicación conectada a un sensor para monitorear su ritmo cardiaco y alertar tanto a él como a sus familiares en caso de peligro, incluso si no siente síntomas. |
+| **URL de Grabación** | [Grabación Brian](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EZa_nQ72FUdMu2Wy2wy11IgBxauc2VrjOMirpvYMf3rmMQ?e=7V1kHM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                                                                                  |
+| **Timing**           | 00:00 - 11:15                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 ---
 
-| Entrevista | Datos |
-| :--- | :--- |
-| **Nombre** | Jorge De la Piedra |
-| **Edad** | 64 años |
-| **Distrito** | Surco |
-| **Imagen** | ![Imagen 2](CAP2-IMAGES/Entrevista2-paciente.png) |
-| **Resumen** | Jorge es un señor de 64 años que sufre de problemas de presión relacionados con su corazón. Utiliza dispositivos como el Apple Watch para monitorear su ritmo cardiaco, pero expresa la necesidad de una app que facilite un seguimiento más preciso, ya que una emergencia puede surgir en cualquier momento, afectando tanto su salud como la tranquilidad de su familia. |
-| **URL de Grabación** | [Grabación Jorge](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EZa_nQ72FUdMu2Wy2wy11IgBxauc2VrjOMirpvYMf3rmMQ?e=7V1kHM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-| **Timing** | 11:16 - 19:53 |
+| Entrevista           | Datos                                                                                                                                                                                                                                                                                                                                                                       |
+| :------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**           | Jorge De la Piedra                                                                                                                                                                                                                                                                                                                                                          |
+| **Edad**             | 64 años                                                                                                                                                                                                                                                                                                                                                                     |
+| **Distrito**         | Surco                                                                                                                                                                                                                                                                                                                                                                       |
+| **Imagen**           | ![Imagen 2](CAP2-IMAGES/Entrevista2-paciente.png)                                                                                                                                                                                                                                                                                                                           |
+| **Resumen**          | Jorge es un señor de 64 años que sufre de problemas de presión relacionados con su corazón. Utiliza dispositivos como el Apple Watch para monitorear su ritmo cardiaco, pero expresa la necesidad de una app que facilite un seguimiento más preciso, ya que una emergencia puede surgir en cualquier momento, afectando tanto su salud como la tranquilidad de su familia. |
+| **URL de Grabación** | [Grabación Jorge](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EZa_nQ72FUdMu2Wy2wy11IgBxauc2VrjOMirpvYMf3rmMQ?e=7V1kHM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                   |
+| **Timing**           | 11:16 - 19:53                                                                                                                                                                                                                                                                                                                                                               |
 
 ---
 
-| Entrevista | Datos |
-| :--- | :--- |
-| **Nombre** | Renzo Ramos |
-| **Edad** | 22 años |
-| **Distrito** | Santiago de Surco |
-| **Imagen** | ![Imagen 3](https://cdn.discordapp.com/attachments/877299205696262227/1365834726316834846/image.png?ex=680ec036&is=680d6eb6&hm=7af9ddc71fbc39a08a89de51f00556c281c51021a1df2b470bfa5c840f24d757&) |
-| **Resumen** | Renzo, de 22 años, vive en Santiago de Surco. Su principal preocupación es la estabilidad de su estado de salud, por lo que usa smartwatch y celular para su monitoreo. Quiere apps con gráficos simples, integración fluida a su rutina diaria y notificaciones tanto para él como para sus familiares en caso de emergencia. Además, valora funcionalidades como gestión de medicamentos y análisis de signos vitales. |
-| **URL de Grabación** | [Grabación Renzo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EZa_nQ72FUdMu2Wy2wy11IgBxauc2VrjOMirpvYMf3rmMQ?e=7V1kHM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-| **Timing** | 19:54 - 25:09 |
+| Entrevista           | Datos                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| :------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**           | Renzo Ramos                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Edad**             | 22 años                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Distrito**         | Santiago de Surco                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Imagen**           | ![Imagen 3](https://cdn.discordapp.com/attachments/877299205696262227/1365834726316834846/image.png?ex=680ec036&is=680d6eb6&hm=7af9ddc71fbc39a08a89de51f00556c281c51021a1df2b470bfa5c840f24d757&)                                                                                                                                                                                                                        |
+| **Resumen**          | Renzo, de 22 años, vive en Santiago de Surco. Su principal preocupación es la estabilidad de su estado de salud, por lo que usa smartwatch y celular para su monitoreo. Quiere apps con gráficos simples, integración fluida a su rutina diaria y notificaciones tanto para él como para sus familiares en caso de emergencia. Además, valora funcionalidades como gestión de medicamentos y análisis de signos vitales. |
+| **URL de Grabación** | [Grabación Renzo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EZa_nQ72FUdMu2Wy2wy11IgBxauc2VrjOMirpvYMf3rmMQ?e=7V1kHM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                                                |
+| **Timing**           | 19:54 - 25:09                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 ---
 
 # Entrevistas Segmento Médico
 
-| Entrevista | Datos |
-| :--- | :--- |
-| **Nombre** | Maryori Espinoza |
-| **Edad** | 30 años |
-| **Distrito** | Santa Anita |
-| **Imagen** | ![Imagen 4](https://cdn.discordapp.com/attachments/877299205696262227/1365839496691712120/image.png?ex=680ec4a8&is=680d7328&hm=c4ee6124b0e83dd1a8515845d6606c84326de39670a6e0d97d3e18059b77cd58&) |
-| **Resumen** | Maryori, doctora en el Hospital San Isidro Labrador, enfrenta desafíos como la falta de datos en tiempo real y asegurar el cumplimiento de tratamientos. Prefiere soluciones accesibles, que se integren a la historia clínica, garanticen la seguridad de datos y sean fáciles de usar tanto para médicos como pacientes. Valora las alertas con resúmenes claros. |
-| **URL de Grabación** | [Grabación Maryori](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EZa_nQ72FUdMu2Wy2wy11IgBxauc2VrjOMirpvYMf3rmMQ?e=7V1kHM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-| **Timing** | 25:09 - 34:36 |
+| Entrevista           | Datos                                                                                                                                                                                                                                                                                                                                                               |
+| :------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Nombre**           | Maryori Espinoza                                                                                                                                                                                                                                                                                                                                                    |
+| **Edad**             | 30 años                                                                                                                                                                                                                                                                                                                                                             |
+| **Distrito**         | Santa Anita                                                                                                                                                                                                                                                                                                                                                         |
+| **Imagen**           | ![Imagen 4](https://cdn.discordapp.com/attachments/877299205696262227/1365839496691712120/image.png?ex=680ec4a8&is=680d7328&hm=c4ee6124b0e83dd1a8515845d6606c84326de39670a6e0d97d3e18059b77cd58&)                                                                                                                                                                   |
+| **Resumen**          | Maryori, doctora en el Hospital San Isidro Labrador, enfrenta desafíos como la falta de datos en tiempo real y asegurar el cumplimiento de tratamientos. Prefiere soluciones accesibles, que se integren a la historia clínica, garanticen la seguridad de datos y sean fáciles de usar tanto para médicos como pacientes. Valora las alertas con resúmenes claros. |
+| **URL de Grabación** | [Grabación Maryori](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EZa_nQ72FUdMu2Wy2wy11IgBxauc2VrjOMirpvYMf3rmMQ?e=7V1kHM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                         |
+| **Timing**           | 25:09 - 34:36                                                                                                                                                                                                                                                                                                                                                       |
 
 ---
 
-| Entrevista | Datos |
-| :--- | :--- |
-| **Nombre** | Jean Piere Grandez Mansilla |
-| **Edad** | 25 años |
-| **Distrito** | Callao |
-| **Imagen** | ![Imagen 5](CAP2-IMAGES/entrevista-jean%20piere.png) |
-| **Resumen** | Jean Piere, interno de medicina, destacó la falta de información y cumplimiento de tratamientos como los principales problemas al monitorear pacientes. Propone integrar dispositivos IoT, mejorar la comunicación familiar y médica, y garantizar la seguridad de datos en las plataformas de monitoreo remoto. |
+| Entrevista           | Datos                                                                                                                                                                                                                                                                                                                                          |
+| :------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**           | Jean Piere Grandez Mansilla                                                                                                                                                                                                                                                                                                                    |
+| **Edad**             | 25 años                                                                                                                                                                                                                                                                                                                                        |
+| **Distrito**         | Callao                                                                                                                                                                                                                                                                                                                                         |
+| **Imagen**           | ![Imagen 5](CAP2-IMAGES/entrevista-jean%20piere.png)                                                                                                                                                                                                                                                                                           |
+| **Resumen**          | Jean Piere, interno de medicina, destacó la falta de información y cumplimiento de tratamientos como los principales problemas al monitorear pacientes. Propone integrar dispositivos IoT, mejorar la comunicación familiar y médica, y garantizar la seguridad de datos en las plataformas de monitoreo remoto.                               |
 | **URL de Grabación** | [Grabación Jean Piere](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EZa_nQ72FUdMu2Wy2wy11IgBxauc2VrjOMirpvYMf3rmMQ?e=7V1kHM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-| **Timing** | 34:36 - 41:57 |
+| **Timing**           | 34:36 - 41:57                                                                                                                                                                                                                                                                                                                                  |
 
 ---
 
-| Entrevista | Datos |
-| :--- | :--- |
-| **Nombre** | Matías Nolte |
-| **Edad** | 22 años |
-| **Distrito** | Santiago de Surco |
-| **Imagen** | ![Imagen 6](CAP2-IMAGES/entrevistaMatias.png) |
-| **Resumen** | Matías, joven con antecedentes cardíacos, necesita monitoreo continuo para su tranquilidad. Prefiere alertas automáticas a su celular y la notificación inmediata a sus padres. También desea una app que gestione tanto signos vitales como estados de ánimo, ayudándolo a identificar patrones de bienestar general. |
+| Entrevista           | Datos                                                                                                                                                                                                                                                                                                                                      |
+| :------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre**           | Matías Nolte                                                                                                                                                                                                                                                                                                                               |
+| **Edad**             | 22 años                                                                                                                                                                                                                                                                                                                                    |
+| **Distrito**         | Santiago de Surco                                                                                                                                                                                                                                                                                                                          |
+| **Imagen**           | ![Imagen 6](CAP2-IMAGES/entrevistaMatias.png)                                                                                                                                                                                                                                                                                              |
+| **Resumen**          | Matías, joven con antecedentes cardíacos, necesita monitoreo continuo para su tranquilidad. Prefiere alertas automáticas a su celular y la notificación inmediata a sus padres. También desea una app que gestione tanto signos vitales como estados de ánimo, ayudándolo a identificar patrones de bienestar general.                     |
 | **URL de Grabación** | [Grabación Matías](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EZa_nQ72FUdMu2Wy2wy11IgBxauc2VrjOMirpvYMf3rmMQ?e=7V1kHM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-| **Timing** | 42:08 - 49:47 |
+| **Timing**           | 42:08 - 49:47                                                                                                                                                                                                                                                                                                                              |
 
 ### 2.2.3. Análisis de entrevistas.
 
@@ -564,54 +564,56 @@ En esta sección se realizaron las distintas etapas de preparación, tales como 
 
 ### Epic 01 - Monitoreo en tiempo real del ritmo cardiaco
 
-| US  | Título                                   | Descripción                                                                                                                                     | Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                                                                   | Epic relacionada |
-| --- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
-| 01  | Visualizar ritmo cardiaco en tiempo real | Como doctor, quiero poder ver el ritmo cardiaco actual de mis pacientes en una interfaz web, para monitorear su estado de salud constantemente. | **Escenario 1:** Acceso al monitoreo en tiempo real <br> **Dado** que estoy logueado como doctor, <br> **Cuando** ingreso a la sección de monitoreo cardiaco, <br> **Entonces** puedo ver una gráfica en tiempo real del ritmo cardiaco del paciente seleccionado. <br><br> **Escenario 2:** Visualización clara del gráfico <br> **Dado** que la gráfica está cargada, <br> **Cuando** se muestren los datos, <br> **Entonces** deben visualizarse con claridad, sin solapamientos ni errores de escala. | 01 |
-| 02  | Seleccionar paciente para monitoreo      | Como doctor, quiero poder seleccionar un paciente específico, para ver únicamente su información de ritmo cardiaco.                             | **Escenario 1:** Filtro de paciente <br> **Dado** que tengo varios pacientes asignados, <br> **Cuando** selecciono uno en la lista, <br> **Entonces** solo veo el ritmo cardiaco de ese paciente en la gráfica. <br><br> **Escenario 2:** Confirmación de selección <br> **Dado** que he hecho clic en un paciente, <br> **Cuando** se actualice la gráfica, <br> **Entonces** debe mostrarse el nombre del paciente seleccionado como confirmación.                      | 01 |
-| 03  | Actualización automática de datos        | Como doctor, quiero que la información del ritmo cardiaco se actualice automáticamente, para no tener que refrescar la página.                  | **Escenario 1:** Actualización continua <br> **Dado** que estoy viendo la gráfica, <br> **Cuando** pasan unos segundos, <br> **Entonces** los valores deben actualizarse sin intervención manual. <br><br> **Escenario 2:** Aviso de interrupción <br> **Dado** que la actualización está activa, <br> **Cuando** falle la conexión temporalmente, <br> **Entonces** debo ver una alerta indicando que los datos no se están actualizando.                             | 01 |
-| 04  | Ver estado de conexión del sensor        | Como doctor, quiero saber si el sensor del paciente está enviando datos correctamente, para asegurarme de que la información sea confiable.     | **Escenario 1:** Indicador de conexión <br> **Dado** que estoy monitoreando a un paciente, <br> **Cuando** el sensor esté desconectado o sin datos, <br> **Entonces** debo ver un mensaje de advertencia. <br><br> **Escenario 2:** Confirmación de conexión activa <br> **Dado** que el sensor funciona correctamente, <br> **Cuando** se establezca la conexión, <br> **Entonces** debe visualizarse un icono o mensaje de estado activo.                         | 01 |
+| US  | Título                                   | Descripción                                                                                                                                     | Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Epic relacionada |
+| --- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| 01  | Visualizar ritmo cardiaco en tiempo real | Como doctor, quiero poder ver el ritmo cardiaco actual de mis pacientes en una interfaz web, para monitorear su estado de salud constantemente. | **Escenario 1:** Acceso al monitoreo en tiempo real <br> **Dado** que estoy logueado como doctor, <br> **Cuando** ingreso a la sección de monitoreo cardiaco, <br> **Entonces** puedo ver una gráfica en tiempo real del ritmo cardiaco del paciente seleccionado. <br><br> **Escenario 2:** Visualización clara del gráfico <br> **Dado** que la gráfica está cargada, <br> **Cuando** se muestren los datos, <br> **Entonces** deben visualizarse con claridad, sin solapamientos ni errores de escala. | 01               |
+| 02  | Seleccionar paciente para monitoreo      | Como doctor, quiero poder seleccionar un paciente específico, para ver únicamente su información de ritmo cardiaco.                             | **Escenario 1:** Filtro de paciente <br> **Dado** que tengo varios pacientes asignados, <br> **Cuando** selecciono uno en la lista, <br> **Entonces** solo veo el ritmo cardiaco de ese paciente en la gráfica. <br><br> **Escenario 2:** Confirmación de selección <br> **Dado** que he hecho clic en un paciente, <br> **Cuando** se actualice la gráfica, <br> **Entonces** debe mostrarse el nombre del paciente seleccionado como confirmación.                                                      | 01               |
+| 03  | Actualización automática de datos        | Como doctor, quiero que la información del ritmo cardiaco se actualice automáticamente, para no tener que refrescar la página.                  | **Escenario 1:** Actualización continua <br> **Dado** que estoy viendo la gráfica, <br> **Cuando** pasan unos segundos, <br> **Entonces** los valores deben actualizarse sin intervención manual. <br><br> **Escenario 2:** Aviso de interrupción <br> **Dado** que la actualización está activa, <br> **Cuando** falle la conexión temporalmente, <br> **Entonces** debo ver una alerta indicando que los datos no se están actualizando.                                                                | 01               |
+| 04  | Ver estado de conexión del sensor        | Como doctor, quiero saber si el sensor del paciente está enviando datos correctamente, para asegurarme de que la información sea confiable.     | **Escenario 1:** Indicador de conexión <br> **Dado** que estoy monitoreando a un paciente, <br> **Cuando** el sensor esté desconectado o sin datos, <br> **Entonces** debo ver un mensaje de advertencia. <br><br> **Escenario 2:** Confirmación de conexión activa <br> **Dado** que el sensor funciona correctamente, <br> **Cuando** se establezca la conexión, <br> **Entonces** debe visualizarse un icono o mensaje de estado activo.                                                               | 01               |
 
 ---
 
 ### Epic 02 - Alerta automática por ritmo elevado
 
-| US  | Título                         | Descripción                                                                                                                               | Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                                   | Epic relacionada |
-| --- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
-| 01  | Alerta visual en la interfaz   | Como doctor, quiero recibir una alerta visual en la pantalla si el ritmo cardiaco de un paciente es elevado, para reaccionar rápidamente. | **Escenario 1:** Activación de alerta <br> **Dado** que monitoreo a un paciente, <br> **Cuando** su ritmo cardiaco supere un umbral crítico, <br> **Entonces** una alerta debe aparecer en pantalla. <br><br> **Escenario 2:** Alerta persistente <br> **Dado** que una alerta visual fue activada, <br> **Cuando** no se ha confirmado aún, <br> **Entonces** esta debe permanecer visible hasta su revisión. | 02               |
-| 02  | Configurar umbrales de alerta  | Como doctor, quiero poder configurar los valores máximos y mínimos del ritmo cardiaco, para personalizar las alertas según el paciente.   | **Escenario 1:** Edición de umbrales <br> **Dado** que estoy visualizando un paciente, <br> **Cuando** ingreso a la configuración, <br> **Entonces** puedo definir sus límites de alerta. <br><br> **Escenario 2:** Validación de rango <br> **Dado** que configuro nuevos valores, <br> **Cuando** ingreso un umbral inválido, <br> **Entonces** debo ver un mensaje de error impidiendo guardar los cambios.                       | 02               |
-| 03  | Alerta sonora opcional         | Como doctor, quiero poder activar una alarma sonora al recibir una alerta, para no perderme ninguna notificación urgente.                 | **Escenario 1:** Alarma activada <br> **Dado** que tengo una alerta activa, <br> **Cuando** la opción de sonido está activada, <br> **Entonces** escucho una alarma. <br><br> **Escenario 2:** Alarma desactivada <br> **Dado** que tengo la opción de sonido desactivada, <br> **Cuando** ocurre una alerta, <br> **Entonces** no debe reproducirse ningún sonido.                                                | 02               |
-| 04  | Registro de alertas anteriores | Como doctor, quiero revisar las alertas previas que ha generado un paciente, para entender mejor sus antecedentes.                        | **Escenario 1:** Revisión de historial <br> **Dado** que selecciono un paciente, <br> **Cuando** accedo a su historial de alertas, <br> **Entonces** puedo ver fechas, horas y tipos de alerta. <br><br> **Escenario 2:** Orden cronológico <br> **Dado** que visualizo las alertas previas, <br> **Cuando** se muestren en la pantalla, <br> **Entonces** deben aparecer ordenadas desde la más reciente a la más antigua.   | 02               |
+| US  | Título                         | Descripción                                                                                                                               | Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                                                                     | Epic relacionada |
+| --- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| 01  | Alerta visual en la interfaz   | Como doctor, quiero recibir una alerta visual en la pantalla si el ritmo cardiaco de un paciente es elevado, para reaccionar rápidamente. | **Escenario 1:** Activación de alerta <br> **Dado** que monitoreo a un paciente, <br> **Cuando** su ritmo cardiaco supere un umbral crítico, <br> **Entonces** una alerta debe aparecer en pantalla. <br><br> **Escenario 2:** Alerta persistente <br> **Dado** que una alerta visual fue activada, <br> **Cuando** no se ha confirmado aún, <br> **Entonces** esta debe permanecer visible hasta su revisión.              | 02               |
+| 02  | Configurar umbrales de alerta  | Como doctor, quiero poder configurar los valores máximos y mínimos del ritmo cardiaco, para personalizar las alertas según el paciente.   | **Escenario 1:** Edición de umbrales <br> **Dado** que estoy visualizando un paciente, <br> **Cuando** ingreso a la configuración, <br> **Entonces** puedo definir sus límites de alerta. <br><br> **Escenario 2:** Validación de rango <br> **Dado** que configuro nuevos valores, <br> **Cuando** ingreso un umbral inválido, <br> **Entonces** debo ver un mensaje de error impidiendo guardar los cambios.              | 02               |
+| 03  | Alerta sonora opcional         | Como doctor, quiero poder activar una alarma sonora al recibir una alerta, para no perderme ninguna notificación urgente.                 | **Escenario 1:** Alarma activada <br> **Dado** que tengo una alerta activa, <br> **Cuando** la opción de sonido está activada, <br> **Entonces** escucho una alarma. <br><br> **Escenario 2:** Alarma desactivada <br> **Dado** que tengo la opción de sonido desactivada, <br> **Cuando** ocurre una alerta, <br> **Entonces** no debe reproducirse ningún sonido.                                                         | 02               |
+| 04  | Registro de alertas anteriores | Como doctor, quiero revisar las alertas previas que ha generado un paciente, para entender mejor sus antecedentes.                        | **Escenario 1:** Revisión de historial <br> **Dado** que selecciono un paciente, <br> **Cuando** accedo a su historial de alertas, <br> **Entonces** puedo ver fechas, horas y tipos de alerta. <br><br> **Escenario 2:** Orden cronológico <br> **Dado** que visualizo las alertas previas, <br> **Cuando** se muestren en la pantalla, <br> **Entonces** deben aparecer ordenadas desde la más reciente a la más antigua. | 02               |
 
 ---
 
 ### Epic 03 - Notificación por SMS a contacto asignado
 
-| US  | Título                             | Descripción                                                                                                                                                                                                               | Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                              | Epic relacionada |
-| --- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
-| 01  | Registrar contacto de emergencia   | Como paciente, quiero poder registrar a una persona de contacto en la aplicación, para que reciba alertas por SMS si ocurre una emergencia.                                                                               | **Escenario 1:** Registro de contacto <br> **Dado** que estoy en mi perfil de paciente, <br> **Cuando** ingreso los datos del contacto de emergencia, <br> **Entonces** estos quedan guardados y vinculados a mi cuenta. <br><br> **Escenario 2:** Validación de campos <br> **Dado** que estoy completando el formulario, <br> **Cuando** dejo un campo obligatorio vacío, <br> **Entonces** debo ver un mensaje de error que me impida continuar. | 03 |
-| 02  | Envío automático de SMS en alerta  | Como paciente, quiero que se envíe un mensaje SMS automáticamente a mi contacto registrado cuando se detecte un ritmo cardiaco elevado, para asegurarme de que alguien de confianza sea notificado en caso de emergencia. | **Escenario 1:** Activación de SMS <br> **Dado** que mi ritmo cardiaco excede el umbral, <br> **Cuando** se detecta esta condición, <br> **Entonces** se debe enviar automáticamente un SMS al contacto que registré previamente. <br><br> **Escenario 2:** Confirmación de envío <br> **Dado** que se ha enviado un SMS, <br> **Cuando** la alerta es procesada, <br> **Entonces** debo recibir una notificación indicando que el mensaje fue entregado correctamente.         | 03 |
-| 03  | Personalizar mensaje de emergencia | Como paciente, quiero poder personalizar el contenido del mensaje SMS, para que el contacto entienda mejor la situación.                                                                                                  | **Escenario 1:** Edición del mensaje <br> **Dado** que estoy configurando la función de emergencia, <br> **Cuando** ingreso el texto personalizado, <br> **Entonces** ese mensaje será el que se envíe al contacto en caso de alerta. <br><br> **Escenario 2:** Revisión del mensaje <br> **Dado** que guardé un mensaje personalizado, <br> **Cuando** vuelva a la configuración, <br> **Entonces** debe mostrarse el mensaje previamente guardado.         | 03 |
-| 04  | Ver historial de mensajes enviados | Como paciente, quiero revisar los SMS que han sido enviados por el sistema, para tener un registro de las alertas enviadas a mi contacto.                                                                                 | **Escenario 1:** Consulta de historial <br> **Dado** que accedo a la sección de emergencias, <br> **Cuando** reviso el historial, <br> **Entonces** puedo ver la fecha, hora y contenido del mensaje enviado. <br><br> **Escenario 2:** Filtro por fecha <br> **Dado** que tengo varios mensajes en el historial, <br> **Cuando** ingreso un rango de fechas, <br> **Entonces** solo deben mostrarse los mensajes dentro de ese periodo.                      | 03 |
+| US  | Título                             | Descripción                                                                                                                                                                                                               | Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Epic relacionada |
+| --- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| 01  | Registrar contacto de emergencia   | Como paciente, quiero poder registrar a una persona de contacto en la aplicación, para que reciba alertas por SMS si ocurre una emergencia.                                                                               | **Escenario 1:** Registro de contacto <br> **Dado** que estoy en mi perfil de paciente, <br> **Cuando** ingreso los datos del contacto de emergencia, <br> **Entonces** estos quedan guardados y vinculados a mi cuenta. <br><br> **Escenario 2:** Validación de campos <br> **Dado** que estoy completando el formulario, <br> **Cuando** dejo un campo obligatorio vacío, <br> **Entonces** debo ver un mensaje de error que me impida continuar.                     | 03               |
+| 02  | Envío automático de SMS en alerta  | Como paciente, quiero que se envíe un mensaje SMS automáticamente a mi contacto registrado cuando se detecte un ritmo cardiaco elevado, para asegurarme de que alguien de confianza sea notificado en caso de emergencia. | **Escenario 1:** Activación de SMS <br> **Dado** que mi ritmo cardiaco excede el umbral, <br> **Cuando** se detecta esta condición, <br> **Entonces** se debe enviar automáticamente un SMS al contacto que registré previamente. <br><br> **Escenario 2:** Confirmación de envío <br> **Dado** que se ha enviado un SMS, <br> **Cuando** la alerta es procesada, <br> **Entonces** debo recibir una notificación indicando que el mensaje fue entregado correctamente. | 03               |
+| 03  | Personalizar mensaje de emergencia | Como paciente, quiero poder personalizar el contenido del mensaje SMS, para que el contacto entienda mejor la situación.                                                                                                  | **Escenario 1:** Edición del mensaje <br> **Dado** que estoy configurando la función de emergencia, <br> **Cuando** ingreso el texto personalizado, <br> **Entonces** ese mensaje será el que se envíe al contacto en caso de alerta. <br><br> **Escenario 2:** Revisión del mensaje <br> **Dado** que guardé un mensaje personalizado, <br> **Cuando** vuelva a la configuración, <br> **Entonces** debe mostrarse el mensaje previamente guardado.                    | 03               |
+| 04  | Ver historial de mensajes enviados | Como paciente, quiero revisar los SMS que han sido enviados por el sistema, para tener un registro de las alertas enviadas a mi contacto.                                                                                 | **Escenario 1:** Consulta de historial <br> **Dado** que accedo a la sección de emergencias, <br> **Cuando** reviso el historial, <br> **Entonces** puedo ver la fecha, hora y contenido del mensaje enviado. <br><br> **Escenario 2:** Filtro por fecha <br> **Dado** que tengo varios mensajes en el historial, <br> **Cuando** ingreso un rango de fechas, <br> **Entonces** solo deben mostrarse los mensajes dentro de ese periodo.                                | 03               |
+
 ---
 
 ### Epic 04 - Aplicación móvil para pacientes
 
-| US  | Título                                  | Descripción                                                                                                                                            | Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                   | Epic relacionada |
-| --- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
-| 01  | Visualizar datos personales y médicos   | Como paciente, quiero poder ver mis datos personales y médicos en la app, para tener control sobre mi información.                                     | **Escenario 1:** Acceso a perfil <br> **Dado** que estoy logueado en la app móvil, <br> **Cuando** accedo a la sección "Mi perfil", <br> **Entonces** puedo visualizar mis datos personales y médicos actualizados. <br><br> **Escenario 2:** Datos no disponibles <br> **Dado** que hay un error de sincronización, <br> **Cuando** intento acceder a mi perfil, <br> **Entonces** debo ver un mensaje de error explicativo.                    | 04 |
-| 02  | Ver ritmo cardiaco desde el celular     | Como paciente, quiero poder ver mi ritmo cardiaco actual desde la aplicación móvil, para monitorear mi estado de salud.                                | **Escenario 1:** Visualización en tiempo real <br> **Dado** que tengo el sensor conectado, <br> **Cuando** ingreso a la app, <br> **Entonces** puedo ver una gráfica con mi ritmo cardiaco actual. <br><br> **Escenario 2:** Sensor desconectado <br> **Dado** que el sensor no está conectado, <br> **Cuando** ingreso a la sección de ritmo cardiaco, <br> **Entonces** debo ver un mensaje indicando la falta de conexión.          | 04 |
-| 03  | Recibir notificaciones de alerta        | Como paciente, quiero recibir notificaciones push si se detecta un ritmo anormal, para estar informado de cualquier cambio importante.                 | **Escenario 1:** Notificación activa <br> **Dado** que mi ritmo cardiaco supera el límite, <br> **Cuando** se detecta la anomalía, <br> **Entonces** recibo una alerta en el teléfono móvil. <br><br> **Escenario 2:** Reintento de envío <br> **Dado** que hubo un fallo en el envío de la notificación, <br> **Cuando** se restablezca la conexión, <br> **Entonces** el sistema intentará reenviar la alerta automáticamente.         | 04 |
-| 04  | Configurar preferencias de notificación | Como paciente, quiero configurar mis preferencias de notificación en la app móvil, para decidir cómo y cuándo recibir alertas sobre mi ritmo cardiaco. | **Escenario 1:** Ajustar preferencias <br> **Dado** que estoy en la sección de configuración, <br> **Cuando** modifico mis opciones de notificación, <br> **Entonces** el sistema guarda mis preferencias para futuras alertas. <br><br> **Escenario 2:** Preferencias restauradas <br> **Dado** que restablezco la configuración, <br> **Cuando** confirmo la acción, <br> **Entonces** se aplican los valores por defecto.        | 04 |
+| US  | Título                                  | Descripción                                                                                                                                            | Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                                                                          | Epic relacionada |
+| --- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| 01  | Visualizar datos personales y médicos   | Como paciente, quiero poder ver mis datos personales y médicos en la app, para tener control sobre mi información.                                     | **Escenario 1:** Acceso a perfil <br> **Dado** que estoy logueado en la app móvil, <br> **Cuando** accedo a la sección "Mi perfil", <br> **Entonces** puedo visualizar mis datos personales y médicos actualizados. <br><br> **Escenario 2:** Datos no disponibles <br> **Dado** que hay un error de sincronización, <br> **Cuando** intento acceder a mi perfil, <br> **Entonces** debo ver un mensaje de error explicativo.    | 04               |
+| 02  | Ver ritmo cardiaco desde el celular     | Como paciente, quiero poder ver mi ritmo cardiaco actual desde la aplicación móvil, para monitorear mi estado de salud.                                | **Escenario 1:** Visualización en tiempo real <br> **Dado** que tengo el sensor conectado, <br> **Cuando** ingreso a la app, <br> **Entonces** puedo ver una gráfica con mi ritmo cardiaco actual. <br><br> **Escenario 2:** Sensor desconectado <br> **Dado** que el sensor no está conectado, <br> **Cuando** ingreso a la sección de ritmo cardiaco, <br> **Entonces** debo ver un mensaje indicando la falta de conexión.    | 04               |
+| 03  | Recibir notificaciones de alerta        | Como paciente, quiero recibir notificaciones push si se detecta un ritmo anormal, para estar informado de cualquier cambio importante.                 | **Escenario 1:** Notificación activa <br> **Dado** que mi ritmo cardiaco supera el límite, <br> **Cuando** se detecta la anomalía, <br> **Entonces** recibo una alerta en el teléfono móvil. <br><br> **Escenario 2:** Reintento de envío <br> **Dado** que hubo un fallo en el envío de la notificación, <br> **Cuando** se restablezca la conexión, <br> **Entonces** el sistema intentará reenviar la alerta automáticamente. | 04               |
+| 04  | Configurar preferencias de notificación | Como paciente, quiero configurar mis preferencias de notificación en la app móvil, para decidir cómo y cuándo recibir alertas sobre mi ritmo cardiaco. | **Escenario 1:** Ajustar preferencias <br> **Dado** que estoy en la sección de configuración, <br> **Cuando** modifico mis opciones de notificación, <br> **Entonces** el sistema guarda mis preferencias para futuras alertas. <br><br> **Escenario 2:** Preferencias restauradas <br> **Dado** que restablezco la configuración, <br> **Cuando** confirmo la acción, <br> **Entonces** se aplican los valores por defecto.     | 04               |
+
 ---
 
 ### Epic 05 - Gestión de citas médicas desde la app
 
-| US  | Título                               | Descripción                                                                                                                 | Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                     | Epic relacionada |
-| --- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
-| 01  | Agendar una cita desde la app        | Como paciente, quiero poder agendar una cita médica desde mi aplicación móvil, para facilitar la programación de consultas. | **Escenario 1:** Crear nueva cita <br> **Dado** que estoy en la app móvil, <br> **Cuando** ingreso a la sección de citas y selecciono una fecha y hora, <br> **Entonces** se agenda la cita en el sistema. <br><br> **Escenario 2:** Validación de campos <br> **Dado** que ingreso a la sección de agendar, <br> **Cuando** no selecciono fecha u hora, <br> **Entonces** debe mostrarse un mensaje de error.                    | 05 |
-| 02  | Ver citas programadas                | Como paciente, quiero consultar mis citas futuras, para saber cuándo debo asistir a consulta.                               | **Escenario 1:** Consultar agenda <br> **Dado** que tengo citas agendadas, <br> **Cuando** ingreso a la sección de citas, <br> **Entonces** puedo ver la lista de fechas, horas y médicos asignados. <br><br> **Escenario 2:** Agenda vacía <br> **Dado** que no tengo citas registradas, <br> **Cuando** accedo a la sección de citas, <br> **Entonces** debo ver un mensaje indicando que no hay citas programadas.              | 05 |
-| 03  | Cancelar o reprogramar una cita      | Como paciente, quiero poder cancelar o reprogramar una cita, para reorganizar mi agenda si tengo algún imprevisto.          | **Escenario 1:** Modificar cita <br> **Dado** que tengo una cita agendada, <br> **Cuando** accedo a su detalle, <br> **Entonces** puedo modificar la fecha/hora o cancelar si es necesario. <br><br> **Escenario 2:** Confirmación de cambios <br> **Dado** que realizo un cambio en la cita, <br> **Cuando** lo guardo, <br> **Entonces** debo recibir una confirmación visual del cambio o cancelación.                     | 05 |
-| 04  | Sincronización con agenda del doctor | Como doctor, quiero ver las citas programadas por los pacientes desde la app web, para organizar mejor mi horario.          | **Escenario 1:** Visualización de agenda <br> **Dado** que los pacientes agendan citas desde la app, <br> **Cuando** ingreso a la sección de agenda como doctor, <br> **Entonces** veo todas las citas asignadas en tiempo real. <br><br> **Escenario 2:** Filtro por fecha <br> **Dado** que hay múltiples citas en mi agenda, <br> **Cuando** selecciono una fecha específica, <br> **Entonces** solo veo las citas de ese día. | 05 |
+| US  | Título                               | Descripción                                                                                                                 | Criterios de aceptación                                                                                                                                                                                                                                                                                                                                                                                                           | Epic relacionada |
+| --- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| 01  | Agendar una cita desde la app        | Como paciente, quiero poder agendar una cita médica desde mi aplicación móvil, para facilitar la programación de consultas. | **Escenario 1:** Crear nueva cita <br> **Dado** que estoy en la app móvil, <br> **Cuando** ingreso a la sección de citas y selecciono una fecha y hora, <br> **Entonces** se agenda la cita en el sistema. <br><br> **Escenario 2:** Validación de campos <br> **Dado** que ingreso a la sección de agendar, <br> **Cuando** no selecciono fecha u hora, <br> **Entonces** debe mostrarse un mensaje de error.                    | 05               |
+| 02  | Ver citas programadas                | Como paciente, quiero consultar mis citas futuras, para saber cuándo debo asistir a consulta.                               | **Escenario 1:** Consultar agenda <br> **Dado** que tengo citas agendadas, <br> **Cuando** ingreso a la sección de citas, <br> **Entonces** puedo ver la lista de fechas, horas y médicos asignados. <br><br> **Escenario 2:** Agenda vacía <br> **Dado** que no tengo citas registradas, <br> **Cuando** accedo a la sección de citas, <br> **Entonces** debo ver un mensaje indicando que no hay citas programadas.             | 05               |
+| 03  | Cancelar o reprogramar una cita      | Como paciente, quiero poder cancelar o reprogramar una cita, para reorganizar mi agenda si tengo algún imprevisto.          | **Escenario 1:** Modificar cita <br> **Dado** que tengo una cita agendada, <br> **Cuando** accedo a su detalle, <br> **Entonces** puedo modificar la fecha/hora o cancelar si es necesario. <br><br> **Escenario 2:** Confirmación de cambios <br> **Dado** que realizo un cambio en la cita, <br> **Cuando** lo guardo, <br> **Entonces** debo recibir una confirmación visual del cambio o cancelación.                         | 05               |
+| 04  | Sincronización con agenda del doctor | Como doctor, quiero ver las citas programadas por los pacientes desde la app web, para organizar mejor mi horario.          | **Escenario 1:** Visualización de agenda <br> **Dado** que los pacientes agendan citas desde la app, <br> **Cuando** ingreso a la sección de agenda como doctor, <br> **Entonces** veo todas las citas asignadas en tiempo real. <br><br> **Escenario 2:** Filtro por fecha <br> **Dado** que hay múltiples citas en mi agenda, <br> **Cuando** selecciono una fecha específica, <br> **Entonces** solo veo las citas de ese día. | 05               |
 
 ## 3.3. Impact Mapping.
 
@@ -1705,133 +1707,349 @@ La **Capa de Infraestructura** maneja la persistencia de datos de sesiones y lec
 
 #### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
-
 <img src="CAP4-IMAGES/SensorMonitoringDBDiagram.jpg">
 
 # Capítulo V: Solution UI/UX Design
+
 ## 5.1. Style Guidelines.
+
 ### 5.1.1. General Style Guidelines.
-#### Logotipo
-El logotipo actual de MedSystem es un isologotipo tipográfico. La palabra MED aparece en un azul claro que 
-evoca confianza y salud, mientras que SYSTEM se muestra en negro para reforzar seriedad y fiabilidad. 
-La línea inferior horizontal remata el conjunto y hace de ancla visual. Aunque en el prototipo original 
-existía un ícono de cruz, en la versión vigente se ha optado por esta marca denominativa para simplificar 
-la lectura y mejorar la escalabilidad en distintos dispositivos.<br>
-<img src="CAP5-IMAGES/logo.png">
 
-#### Tipografía
-- **Primaria – Poppins**: empleada en títulos, subtítulos y cuerpo de texto por su excelente legibilidad y estilo contemporáneo.
-- **Secundaria – Oswald**: se utiliza en subtítulos o cifras destacadas para aportar contraste.
-- **Respaldo – sans-serif genérico**: se declara como *fallback* por si la carga de las familias anteriores falla.
+<p>
+En este caso, las etiquetas de información se representarán en el idioma inglés, y estas serán claras y concisas para que el usuario entienda por completo la funcionalidad. Las etiquetas más importantes de nuestra aplicación son: 
+</p>
 
-<img src="CAP5-IMAGES/typography_1.png">
-<img src="CAP5-IMAGES/typography_2.png">
+<p><strong>Appointments:</strong> Aquí se muestran las opciones para agendar citas, las que se desean programar, y las que ya tienen una fecha programada de asistencia, junto con todos los datos del paciente, el doctor a cargo de la consulta y la fecha y hora de esta.</p>
 
-#### Paleta de Colores
-| Uso específico                                    | Color            | Hex       |
-|--------------------------------------------------|------------------|-----------|
-| Títulos destacados, palabras clave (ej. “MED”)   | Azul principal   | `#103EF5` |
-| Fondo de botones primarios, gradientes oscuros   | Azul oscuro      | `#103EF5` |
-| Degradados de fondo, botones secundarios         | Azul claro       | `#78B9EE` |
-| Fondos de secciones, tarjetas, áreas de contenido| Blanco           | `#FFFFFF` |
-| Texto general, encabezados secundarios           | Negro            | `#000000` |
-<img src="CAP5-IMAGES/color_1.png">
-<img src="CAP5-IMAGES/color_2.png">
-<img src="CAP5-IMAGES/color_3.png">
+<p><strong>Chat:</strong> En este apartado se muestran todos los chats de los pacientes con los que el doctor ha tenido contacto, y en el caso del paciente, se le muestra los doctores con los que ha tenido consulta. Por este medio se pueden aclarar dudas y su uso es solo para fines médicos. </p>
+
+<p><strong>Treatments for patient:</strong> En este apartado el usuario podrá visualizar el tratamiento que debe realizar de acuerdo a las indicaciones del médico, el cual también podra ir editando en este apartado e ir viendo como evoluciona el paciente.</p>
+
+<p><strong>Request history:</strong> En este apartado el médico va poder ver diagnósticos anteriores del paciente, que tratamientos ha llevado y datos médicos específicos del paciente; con el fin de saber cual sería el mejor tratamiento para llevarse a cabo. Asimismo, podrá actualizar el historial clínico del paciente, una vez haya terminado cierto tratamiento. 
+</p>
+
+<p><strong>Request results:</strong> En este apartado el médico podrá pedir los resultados de un paciente a un laboratorio, brindando los datos del examen tomado y del paciente. De esta forma, el doctor obtiene los resultados y sabe que tratamiento llevar a cabo.
+</p>
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
-Se prioriza una experiencia limpia y enfocada. Los azules transmiten calma y profesionalismo; el blanco aporta amplitud y facilita la lectura. Los tamaños de fuente se ajustan para garantizar accesibilidad. Todo el sistema visual mantiene consistencia entre la *landing* y la aplicación web.
-
-**Botones**
-- **Primario**: relleno con gradiente horizontal (`#003A64` → `#60D4FF`), texto blanco, bordes redondeados grandes.
-- **Secundario**: fondo blanco, borde 1 px con el mismo gradiente y texto en azul principal.
-#### Colores
-<img src="CAP5-IMAGES/color_1.png">
-<img src="CAP5-IMAGES/color_2.png">
-<img src="CAP5-IMAGES/color_3.png">
-
-#### Estilo de letras
-<img src="CAP5-IMAGES/typography_1.png">
-<img src="CAP5-IMAGES/typography_2.png">
-
-#### Botones
-Navbar
-<img src="CAP5-IMAGES/navbar.png">
-Footer
-<img src="CAP5-IMAGES/botones_2.png">
 
 ## 5.2. Information Architecture.
+
 ### 5.2.1. Organization Systems.
-Se utiliza una estructura jerárquica para la *landing page*: Inicio → Secciones temáticas (About Us, Product, Pricing, Team, Contact). Dentro de la aplicación, la navegación se divide por roles (pacientes, médicos, laboratorio) y se accede mediante un menú lateral.
+
+<p>
+El principal objetivo de este punto es ofrecer una guía y apoyo para estructurar la información de la página web. Esto asegurará que, al llevar a cabo la implementación del sistema, sea accesible y sencillo de utilizar para los usuarios. En este nuevo proyecto, se ha decidido emplear la organización jerárquica para las diversas secciones del Landing Page. Esta elección se fundamenta en la variedad de grupos de usuarios y las diferencias según el tipo de usuario que la utilice. Además, para la clasificación del contenido, se opta por un orden numérico para las fucnionalidades que mencionamos en la aplicación.
+</p>
 
 ### 5.2.2. Labeling Systems.
-- **Appointments** – programación y listado de citas.
-- **Chat** – mensajería médico-paciente con finalidad exclusiva de orientación clínica.
-- **Treatments for patient** – seguimiento y edición de tratamientos prescritos.
-- **Request history** – historial clínico y tratamientos previos del paciente.
+
+<p>
+En este caso, las etiquetas de información se representarán en el idioma inglés, y estas serán claras y concisas para que el usuario entienda por completo la funcionalidad. Las etiquetas más importantes de nuestra aplicación son: 
+</p>
+
+<p><strong>Appointments:</strong> Aquí se muestran las opciones para agendar citas, las que se desean programar, y las que ya tienen una fecha programada de asistencia, junto con todos los datos del paciente, el doctor a cargo de la consulta y la fecha y hora de esta.</p>
+
+<p><strong>Chat:</strong> En este apartado se muestran todos los chats de los pacientes con los que el doctor ha tenido contacto, y en el caso del paciente, se le muestra los doctores con los que ha tenido consulta. Por este medio se pueden aclarar dudas y su uso es solo para fines médicos. </p>
+
+<p><strong>Treatments for patient:</strong> En este apartado el usuario podrá visualizar el tratamiento que debe realizar de acuerdo a las indicaciones del médico, el cual también podra ir editando en este apartado e ir viendo como evoluciona el paciente.</p>
+
+<p><strong>Request history:</strong> En este apartado el médico va poder ver diagnósticos anteriores del paciente, que tratamientos ha llevado y datos médicos específicos del paciente; con el fin de saber cual sería el mejor tratamiento para llevarse a cabo. Asimismo, podrá actualizar el historial clínico del paciente, una vez haya terminado cierto tratamiento. 
+</p>
+
+<p><strong>Request results:</strong> En este apartado el médico podrá pedir los resultados de un paciente a un laboratorio, brindando los datos del examen tomado y del paciente. De esta forma, el doctor obtiene los resultados y sabe que tratamiento llevar a cabo.
+</p>
+
 ### 5.2.3. SEO Tags and Meta Tags
-| Contexto | Title | Description                               | Keywords | Author       |
-|----------|-------|-------------------------------------------|----------|--------------|
-| *Landing* | MedSystem | MedSystem – SafeMed Official Landing Page | appointments, treatments, doctors, patients, laboratories | SafeMed Team |
-| Web app | MedSystem | MedSystem – SafeMed Official Web Site     | appointments, clinic history, treatment tracking, medical tests, test results, registration, diagnosis | SafeMed Team |
+
+A continuación, mostraremos las etiquetas que representarán el contenido presentado tanto en nuestra aplicación web como en nuestra página de inicio. Estas etiquetas facilitarán la identificación y localización de nuestra aplicación MedSystem.
+
+Landing Page:
+
+Title: MedSystem
+
+Description: MedSystem - SafeMed Oficial Landing Page
+
+Keywords: Appointments, treatments, doctors, patients, monitoring.
+
+Authors: SafeMed
+
+Web application:
+
+Title: MedSystem
+
+Description: MedSystem - SafeMed Oficial Web Site
+
+Keywords: Appointments, Clinic History, Treatment Tracking, medical tests, test results, registration, diagnosis, monitoring.
+
+Authors: SafeMed
 
 ### 5.2.4. Searching Systems.
-La aplicación integra un motor de búsqueda optimizado que filtra rápidamente pacientes, chats, historiales y resultados directamente desde la base de datos, incluso en escenarios de gran volumen.
+
+<p>
+El sistema de búsqueda es un elemento fundamental en nuestra aplicación, puesto que se va usar bastante al momento ded pedir las historias clinicas del paciente, al momento de pedir los resultados, y al momento de buscar a un paciente en el apartado de chats. Considerando que el sistema maneja una gran cantidad de datos, y a medida que estos van incrementando, se ha pensado en un sistema de busqueda ágil que funcione con la base de datos de manera fluída, y de esta forma los usuarios no tengan alguna insatisfacción al momento de usar el sistema.
+</p>
 
 ### 5.2.5. Navigation Systems.
-- **Landing**: barra superior fija con anclas internas a cada sección.
-- **Aplicación**: barra lateral con iconos y rótulos; se adapta responsivamente a *drawer* en móvil.
+
+<p>
+El método de navegación entre las diversas secciones de la landing page estará facilitado por una barra superior. Esta barra estará compuesta por los títulos representativos de cada sección, permitiendo que los usuarios puedan acceder directamente a la información deseada simplemente haciendo clic en el título correspondiente. En el caso de la aplicación web, la navegación se irá dando a través de una barra lateral, la cual contendrá los títulos de cada función que se ofrece. Esta estructura de navegación se ha diseñado para integrarse de manera armoniosa con la interfaz visual de la Landing Page y la aplicación web, proporcionando una experiencia agradable y fluida para los usuarios.
+</p>
 
 ## 5.3. Landing Page UI Design.
+
 ### 5.3.1. Landing Page Wireframe.
-El diseño final mantiene la lógica de los wireframes originales, pero introduce una imagen de héroe de ancho completo con superposición oscura para mejorar el contraste del eslogan. Las secciones se alternan entre texto-izquierda/imagen-derecha y viceversa para conservar ritmo visual.
-1. **Hero** – título de bienvenida, eslogan y *call to action*.
-<img src="CAP5-IMAGES/Hero-wireframe.png">
-2. **About Us** – descripción de la empresa y valores (compromiso, trabajo en equipo, organización).
-<img src="CAP5-IMAGES/Aboutus-wireframe.png">
-3. **Product** – beneficios segmentados: pacientes y médicos, con ilustraciones.
-<img src="CAP5-IMAGES/Wireframe - 3.png">
-<img src="CAP5-IMAGES/Wireframe - 4.png">
-4. **Features** – tarjetas con íconos y breve texto explicativo; separadas por receptor (Patients / Doctors).
-   <img src="CAP5-IMAGES/Wireframe - 6.png">
-5. **Team** – galería adaptativa con foto y rol de cada integrante.
-<img src="CAP5-IMAGES/Wireframe - 7.png">
-6. **Contact** – información de teléfono, correo y ubicación; seguido de *footer* con enlaces rápidos y redes sociales.
-<img src="CAP5-IMAGES/Wireframe - 8.png">
+
+En los wireframes de nuestra landing page, se han tenido en cuenta la usabilidad y la experiencia de los usuarios. Los wireframes reflejan un diseño intuitivo y fácil de navegar, con una disposición de los elementos y jerarquía visual clara, garantizando que nuestros usuarios puedan acceder fácilmente a la información relevante y completar las acciones que deseen sin problemas.
+
+- Es una interfáz principal de nuestro landing page:
+<td><p align="center">
+  <img src="CAP5-IMAGES/wireframe_1_of_landing_page.PNG" alt="wireframes" width="100%"></p></td>
+- La sección "About Us" tendrá la siguiente interfáz detallando quienes somos y que hacemos:
+<td><p align="center">
+  <img src="CAP5-IMAGES/wireframe_2_of_landing_page.PNG" alt="wireframes" width="100%"></p></td>
+- La sección "Product" tendrá información hacia quienes va dirigido nuestro producto:
+<td><p align="center">
+  <img src="CAP5-IMAGES/wireframe_3_of_landing_page.PNG" alt="wireframes" width="100%"></p></td>
+<td><p align="center">
+  <img src="CAP5-IMAGES/wireframe_4_of_landing_page.PNG" alt="wireframes" width="100%"></p></td>  
+<td><p align="center">
+  <img src="CAP5-IMAGES/wireframe_6_of_landing_page.PNG" alt="wireframes" width="100%"></p></td>
+- La sección "Team" tendrá información sobre quienes conforman el equipo de MedSystem:
+<td><p align="center">
+  <img src="CAP5-IMAGES/wireframe_7_of_landing_page.PNG" alt="wireframes" width="100%"></p></td>
+- L asección "Contact" tendrá información de contacto para que los usuarios puedan comunicarse con nosotros:
+<td><p align="center">
+  <img src="CAP5-IMAGES/wireframe_8_of_landing_page.PNG" alt="wireframes" width="100%"></p></td>
 
 ### 5.3.2. Landing Page Mock-up.
-<img src="CAP5-IMAGES/Wireframe - 9.png">
-<img src="CAP5-IMAGES/Wireframe - 16.png">
-<img src="CAP5-IMAGES/Wireframe - 10.png">
-<img src="CAP5-IMAGES/Wireframe - 11.png">
-<img src="CAP5-IMAGES/Wireframe - 13.png">
-<img src="CAP5-IMAGES/Wireframe - 14.png">
-<img src="CAP5-IMAGES/Wireframe - 15.png">
 
 ## 5.4. Applications UX/UI Design.
+
 ### 5.4.1. Applications Wireframes.
+
 ### 5.4.2. Applications Wireflow Diagrams.
+
 ### 5.4.2. Applications Mock-ups.
+
 ### 5.4.3. Applications User Flow Diagrams.
+
 ## 5.5. Applications Prototyping.
+
 # Capítulo VI: Product Implementation, Validation & Deployment
+
 ## 6.1. Software Configuration Management.
+
 ### 6.1.1. Software Development Environment Configuration.
+
+En esta sección se describen brevemente todas las herramientas que se han utilizado para la elaboración del proyecto, se dividirán en dos partes.
+
+#### UX/UI Design:
+
+- Miro: Miro es una herramienta en línea colaborativa en tiempo real, esta permite crear diversos diagramas, mapas mentales, diagramas de flujo u otros artefactos que se necesiten en el proyecto.
+  Link: https://miro.com/es/
+- UXPressia: UXPressia es una herramienta enfocada en lo que es la experiencia de usuario, ya que esta permite crear User Personas, Customer Journey, Impact maps, etc.
+  Link: https://uxpressia.com/
+- Figma: Figma es una herramienta que se enfoca en el diseño de interfaces para los usuarios y prototipado de las páginas webs, además de que este también es colaborativo por lo cual todos pueden trabajar en un mismo proyecto en simultáneo.
+  Link: https://miro.com/es/
+- Structurizr: Es una página web donde nos permite desarrollar modelos en C4, de la arquitectura de nuestro proyecto describiendo los contenedores, componentes y contextos de nuestra solución web.
+  Link: https://structurizr.com/
+
+#### Software Development:
+
+- Github: Herramienta para guardar, a través de repositorios, los proyecto que se desarrollen, además que permite guardar un historial de versiones, utilizando Git
+  Link: https://github.com
+- Github Pages: Herramienta dentro de github que permite alojar una pagina web de un repositorio
+  HTML: Un lenguaje de marcado para crear tanto la estructura y el contenido de una página web.
+- JavaScript: Lenguaje de programación para agregar funcionalidad a las páginas webs
+- CSS: Lenguaje utilizado para dar estilo a las páginas webs
+- Visual Studio Code: Editor de código que se utiliza para realizar distintos trabajos con respecto a la programación, este soporta una gran cantidad de lenguajes, como Python, JavaScript, HTML, entre otros.
+  Link: https://code.visualstudio.com/
+
+#### Project Managment:
+
+Para el desarrollo del proyecto hemos usado distintas plataformas para hacer las coordinaciones de los avances, el primero fue un grupo por medio de WhatsApp donde compartimos las opiniones del trabajo y los avances realizados, después para las reuniones utilizamos Discord que nos permite hacer llamadas para una correcta coordinación del trabajo. En cuanto a los avances del trabajo utilizamos github donde hacíamos commit con cada avance significativo que hacemos en los repositorios
+
 ### 6.1.2. Source Code Management.
+
+Hemos creado los repositorios que usaremos a lo largo de el desarrollo del proyecto esto incluye el de la documentacion, landing page, frontend y backend.
+
+- URL del repositorio de documentacion: https://github.com/SafeMedUPC/InformeSafeMed/tree/main
+
+- URL del repositorio de la landing page: https://github.com/SafeMedUPC/SafeMed-LandingPage
+
+- URL del repositorio del Frontend:
+
+- URL del repositorio del Backend: https://github.com/SafeMedUPC/Medsystem-backend
+
 ### 6.1.3. Source Code Style Guide & Conventions.
+
+Para el desarrollo de nuestra solucion web emplearemos distintos lenguajes de programacion para la landing page el frontend y backend:
+
+#### HTML:
+
+- Indentación: Manténer una indentación clara para mejorar la legibilidad.
+- Semántica: Utilizar elementos HTML semánticos para una estructura clara y accesible.
+- Comentarios: Documentar el código HTML con comentarios claros y concisos.
+- Atributos Alt: Proporcionar textos alternativos para imágenes y otros elementos.
+
+#### CSS:
+
+- Nomenclatura de Clases: UtilizaR una convención de nomenclatura consistente, como BEM.
+- Separación de Intereses: Separar estilos del HTML utilizando clases y selectores específicos.
+- Reutilización de Estilos: Identificar estilos comunes y reutilízarlos para mantener la coherencia.
+
+#### JavaScript:
+
+- Nomenclatura de Variables: Utilizar nombres descriptivos, significativos y breves.
+- Modularidad: Dividir el código en módulos pequeños y reutilizables.
+- Manejo de Errores: Implementar un manejo de errores robusto.
+
 ### 6.1.4. Software Deployment Configuration.
+
+Para gestionar el despliegue de nuestra aplicación, hemos optado por utilizar GitHub y GitHub Pages.
+
+GitHub es una plataforma para alojar repositorios de Git. Permite colaborar de manera eficiente en proyectos de software, facilitando el seguimiento de cambios, la revisión de código y la gestión de versiones.
+
+Despues tambien esta GitHub Pages que es una función de GitHub que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. Con GitHub Pages, permitiendonos alojar nuestra pagina web sin tener que pagar un servidor externo.
+
 ## 6.2. Landing Page, Services & Applications Implementation.
+
 ### 6.2.1. Sprint 1
+
 #### 6.2.1.1. Sprint Planning 1.
+
+<p>Se planeó el primer sprint a través de una reunión dentro de la plataforma Discord. Para esto, se realizó una tabla que permitió registrar toda la información discutida.</p>
+
+| **Sprint #**                     | Sprint 1                                                                                                                                                                                                                                                                                                               |
+| :------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**   |                                                                                                                                                                                                                                                                                                                        |
+| Date                             | 2024-06-10                                                                                                                                                                                                                                                                                                             |
+| Time                             | 12:30 PM                                                                                                                                                                                                                                                                                                               |
+| Location                         | Virtual                                                                                                                                                                                                                                                                                                                |
+| Prepared by                      | Gutierrez Zumaeta, Manuel Alonso                                                                                                                                                                                                                                                                                       |
+| Attendees (to planning meeting)  | <p>De La Piedra Quintanilla, Erwin Miquel</p><p>Gutierrez Zumaeta, Manuel Alonso</p><p>Mendez Rosales, Marco Aurelio</p><p>Roca Huapaya, Orlando Arturo</p><p>Ventura Chancafe, Eduardo Renato</p>                                                                                                                     |
+| Sprint 1 - Review Summary        |                                                                                                                                                                                                                                                                                                                        |
+| Sprint 1 - Retrospective Summary | El equipo destacó como puntos positivos la buena organización en las tareas y el cumplimiento del cronograma. Como mejora, se mencionó la necesidad de definir con más precisión los criterios de aceptación de las historias de usuario y reforzar la documentación de los endpoints generados en este sprint.        |
+| **Sprint Goal & User Stories**   |                                                                                                                                                                                                                                                                                                                        |
+| Sprint 1 Goal                    | El objetivo principal de este sprint fue implementar la funcionalidad de agendamiento de citas médicas desde la app móvil para pacientes, y su visualización en la plataforma web por parte de los doctores. Además, se comenzó el desarrollo de la funcionalidad para el monitoreo del ritmo cardíaco en tiempo real. |
+| Sprint 1 Velocity                | 18                                                                                                                                                                                                                                                                                                                     |
+| Sum of Story Points              | 19                                                                                                                                                                                                                                                                                                                     |
+
 #### 6.2.1.2. Aspect Leaders and Collaborators.
-#### 6.2.1.3. Sprint Backlog n.
+
+#### 6.2.1.3. Sprint Backlog 1.
+
+<table>
+  <tbody>
+    <tr>
+      <td>User Story ID</td>
+      <td>User Story Title</td>
+      <td>Task ID</td>
+      <td>Task Title</td>
+      <td>Description</td>
+      <td>Estimation(hours)</td>
+      <td>Assigned to</td>
+      <td>Status</td>
+    </tr>
+    <tr>
+      <td rowspan="3">US01</td>
+      <td rowspan="3">Agendar una cita desde la app</td>
+      <td>T01</td>
+      <td>Diseñar interfaz de agendamiento en app</td>
+      <td>Crear vista para que el paciente seleccione fecha, hora y motivo de la cita.</td>
+      <td>4</td>
+      <td>De La Piedra Quintanilla, Erwin Miquel</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>T02</td>
+      <td>Desarrollar lógica de agendamiento en frontend</td>
+      <td>Implementar funciones que validen el formulario y preparen los datos para el backend.</td>
+      <td>3</td>
+      <td>Mendez Rosales, Marco Aurelio</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>T03</td>
+      <td>Crear endpoint POST para agendar cita</td>
+      <td>Programar endpoint en backend para registrar la cita médica con los datos del paciente.</td>
+      <td>4</td>
+      <td>Ventura Chancafe, Eduardo Renato</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US02</td>
+      <td rowspan="2">Ver citas programadas</td>
+      <td>T04</td>
+      <td>Diseñar vista de citas programadas</td>
+      <td>Desarrollar pantalla donde el paciente pueda ver sus citas agendadas con detalles.</td>
+      <td>3</td>
+      <td>Gutierrez Zumaeta, Manuel Alonso</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>T05</td>
+      <td>Crear endpoint GET de citas</td>
+      <td>Programar lógica de backend que retorne las citas programadas por el usuario.</td>
+      <td>3</td>
+      <td>Roca Huapaya, Orlando Arturo</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Cancelar o reprogramar una cita</td>
+      <td>T06</td>
+      <td>Desarrollar función para cancelar o reprogramar</td>
+      <td>Incluir opciones en frontend para modificar o eliminar citas.</td>
+      <td>3</td>
+      <td>Gutierrez Zumaeta, Manuel Alonso</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>US04</td>
+      <td>Sincronización con agenda del doctor</td>
+      <td>T07</td>
+      <td>Crear vista de agenda para doctor</td>
+      <td>Diseñar sección donde el doctor puede ver sus citas ordenadas por día y hora.</td>
+      <td>4</td>
+      <td>De La Piedra Quintanilla, Erwin Miquel</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US01</td>
+      <td rowspan="2">Visualizar ritmo cardíaco en tiempo real</td>
+      <td>T08</td>
+      <td>Crear gráfico en frontend</td>
+      <td>Implementar componente que muestre los datos del ritmo cardíaco en tiempo real.</td>
+      <td>4</td>
+      <td>Mendez Rosales, Marco Aurelio</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>T09</td>
+      <td>Conectar frontend con datos simulados</td>
+      <td>Programar lectura y renderizado dinámico desde fuente simulada.</td>
+      <td>3</td>
+      <td>Roca Huapaya, Orlando Arturo</td>
+      <td>To Do</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.2.1.4. Development Evidence for Sprint Review.
+
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+
 #### 6.2.1.6. Execution Evidence for Sprint Review.
+
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
+
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
 
+<img src="CAP6-IMAGES/commits.png">
 
 # Anexos:
+
 - Video Exposicion TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/ERYan0Gr4ddPj0vWCWtqHtcBz1ElzzOZSzZhc3GBszgTUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1GoFPi
