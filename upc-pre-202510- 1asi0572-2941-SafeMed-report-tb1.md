@@ -1815,10 +1815,24 @@ El diseño final mantiene la lógica de los wireframes originales, pero introduc
 ## 5.4. Applications UX/UI Design.
 
 ### 5.4.1. Applications Wireframes.
+<img src="CAP5-IMAGES/web app 1 wireframe.jpeg">
+<img src="CAP5-IMAGES/web app 2 wireframe.jpeg">
+<img src="CAP5-IMAGES/web app 3 wireframe.jpeg">
+<img src="CAP5-IMAGES/web app 4 wireframe.jpeg">
+
+
 
 ### 5.4.2. Applications Wireflow Diagrams.
 
 ### 5.4.2. Applications Mock-ups.
+<img src="CAP5-IMAGES/web app 1 mock up.jpeg">
+<img src="CAP5-IMAGES/web app 2 mock up.jpeg">
+<img src="CAP5-IMAGES/web app 3 mock up.jpeg">
+<img src="CAP5-IMAGES/web app 4 mock up.jpeg">
+<img src="CAP5-IMAGES/web app 5 mock up.jpeg">
+<img src="CAP5-IMAGES/web app 6 mock up.jpeg">
+<img src="CAP5-IMAGES/web app 7 mock up.jpeg">
+<img src="CAP5-IMAGES/web app 8 mock up.jpeg">
 
 ### 5.4.3. Applications User Flow Diagrams.
 
