@@ -1939,6 +1939,103 @@ Despues tambien esta GitHub Pages que es una función de GitHub que permite aloj
 
 #### 6.2.1.3. Sprint Backlog 1.
 
+<table>
+  <tbody>
+    <tr>
+      <td>User Story ID</td>
+      <td>User Story Title</td>
+      <td>Task ID</td>
+      <td>Task Title</td>
+      <td>Description</td>
+      <td>Estimation(hours)</td>
+      <td>Assigned to</td>
+      <td>Status</td>
+    </tr>
+    <tr>
+      <td rowspan="3">US01</td>
+      <td rowspan="3">Agendar una cita desde la app</td>
+      <td>T01</td>
+      <td>Diseñar interfaz de agendamiento en app</td>
+      <td>Crear vista para que el paciente seleccione fecha, hora y motivo de la cita.</td>
+      <td>4</td>
+      <td>De La Piedra Quintanilla, Erwin Miquel</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>T02</td>
+      <td>Desarrollar lógica de agendamiento en frontend</td>
+      <td>Implementar funciones que validen el formulario y preparen los datos para el backend.</td>
+      <td>3</td>
+      <td>Mendez Rosales, Marco Aurelio</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>T03</td>
+      <td>Crear endpoint POST para agendar cita</td>
+      <td>Programar endpoint en backend para registrar la cita médica con los datos del paciente.</td>
+      <td>4</td>
+      <td>Ventura Chancafe, Eduardo Renato</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US02</td>
+      <td rowspan="2">Ver citas programadas</td>
+      <td>T04</td>
+      <td>Diseñar vista de citas programadas</td>
+      <td>Desarrollar pantalla donde el paciente pueda ver sus citas agendadas con detalles.</td>
+      <td>3</td>
+      <td>Gutierrez Zumaeta, Manuel Alonso</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>T05</td>
+      <td>Crear endpoint GET de citas</td>
+      <td>Programar lógica de backend que retorne las citas programadas por el usuario.</td>
+      <td>3</td>
+      <td>Roca Huapaya, Orlando Arturo</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Cancelar o reprogramar una cita</td>
+      <td>T06</td>
+      <td>Desarrollar función para cancelar o reprogramar</td>
+      <td>Incluir opciones en frontend para modificar o eliminar citas.</td>
+      <td>3</td>
+      <td>Gutierrez Zumaeta, Manuel Alonso</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>US04</td>
+      <td>Sincronización con agenda del doctor</td>
+      <td>T07</td>
+      <td>Crear vista de agenda para doctor</td>
+      <td>Diseñar sección donde el doctor puede ver sus citas ordenadas por día y hora.</td>
+      <td>4</td>
+      <td>De La Piedra Quintanilla, Erwin Miquel</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US01</td>
+      <td rowspan="2">Visualizar ritmo cardíaco en tiempo real</td>
+      <td>T08</td>
+      <td>Crear gráfico en frontend</td>
+      <td>Implementar componente que muestre los datos del ritmo cardíaco en tiempo real.</td>
+      <td>4</td>
+      <td>Mendez Rosales, Marco Aurelio</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>T09</td>
+      <td>Conectar frontend con datos simulados</td>
+      <td>Programar lectura y renderizado dinámico desde fuente simulada.</td>
+      <td>3</td>
+      <td>Roca Huapaya, Orlando Arturo</td>
+      <td>To Do</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.2.1.4. Development Evidence for Sprint Review.
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
