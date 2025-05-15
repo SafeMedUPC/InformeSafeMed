@@ -1710,55 +1710,107 @@ La **Capa de Infraestructura** maneja la persistencia de datos de sesiones y lec
 <img src="CAP4-IMAGES/SensorMonitoringDBDiagram.jpg">
 
 # Capítulo V: Solution UI/UX Design
-
 ## 5.1. Style Guidelines.
-
 ### 5.1.1. General Style Guidelines.
+#### Logotipo
+El logotipo actual de MedSystem es un isologotipo tipográfico. La palabra MED aparece en un azul claro que
+evoca confianza y salud, mientras que SYSTEM se muestra en negro para reforzar seriedad y fiabilidad.
+La línea inferior horizontal remata el conjunto y hace de ancla visual. Aunque en el prototipo original
+existía un ícono de cruz, en la versión vigente se ha optado por esta marca denominativa para simplificar
+la lectura y mejorar la escalabilidad en distintos dispositivos.<br>
+<img src="CAP5-IMAGES/logo.png">
 
-<p>
-En este caso, las etiquetas de información se representarán en el idioma inglés, y estas serán claras y concisas para que el usuario entienda por completo la funcionalidad. Las etiquetas más importantes de nuestra aplicación son: 
-</p>
+#### Tipografía
+- **Primaria – Poppins**: empleada en títulos, subtítulos y cuerpo de texto por su excelente legibilidad y estilo contemporáneo.
+- **Secundaria – Oswald**: se utiliza en subtítulos o cifras destacadas para aportar contraste.
+- **Respaldo – sans-serif genérico**: se declara como *fallback* por si la carga de las familias anteriores falla.
 
-<p><strong>Appointments:</strong> Aquí se muestran las opciones para agendar citas, las que se desean programar, y las que ya tienen una fecha programada de asistencia, junto con todos los datos del paciente, el doctor a cargo de la consulta y la fecha y hora de esta.</p>
+<img src="CAP5-IMAGES/typography_1.png">
+<img src="CAP5-IMAGES/typography_2.png">
 
-<p><strong>Chat:</strong> En este apartado se muestran todos los chats de los pacientes con los que el doctor ha tenido contacto, y en el caso del paciente, se le muestra los doctores con los que ha tenido consulta. Por este medio se pueden aclarar dudas y su uso es solo para fines médicos. </p>
-
-<p><strong>Treatments for patient:</strong> En este apartado el usuario podrá visualizar el tratamiento que debe realizar de acuerdo a las indicaciones del médico, el cual también podra ir editando en este apartado e ir viendo como evoluciona el paciente.</p>
-
-<p><strong>Request history:</strong> En este apartado el médico va poder ver diagnósticos anteriores del paciente, que tratamientos ha llevado y datos médicos específicos del paciente; con el fin de saber cual sería el mejor tratamiento para llevarse a cabo. Asimismo, podrá actualizar el historial clínico del paciente, una vez haya terminado cierto tratamiento. 
-</p>
-
-<p><strong>Request results:</strong> En este apartado el médico podrá pedir los resultados de un paciente a un laboratorio, brindando los datos del examen tomado y del paciente. De esta forma, el doctor obtiene los resultados y sabe que tratamiento llevar a cabo.
-</p>
+#### Paleta de Colores
+| Uso específico                                    | Color            | Hex       |
+|--------------------------------------------------|------------------|-----------|
+| Títulos destacados, palabras clave (ej. “MED”)   | Azul principal   | `#103EF5` |
+| Fondo de botones primarios, gradientes oscuros   | Azul oscuro      | `#103EF5` |
+| Degradados de fondo, botones secundarios         | Azul claro       | `#78B9EE` |
+| Fondos de secciones, tarjetas, áreas de contenido| Blanco           | `#FFFFFF` |
+| Texto general, encabezados secundarios           | Negro            | `#000000` |
+<img src="CAP5-IMAGES/color_1.png">
+<img src="CAP5-IMAGES/color_2.png">
+<img src="CAP5-IMAGES/color_3.png">
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
+Se prioriza una experiencia limpia y enfocada. Los azules transmiten calma y profesionalismo; el blanco aporta amplitud y facilita la lectura. Los tamaños de fuente se ajustan para garantizar accesibilidad. Todo el sistema visual mantiene consistencia entre la *landing* y la aplicación web.
+
+**Botones**
+- **Primario**: relleno con gradiente horizontal (`#003A64` → `#60D4FF`), texto blanco, bordes redondeados grandes.
+- **Secundario**: fondo blanco, borde 1 px con el mismo gradiente y texto en azul principal.
+#### Colores
+<img src="CAP5-IMAGES/color_1.png">
+<img src="CAP5-IMAGES/color_2.png">
+<img src="CAP5-IMAGES/color_3.png">
+
+#### Estilo de letras
+<img src="CAP5-IMAGES/typography_1.png">
+<img src="CAP5-IMAGES/typography_2.png">
+
+#### Botones
+Navbar
+<img src="CAP5-IMAGES/navbar.png">
+Footer
+<img src="CAP5-IMAGES/botones_2.png">
 
 ## 5.2. Information Architecture.
-
 ### 5.2.1. Organization Systems.
-
+Se utiliza una estructura jerárquica para la *landing page*: Inicio → Secciones temáticas (About Us, Product, Pricing, Team, Contact). Dentro de la aplicación, la navegación se divide por roles (pacientes, médicos, laboratorio) y se accede mediante un menú lateral.
 
 ### 5.2.2. Labeling Systems.
-
-
+- **Appointments** – programación y listado de citas.
+- **Chat** – mensajería médico-paciente con finalidad exclusiva de orientación clínica.
+- **Treatments for patient** – seguimiento y edición de tratamientos prescritos.
+- **Request history** – historial clínico y tratamientos previos del paciente.
 
 ### 5.2.3. SEO Tags and Meta Tags
-
+| Contexto | Title | Description                               | Keywords | Author       |
+|----------|-------|-------------------------------------------|----------|--------------|
+| *Landing* | MedSystem | MedSystem – SafeMed Official Landing Page | appointments, treatments, doctors, patients, laboratories | SafeMed Team |
+| Web app | MedSystem | MedSystem – SafeMed Official Web Site     | appointments, clinic history, treatment tracking, medical tests, test results, registration, diagnosis | SafeMed Team |
 
 ### 5.2.4. Searching Systems.
-
-
+La aplicación integra un motor de búsqueda optimizado que filtra rápidamente pacientes, chats, historiales y resultados directamente desde la base de datos, incluso en escenarios de gran volumen.
 
 ### 5.2.5. Navigation Systems.
-
-
+- **Landing**: barra superior fija con anclas internas a cada sección.
+- **Aplicación**: barra lateral con iconos y rótulos; se adapta responsivamente a *drawer* en móvil.
 
 ## 5.3. Landing Page UI Design.
-
 ### 5.3.1. Landing Page Wireframe.
+El diseño final mantiene la lógica de los wireframes originales, pero introduce una imagen de héroe de ancho completo con superposición oscura para mejorar el contraste del eslogan. Las secciones se alternan entre texto-izquierda/imagen-derecha y viceversa para conservar ritmo visual.
+
+1. **Hero** – título de bienvenida, eslogan y *call to action*.
+   <img src="CAP5-IMAGES/Hero-wireframe.png">
+2. **About Us** – descripción de la empresa y valores (compromiso, trabajo en equipo, organización).
+   <img src="CAP5-IMAGES/Aboutus-wireframe.png">
+3. **Product** – beneficios segmentados: pacientes y médicos, con ilustraciones.
+   <img src="CAP5-IMAGES/Wireframe - 3.png">
+   <img src="CAP5-IMAGES/Wireframe - 4.png">
+4. **Features** – tarjetas con íconos y breve texto explicativo; separadas por receptor (Patients / Doctors).
+   <img src="CAP5-IMAGES/Wireframe - 6.png">
+5. **Team** – galería adaptativa con foto y rol de cada integrante.
+   <img src="CAP5-IMAGES/Wireframe - 7.png">
+6. **Contact** – información de teléfono, correo y ubicación; seguido de *footer* con enlaces rápidos y redes sociales.
+   <img src="CAP5-IMAGES/Wireframe - 8.png">
 
 
 ### 5.3.2. Landing Page Mock-up.
+<img src="CAP5-IMAGES/Wireframe - 9.png">
+<img src="CAP5-IMAGES/Wireframe - 16.png">
+<img src="CAP5-IMAGES/Wireframe - 10.png">
+<img src="CAP5-IMAGES/Wireframe - 11.png">
+<img src="CAP5-IMAGES/Wireframe - 13.png">
+<img src="CAP5-IMAGES/Wireframe - 14.png">
+<img src="CAP5-IMAGES/Wireframe - 15.png">
 
 ## 5.4. Applications UX/UI Design.
 
