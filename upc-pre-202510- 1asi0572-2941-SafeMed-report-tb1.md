@@ -2378,6 +2378,59 @@ _Notas:_
 
 #### 6.2.2.4.Development Evidence for Sprint Review.
 #### 6.2.2.5.Testing Suite Evidence for Sprint Review.
+### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+**Feature:** Captura y monitoreo de ritmo cardíaco desde sensor IoT y envío de datos desde el backend en el edge.
+
+User Story US01 – Capturar datos desde el sensor
+
+**Scenario:** Lectura continua de BPM desde el sensor  
+**Given** que el sensor está encendido y vinculado al paciente  
+**When** se inicia la sesión de monitoreo  
+**Then** se deben recibir lecturas en tiempo real del ritmo cardíaco  
+**And** las lecturas deben estar en un rango válido (40–180 BPM)
+
+User Story US03 – Actualización automática de datos
+
+**Scenario:** Actualización sin recarga manual  
+**Given** que el backend edge está en ejecución  
+**When** el sensor envía nuevas lecturas  
+**Then** la gráfica debe actualizarse automáticamente en el frontend cada X segundos  
+**And** los datos deben reflejar los últimos valores sin necesidad de recargar la página
+
+User Story US04 – Ver estado de conexión del sensor
+
+**Scenario:** Mostrar advertencia de conexión  
+**Given** que el sensor está desconectado o no responde  
+**When** el backend intenta obtener lecturas  
+**Then** se debe mostrar un mensaje de alerta de pérdida de conexión  
+**And** el sistema debe registrar el evento en los logs locales
+
+User Story US05 – Envío de datos al backend central
+
+**Scenario:** Transmisión exitosa de datos  
+**Given** que el backend edge ha recibido datos válidos del sensor  
+**When** se realiza la conexión HTTP/MQTT al servidor cloud  
+**Then** los datos deben enviarse correctamente  
+**And** el servidor debe registrar la recepción de cada paquete
+
+User Story US06 – Persistencia local ante fallo de red
+
+**Scenario:** Almacenamiento temporal  
+**Given** que no hay conexión con el servidor central  
+**When** se reciben datos desde el sensor  
+**Then** los datos deben guardarse en SQLite o archivo JSON local  
+**And** deben reenviarse automáticamente cuando se restablezca la red
+
+User Story US07 – Testing de flujo completo
+
+**Scenario:** Validación end-to-end  
+**Given** que el paciente está usando el dispositivo con el sensor conectado  
+**When** se genera una sesión de monitoreo  
+**Then** los datos deben recorrer el flujo completo:  
+**Sensor → Edge → Backend central**  
+**And** deben visualizarse correctamente en la app del doctor
+
 #### 6.2.2.6.Execution Evidence for Sprint Review.
 #### 6.2.2.7.Services Documentation Evidence for Sprint Review.
 #### 6.2.2.8.Software Deployment Evidence for Sprint Review.
