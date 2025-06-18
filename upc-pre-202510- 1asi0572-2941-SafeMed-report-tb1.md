@@ -1872,6 +1872,7 @@ El diseño final mantiene la lógica de los wireframes originales, pero introduc
 ## 5.5. Applications Prototyping.
 
 <img src="CAP5-IMAGES/monitoring.png">
+
 # Capítulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management.
@@ -2188,6 +2189,22 @@ Luego ponemos :
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
 
 <img src="CAP6-IMAGES/commits.png">
+
+### 6.2.2. Sprint 2
+#### 6.2.2.1.Sprint Planning 2.
+#### 6.2.2.2.Aspect Leaders and Collaborators.
+#### 6.2.2.3.Sprint Backlog 2.
+#### 6.2.2.4.Development Evidence for Sprint Review.
+#### 6.2.2.5.Testing Suite Evidence for Sprint Review.
+#### 6.2.2.6.Execution Evidence for Sprint Review.
+#### 6.2.2.7.Services Documentation Evidence for Sprint Review.
+#### 6.2.2.8.Software Deployment Evidence for Sprint Review.
+#### 6.2.2.9.Team Collaboration Insights during Sprint.
+## 6.3. Validation Interviews.
+### 6.3.1. Diseño de Entrevistas.
+### 6.3.2. Registro de Entrevistas.
+### 6.3.3. Evaluaciones según heurísticas.
+## 6.4. Video About-the-Product.
 
 # Anexos:
 
