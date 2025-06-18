@@ -56,6 +56,11 @@ Profesor: Leon Baca, Marco Antonio
 |   1.4   | 09-05-2025 |     Mendez Rosales, Marco Aurelio      |                                                                                                 Inicio de Capítulo 6: Product Implementation y Configuration Management                                                                                                 |
 |   1.5   | 12-05-2025 |      Roca Huapaya, Orlando Arturo      |                                                                                                    Redacción de 6.1 y 6.2: Software Configuration y Sprint Planning                                                                                                     |
 |   1.6   | 15-05-2025 | Miquel De la Piedra Quintanilla, Erwin |                                                                                         Actualización de 6.2.X: Aspect Leaders, Sprint Backlog y Testing Suite                                                                                                          |
+|   1.7   | 17-06-2025 |     Mendez Rosales, Marco Aurelio      | Redacción de evidencias de ejecución y documentación de servicios del Sprint Review (6.2.2.6 y 6.2.2.7). |
+|   1.8   | 18-06-2025 |      Roca Huapaya, Orlando Arturo      | Inclusión de evidencias del Testing Suite y del desarrollo realizado durante el Sprint 2 (6.2.2.4 y 6.2.2.5). |
+|   1.9   | 19-06-2025 |    Ventura Chancafe, Eduardo Renato    | Elaboración del apartado 6.3: Diseño de entrevistas, registro y evaluación según heurísticas (6.3.1 a 6.3.3). |
+|   2.0   | 20-06-2025 |    Gutierrez Zumaeta, Manuel Alonso    | Redacción de colaboración e insights del equipo durante el Sprint 2 (6.2.2.9), además del despliegue del software (6.2.2.8). |
+|   2.1   | 21-06-2025 | De La Piedra Quintanilla, Erwin Miquel | Consolidación de planificación del Sprint 2, backlog y asignación de roles por aspectos (6.2.2.1, 6.2.2.2 y 6.2.2.3). |
 
 # Project Report Collaboration Insights
 
