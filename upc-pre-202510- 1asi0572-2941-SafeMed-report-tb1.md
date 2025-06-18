@@ -2202,6 +2202,23 @@ Luego ponemos :
 #### 6.2.2.9.Team Collaboration Insights during Sprint.
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
+**Doctor**:
+- ¿Consideras útil la funcionalidad que te permite visualizar en tiempo real el ritmo cardiaco de tus pacientes desde una plataforma web?
+- ¿Te resultaría conveniente recibir alertas automáticas cuando un paciente registre un ritmo cardíaco anormal, y poder gestionar desde ahí una atención de emergencia?
+- ¿Qué opinas de tener acceso a un historial de alertas generadas por cada paciente para facilitar el seguimiento clínico?
+- ¿La interfaz que te permite configurar umbrales personalizados por paciente para las alertas te parece adecuada para tu práctica médica?
+- ¿Crees que esta solución se integraría sin problemas en tu flujo de trabajo habitual, o necesitarías adaptaciones específicas?
+
+**Paciente**:
+- ¿Te parece útil tener una app móvil que te muestre tu ritmo cardíaco en tiempo real y que envíe alertas automáticas a tu familia y médico si hay una emergencia?
+
+- ¿Te sientes cómodo con la función de registrar a un contacto de emergencia para que reciba un SMS en caso de una alteración crítica en tu salud?
+
+- ¿Qué tan clara te parece la visualización del ritmo cardiaco y las notificaciones en la app? ¿Sientes que podrías entenderlas sin ayuda médica?
+
+- ¿Crees que la posibilidad de gestionar tus citas médicas desde la app te ayudaría a mejorar tu control de salud?
+
+- ¿Te genera confianza el hecho de que el sistema registre y guarde tus datos médicos para que puedas consultarlos luego o compartirlos con tu doctor?
 ### 6.3.2. Registro de Entrevistas.
 ### 6.3.3. Evaluaciones según heurísticas.
 ## 6.4. Video About-the-Product.
