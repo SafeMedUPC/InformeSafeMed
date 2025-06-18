@@ -2192,8 +2192,185 @@ Luego ponemos :
 
 ### 6.2.2. Sprint 2
 #### 6.2.2.1.Sprint Planning 2.
+
+<p>Se planeó el segundo sprint a través de una reunión dentro de la plataforma Discord. Se registraron los acuerdos y asignaciones en la siguiente tabla.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Sprint #</strong></td>
+      <td>Sprint 2</td>
+    </tr>
+    <tr>
+      <td><strong>Sprint Planning Background</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td>2025-06-17</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>12:30 PM</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Virtual</td>
+    </tr>
+    <tr>
+      <td>Prepared by</td>
+      <td>Gutierrez Zumaeta, Manuel Alonso</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>
+        <p>De La Piedra Quintanilla, Erwin Miquel</p>
+        <p>Gutierrez Zumaeta, Manuel Alonso</p>
+        <p>Mendez Rosales, Marco Aurelio</p>
+        <p>Roca Huapaya, Orlando Arturo</p>
+        <p>Ventura Chancafe, Eduardo Renato</p>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Sprint 2 - Review Summary</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Sprint 2 - Retrospective Summary</strong></td>
+      <td>Durante el sprint anterior se completaron correctamente las vistas y endpoints de citas. Para este nuevo sprint se acordó comenzar con el desarrollo funcional del sensor y su integración con el backend local. Se recalcó la importancia de validar bien la conexión del sensor y automatizar el envío de datos.</td>
+    </tr>
+    <tr>
+      <td><strong>Sprint Goal & User Stories</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sprint 2 Goal</td>
+      <td>Implementar la primera versión funcional del flujo de monitoreo desde el sensor de ritmo cardíaco, incluyendo la captura, procesamiento, validación y envío de datos desde el edge al backend central.</td>
+    </tr>
+    <tr>
+      <td>Sprint 2 Velocity</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>26</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.2.2.2.Aspect Leaders and Collaborators.
+
+A continuación se presenta la asignación de líderes (L) y colaboradores (C) para cada aspecto del proyecto, basada en las tareas asignadas en las historias de usuario del **Sprint 2**. En esta etapa, el equipo se centrará en el desarrollo del código para el sensor de ritmo cardíaco y el backend local que procesa y envía datos al servidor central.
+
+| Team Member         | GitHub Username | Sensores / Hardware | Backend (Edge) | Validación / Testing | Documentación | Integración |
+|---------------------|------------------|----------------------|-----------------|-----------------------|----------------|-------------|
+| Miquel De la Piedra | @MiquelDlp       | L                    | C               | C                     | C              | C           |
+| Manuel Gutierrez    | @ManuGZ          | C                    | L               | C                     | C              | C           |
+| Marco Mendez        | @cuak123         | L                    | C               | C                     | C              | C           |
+| Orlando Roca        | @OrlandoRoca     | C                    | C               | L                     | C              | C           |
+| Eduardo Ventura     | @Eduvent         | C                    | L               | C                     | C              | C           |
+
+_Notas:_
+
+- **Sensores / Hardware:** Lectura desde dispositivos como ESP32 o Raspberry Pi.
+- **Backend (Edge):** Desarrollo de la API local para recepción, procesamiento y reenvío de datos.
+- **Validación / Testing:** Pruebas funcionales del flujo sensor → edge → nube y manejo de errores.
+- **Documentación:** Registro técnico de endpoints, configuración de sensores y lógica de integración.
+- **Integración:** Unificación de módulos de frontend, edge, nube y mecanismos de reintento.
+
 #### 6.2.2.3.Sprint Backlog 2.
+
+<table>
+  <tbody>
+    <tr>
+      <td>User Story ID</td>
+      <td>User Story Title</td>
+      <td>Task ID</td>
+      <td>Task Title</td>
+      <td>Description</td>
+      <td>Estimation(hours)</td>
+      <td>Assigned to</td>
+      <td>Status</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US01</td>
+      <td rowspan="2">Visualizar ritmo cardiaco en tiempo real</td>
+      <td>T10</td>
+      <td>Capturar datos desde el sensor físico</td>
+      <td>Implementar el código en ESP32 para obtener lecturas continuas de BPM.</td>
+      <td>4</td>
+      <td>Marco Mendez</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>T11</td>
+      <td>Simular valores de BPM válidos</td>
+      <td>Crear un generador de datos de ritmo cardíaco para pruebas si el sensor no está disponible.</td>
+      <td>2</td>
+      <td>Roca Huapaya, Orlando Arturo</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td rowspan="2">US03</td>
+      <td rowspan="2">Actualización automática de datos</td>
+      <td>T12</td>
+      <td>Crear API REST local en el Edge</td>
+      <td>Diseñar un backend con Flask/FastAPI para recibir los datos del sensor localmente.</td>
+      <td>4</td>
+      <td>Eduardo Ventura</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>T13</td>
+      <td>Actualizar datos cada X segundos sin recargar</td>
+      <td>Programar lógica para actualizar automáticamente la gráfica en el frontend local sin necesidad de recargar la vista.</td>
+      <td>3</td>
+      <td>Mendez Rosales, Marco Aurelio</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>US04</td>
+      <td>Ver estado de conexión del sensor</td>
+      <td>T14</td>
+      <td>Detectar y mostrar fallos de conexión</td>
+      <td>Implementar validación de conectividad del sensor y mostrar advertencias si hay desconexión.</td>
+      <td>3</td>
+      <td>Erwin De La Piedra Quintanilla</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>US05</td>
+      <td>Envío de datos al backend central</td>
+      <td>T15</td>
+      <td>Enviar datos desde backend Edge al servidor central</td>
+      <td>Desarrollar el cliente HTTP o MQTT para enviar los datos desde el edge a la nube (API de MedSystem).</td>
+      <td>4</td>
+      <td>Manuel Gutierrez</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>US06</td>
+      <td>Persistencia temporal en caso de fallo</td>
+      <td>T16</td>
+      <td>Guardar datos localmente si no hay red</td>
+      <td>Usar SQLite o archivos JSON para almacenar temporalmente los datos hasta que se restablezca la conexión.</td>
+      <td>4</td>
+      <td>Erwin De La Piedra Quintanilla</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>US07</td>
+      <td>Testing de flujo completo</td>
+      <td>T17</td>
+      <td>Probar flujo de sensor → Edge → nube</td>
+      <td>Verificar que todo el flujo funciona con datos reales o simulados, desde el dispositivo hasta el backend remoto.</td>
+      <td>3</td>
+      <td>Todo el equipo</td>
+      <td>To Do</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.2.2.4.Development Evidence for Sprint Review.
 #### 6.2.2.5.Testing Suite Evidence for Sprint Review.
 #### 6.2.2.6.Execution Evidence for Sprint Review.
