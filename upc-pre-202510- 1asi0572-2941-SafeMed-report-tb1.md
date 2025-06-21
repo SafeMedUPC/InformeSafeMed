@@ -2436,6 +2436,7 @@ Se presenta el prototipo de la aplicacion movil con la grafica de los bpm para l
 <img src="CAP6-IMAGES/Mob1.png">
 <img src="CAP6-IMAGES/Mob2.png">
 <img src="CAP6-IMAGES/Mob3.png">
+
 #### 6.2.2.7.Services Documentation Evidence for Sprint Review.
 Se presenta el servicio del Edge Node implementado, con dos metodos GET y POST, el post seria el metodo donde el ESP32 junto al sensor cardiaco mandaria la informacion del BPM, y ademas donde se procesaria la data para ser mandada a otro endpoint del backend que se conecta con la aplicacion movil. Por ultimo el GET solo se usario para ver que los datos se muestren correctamente, este no manda una solicitud a otro endpoint.
 
@@ -2451,7 +2452,12 @@ Para el despliegue del edge, se uso Vercel una pagina que permite desplegar apli
 
 - Entramos a la pagina de vercel.com para desplegar la aplicacion
 <img src="CAP6-IMAGES/vercel2.png">
+
+
 #### 6.2.2.9.Team Collaboration Insights during Sprint.
+Se presenta los insights del repositori GitHub, se evidencia solo al que hizo compartio el proyecto en el repositorio, pero todos colaboraron en la creacion de este y el despliegue
+<img src="CAP6-IMAGES/team1.png">
+
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
 **Doctor**:
