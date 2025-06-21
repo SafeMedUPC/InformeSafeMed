@@ -2573,7 +2573,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 - **Heurística violada**: Usabilidad - Visibilidad del estado del sistema
 - **Problema**:  
   El ritmo cardíaco no se actualiza de manera continua ni en tiempo real una vez que el dispositivo IoT se conecta. Esto provoca que el usuario no reciba la información más reciente sobre su estado de salud, lo cual puede ser crítico en situaciones de emergencia.
-  ![Captura de pantalla ilustrativa](imagen_de_ejemplo.png)
 - **Recomendación**:  
   Se debe asegurar que la aplicación reciba actualizaciones constantes del dispositivo IoT para reflejar el ritmo cardíaco en tiempo real y notificar cualquier cambio inmediato en el estado del paciente.
 
@@ -2582,7 +2581,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 - **Heurística violada**: Usabilidad - Libertad y control del usuario
 - **Problema**:  
   Las alertas automáticas que deben enviarse a los familiares y médicos en caso de una anomalía en el ritmo cardíaco no se envían correctamente o se retrasan. Esto impide que los responsables del cuidado del paciente tomen acciones inmediatas.
-  ![Captura de pantalla ilustrativa](imagen_de_ejemplo.png)
 - **Recomendación**:  
   Se debe verificar que el sistema de alertas esté completamente operativo y bien integrado con los contactos de emergencia para garantizar una respuesta rápida ante situaciones críticas.
 
@@ -2591,7 +2589,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 - **Heurística violada**: Usabilidad - Consistencia y estándares
 - **Problema**:  
   Los usuarios no pueden gestionar de manera eficiente las citas médicas ni revisar el historial de alertas debido a una interfaz poco clara y confusa. Esto genera frustración y dificulta la experiencia del usuario.
-  ![Captura de pantalla ilustrativa](imagen_de_ejemplo.png)
 - **Recomendación**:  
   Mejorar el diseño de la interfaz para hacerlo más intuitivo, de manera que los usuarios puedan fácilmente ver y gestionar sus citas médicas y alertas anteriores.
 
@@ -2600,7 +2597,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 - **Heurística violada**: Information Architecture - Is it usable?
 - **Problema**:  
   No existe una opción que permita a los usuarios o médicos configurar los umbrales de alerta de ritmo cardíaco según las necesidades individuales del paciente. Esto podría ser crucial para pacientes con condiciones específicas que requieren monitoreo personalizado.
-  ![Captura de pantalla ilustrativa](imagen_de_ejemplo.png)
 - **Recomendación**:  
   Implementar una función para que los médicos puedan personalizar los umbrales de alerta, asegurando que las notificaciones sean relevantes para cada paciente.
 
@@ -2609,7 +2605,6 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 - **Heurística violada**: Information Architecture - Is it findable?
 - **Problema**:  
   Los pacientes no pueden acceder fácilmente a sus datos históricos de ritmo cardíaco, lo que dificulta el seguimiento a largo plazo y la evaluación de tendencias.
-  ![Captura de pantalla ilustrativa](imagen_de_ejemplo.png)
 - **Recomendación**:  
   Mejorar la accesibilidad y presentación de los datos históricos para que los pacientes y médicos puedan visualizarlos de manera clara y sencilla.
 
