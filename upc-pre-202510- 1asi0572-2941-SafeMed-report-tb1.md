@@ -2433,6 +2433,10 @@ User Story US07 – Testing de flujo completo
 
 #### 6.2.2.6.Execution Evidence for Sprint Review.
 #### 6.2.2.7.Services Documentation Evidence for Sprint Review.
+Se presenta el servicio del Edge Node implementado, con dos metodos GET y POST, el post seria el metodo donde el ESP32 junto al sensor cardiaco mandaria la informacion del BPM, y ademas donde se procesaria la data para ser mandada a otro endpoint del backend que se conecta con la aplicacion movil. Por ultimo el GET solo se usario para ver que los datos se muestren correctamente, este no manda una solicitud a otro endpoint.
+
+<img src="CAP6-IMAGES/edgeWeb.png">
+
 #### 6.2.2.8.Software Deployment Evidence for Sprint Review.
 #### 6.2.2.9.Team Collaboration Insights during Sprint.
 ## 6.3. Validation Interviews.
