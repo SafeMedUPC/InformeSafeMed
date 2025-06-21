@@ -2518,7 +2518,102 @@ Se presenta los insights del repositori GitHub, se evidencia solo al que hizo co
 | **Resumen**          | Aranza, una joven de 21 años de San Borja, que sufre problemas al corazón, evaluó la solución presentada para pacientes cardíacos. Durante la entrevista, destaco la capacidad de la app para monitorear el ritmo cardíaco en tiempo real y enviar alertas automáticas a familiares y médicos, mostrando su conformidad con el registro de contactos de emergencia por mensaje de texto. Además, valoró positivamente la claridad e intuición de la interfaz, la conveniencia de gestionar citas médicas desde el celular y la función de chat directo con los doctores. En cuanto a la privacidad, expresó confianza en el sistema de almacenamiento de datos, siempre y cuando la información se comparta exclusivamente con su médico personal |
 | **URL de Grabación** | [Grabación Aranza Flores](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919742_upc_edu_pe/EWKksqvGIAlEq08llD0gc1gBdx9XGg4gRSEvT_vQHPA_oA?e=BlRtSE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                                                                                             |
 | **Timing**           |    
+
 ### 6.3.3. Evaluaciones según heurísticas.
+
+**UX Heuristics & Principles Evaluation**
+**Usability – Inclusive Design – Information Architecture**
+**CARRERA : Ingeniería de Software**
+**CURSO : Desarrollo de Soluciones IoT**
+**SECCIÓN : 2941**
+**PROFESORES : Todos**
+**AUDITOR : SafeMed**
+**CLIENTE(S) : Todos de la entrevista**
+
+**SITE o APP A EVALUAR:**
+SafeMed Mobile App
+**TAREAS A EVALUAR:**
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+1. Registro de un usuario nuevo
+2. Citas medicas
+3. Tratamientos
+4. Simulacion de ritmo cardiaco
+5. Simulacion de alertas
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+1. Ritmo cardiaco en tiempo real
+2. La pagina de ritmo cardiaco implementado en una sola app
+
+#### ESCALA DE SEVERIDAD:
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción                                                                                                                                               |
+|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+#### TABLA RESUMEN:
+
+| #  | Problema                                                                                           | Escala de severidad | Heurística/Principio violada(o)                             |
+|----|----------------------------------------------------------------------------------------------------|---------------------|-------------------------------------------------------------|
+| 1  | No se actualiza el ritmo cardíaco en tiempo real después de la conexión con el dispositivo IoT          | 4                   | Usability: Visibilidad del estado del sistema                |
+| 2  | Las alertas de ritmo cardíaco no se envían correctamente a los familiares y médicos                   | 3                   | Usability: Libertad y control del usuario                    |
+| 3  | La interfaz de usuario es poco intuitiva al gestionar las citas médicas o ver historial de alertas     | 2                   | Usability: Consistencia y estándares                        |
+| 4  | No hay opción para personalizar los umbrales de alerta según las necesidades del paciente            | 3                   | Information Architecture: Is it usable?                     |
+| 5  | No se pueden ver los datos históricos de ritmo cardíaco en un formato claro y accesible               | 3                   | Information Architecture: Is it findable?                   |
+| 6  | El sistema de privacidad de los datos no es transparente, y los pacientes no saben con quién se comparten | 2                   | Security: Confianza y privacidad                           |
+| 7  | Los dispositivos IoT no están correctamente sincronizados con la aplicación en ciertos dispositivos móviles | 3                   | Accessibility: Adaptación a plataformas variadas            |
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+#### PROBLEMA #1: No se actualiza el ritmo cardíaco en tiempo real después de la conexión con el dispositivo IoT
+- **Severidad**: 4
+- **Heurística violada**: Usabilidad - Visibilidad del estado del sistema
+- **Problema**:  
+  El ritmo cardíaco no se actualiza de manera continua ni en tiempo real una vez que el dispositivo IoT se conecta. Esto provoca que el usuario no reciba la información más reciente sobre su estado de salud, lo cual puede ser crítico en situaciones de emergencia.
+  ![Captura de pantalla ilustrativa](imagen_de_ejemplo.png)
+- **Recomendación**:  
+  Se debe asegurar que la aplicación reciba actualizaciones constantes del dispositivo IoT para reflejar el ritmo cardíaco en tiempo real y notificar cualquier cambio inmediato en el estado del paciente.
+
+#### PROBLEMA #2: Las alertas de ritmo cardíaco no se envían correctamente a los familiares y médicos
+- **Severidad**: 3
+- **Heurística violada**: Usabilidad - Libertad y control del usuario
+- **Problema**:  
+  Las alertas automáticas que deben enviarse a los familiares y médicos en caso de una anomalía en el ritmo cardíaco no se envían correctamente o se retrasan. Esto impide que los responsables del cuidado del paciente tomen acciones inmediatas.
+  ![Captura de pantalla ilustrativa](imagen_de_ejemplo.png)
+- **Recomendación**:  
+  Se debe verificar que el sistema de alertas esté completamente operativo y bien integrado con los contactos de emergencia para garantizar una respuesta rápida ante situaciones críticas.
+
+#### PROBLEMA #3: La interfaz de usuario es poco intuitiva al gestionar las citas médicas o ver historial de alertas
+- **Severidad**: 2
+- **Heurística violada**: Usabilidad - Consistencia y estándares
+- **Problema**:  
+  Los usuarios no pueden gestionar de manera eficiente las citas médicas ni revisar el historial de alertas debido a una interfaz poco clara y confusa. Esto genera frustración y dificulta la experiencia del usuario.
+  ![Captura de pantalla ilustrativa](imagen_de_ejemplo.png)
+- **Recomendación**:  
+  Mejorar el diseño de la interfaz para hacerlo más intuitivo, de manera que los usuarios puedan fácilmente ver y gestionar sus citas médicas y alertas anteriores.
+
+#### PROBLEMA #4: No hay opción para personalizar los umbrales de alerta según las necesidades del paciente
+- **Severidad**: 3
+- **Heurística violada**: Information Architecture - Is it usable?
+- **Problema**:  
+  No existe una opción que permita a los usuarios o médicos configurar los umbrales de alerta de ritmo cardíaco según las necesidades individuales del paciente. Esto podría ser crucial para pacientes con condiciones específicas que requieren monitoreo personalizado.
+  ![Captura de pantalla ilustrativa](imagen_de_ejemplo.png)
+- **Recomendación**:  
+  Implementar una función para que los médicos puedan personalizar los umbrales de alerta, asegurando que las notificaciones sean relevantes para cada paciente.
+
+#### PROBLEMA #5: No se pueden ver los datos históricos de ritmo cardíaco en un formato claro y accesible
+- **Severidad**: 3
+- **Heurística violada**: Information Architecture - Is it findable?
+- **Problema**:  
+  Los pacientes no pueden acceder fácilmente a sus datos históricos de ritmo cardíaco, lo que dificulta el seguimiento a largo plazo y la evaluación de tendencias.
+  ![Captura de pantalla ilustrativa](imagen_de_ejemplo.png)
+- **Recomendación**:  
+  Mejorar la accesibilidad y presentación de los datos históricos para que los pacientes y médicos puedan visualizarlos de manera clara y sencilla.
+
+
 ## 6.4. Video About-the-Product.
 
 # Anexos:
