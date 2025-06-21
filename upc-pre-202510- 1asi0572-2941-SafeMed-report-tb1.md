@@ -2453,6 +2453,14 @@ Para el despliegue del edge, se uso Vercel una pagina que permite desplegar apli
 - Entramos a la pagina de vercel.com para desplegar la aplicacion
 <img src="CAP6-IMAGES/vercel2.png">
 
+- Le damos a Deploy y esperamos que termine todo el proceso
+<img src="CAP6-IMAGES/vercel3.png">
+
+- Una vez finalizado si todo fue correcto, ya esta desplegado
+<img src="CAP6-IMAGES/vercel4.png">
+
+Para poder entrar, se haria a traves de este link: https://med-system-edge-fsc3jl9ln-manuels-projects-fcd7c209.vercel.app/docs
+
 
 #### 6.2.2.9.Team Collaboration Insights during Sprint.
 Se presenta los insights del repositori GitHub, se evidencia solo al que hizo compartio el proyecto en el repositorio, pero todos colaboraron en la creacion de este y el despliegue
