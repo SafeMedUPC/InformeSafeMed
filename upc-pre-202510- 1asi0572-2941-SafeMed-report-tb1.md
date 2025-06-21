@@ -2443,6 +2443,14 @@ Se presenta el servicio del Edge Node implementado, con dos metodos GET y POST, 
 <img src="CAP6-IMAGES/edgeWeb1.png">
 
 #### 6.2.2.8.Software Deployment Evidence for Sprint Review.
+Para el despliegue del edge, se uso Vercel una pagina que permite desplegar aplicacion web en python gratuitamente, con ciertas limitaciones, pero estas no afectaran en nuestro caso
+
+- Primero se crea el archivo vercel.json dentro la aplicacion y lo subimos a un repositorio GitHub
+<img src="CAP6-IMAGES/vercel1.png">
+<img src="CAP6-IMAGES/git1.png">
+
+- Entramos a la pagina de vercel.com para desplegar la aplicacion
+<img src="CAP6-IMAGES/vercel2.png">
 #### 6.2.2.9.Team Collaboration Insights during Sprint.
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
