@@ -2377,6 +2377,12 @@ _Notas:_
 </table>
 
 #### 6.2.2.4.Development Evidence for Sprint Review.
+
+| Repository                   | Branch | Commit Id | Commit Message                                             | Commit Message Body | Commited on (Date)  |
+| ---------------------------- | ------ | --------- | ---------------------------------------------------------- | ------------------- | ------------------- |
+| SafeMedUPC/CAP6              | main   | f86a7e6   | first commit                            |                     | 15/05/2025          |
+| SafeMedUPC/CAP6              | main   | 6510980 | vercel filse for deployment                                      |                     | 15/05/2025          |
+
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
 **Feature:** Captura y monitoreo de ritmo cardíaco desde sensor IoT y envío de datos desde el backend en el edge.
@@ -2648,3 +2654,4 @@ En esta seccion se mostrara el video del producto
 - Video Exposicion TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/ERYan0Gr4ddPj0vWCWtqHtcBz1ElzzOZSzZhc3GBszgTUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=1GoFPi
 
 - Video Exposicion TP: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/EegUrsyT9mtFjhif5v_swawB--FbLpalNq9MCwlbGLzrZg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WLzORb
+- Video Exposicion TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/EV0f5YfP8tJJrOl8QL-IG2YBzNDBVVwXq3cHqC_w0I0SbA?e=oTzs5M](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/EV0f5YfP8tJJrOl8QL-IG2YBzNDBVVwXq3cHqC_w0I0SbA?e=IdbtLP)
