@@ -2377,8 +2377,7 @@ _Notas:_
 </table>
 
 #### 6.2.2.4.Development Evidence for Sprint Review.
-#### 6.2.2.5.Testing Suite Evidence for Sprint Review.
-### 6.2.2.5. Testing Suite Evidence for Sprint Review
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
 **Feature:** Captura y monitoreo de ritmo cardíaco desde sensor IoT y envío de datos desde el backend en el edge.
 
@@ -2432,9 +2431,11 @@ User Story US07 – Testing de flujo completo
 **And** deben visualizarse correctamente en la app del doctor
 
 #### 6.2.2.6.Execution Evidence for Sprint Review.
-Se presenta el prototipo de la aplicacion movil con la grafica de los bpm para la vista del paciente
+Se presenta el prototipo de la aplicacion movil con la grafica de los bpm para la vista del paciente, junto a otras vistas de la aplicacion
 <img src="CAP6-IMAGES/edgeMob.png">
-
+<img src="CAP6-IMAGES/Mob1.png">
+<img src="CAP6-IMAGES/Mob2.png">
+<img src="CAP6-IMAGES/Mob3.png">
 #### 6.2.2.7.Services Documentation Evidence for Sprint Review.
 Se presenta el servicio del Edge Node implementado, con dos metodos GET y POST, el post seria el metodo donde el ESP32 junto al sensor cardiaco mandaria la informacion del BPM, y ademas donde se procesaria la data para ser mandada a otro endpoint del backend que se conecta con la aplicacion movil. Por ultimo el GET solo se usario para ver que los datos se muestren correctamente, este no manda una solicitud a otro endpoint.
 
