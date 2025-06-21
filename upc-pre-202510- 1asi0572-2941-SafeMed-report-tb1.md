@@ -2522,13 +2522,21 @@ Se presenta los insights del repositori GitHub, se evidencia solo al que hizo co
 ### 6.3.3. Evaluaciones según heurísticas.
 
 **UX Heuristics & Principles Evaluation**
+
 **Usability – Inclusive Design – Information Architecture**
+
 **CARRERA : Ingeniería de Software**
+
 **CURSO : Desarrollo de Soluciones IoT**
+
 **SECCIÓN : 2941**
+
 **PROFESORES : Todos**
+
 **AUDITOR : SafeMed**
+
 **CLIENTE(S) : Todos de la entrevista**
+
 
 **SITE o APP A EVALUAR:**
 SafeMed Mobile App
