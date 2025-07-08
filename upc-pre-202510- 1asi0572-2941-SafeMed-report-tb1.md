@@ -2871,8 +2871,7 @@ Se presenta el servicio del Edge Node implementado, con dos metodos GET y POST, 
 
 <img src="CAP6-IMAGES/edgeWeb.png">
 <img src="CAP6-IMAGES/edgeWeb1.png">
-<img src="CAP6-IMAGES/backend1.png">
-<img src="CAP6-IMAGES/backend2.png">
+<img src="CAP6-IMAGES/railway1.png">
 
 #### 6.2.3.8.Software Deployment Evidence for Sprint Review.
 Para el despliegue del edge, se uso Vercel una pagina que permite desplegar aplicacion web en python gratuitamente, con ciertas limitaciones, pero estas no afectaran en nuestro caso
@@ -2880,13 +2879,18 @@ Para el despliegue del edge, se uso Vercel una pagina que permite desplegar apli
 - Despliegue de Edge
 <img src="CAP6-IMAGES/vercel4.png">
 
+Para poder entrar, se haria a traves de este link: https://med-system-edge-fsc3jl9ln-manuels-projects-fcd7c209.vercel.app/docs
+
 - Despliegue de frontend
 <img src="CAP6-IMAGES/firebase1.png">
+
+Para poder entrar, se haria a traves de este link: https://safemed-application-6a3ba.web.app
 
 - Despliegue de backend
 <img src="CAP6-IMAGES/railway1.png">
 
-Para poder entrar, se haria a traves de este link: https://med-system-edge-fsc3jl9ln-manuels-projects-fcd7c209.vercel.app/docs
+Para poder entrar, se haria a traves de este link: https://medsystem-backend-production.up.railway.app/swagger-ui/index.html#/
+
 
 
 #### 6.2.3.9.Team Collaboration Insights during Sprint.
@@ -3068,6 +3072,8 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 En esta seccion se mostrara el video del producto
 
 Video about the product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EXfRB68jR0hKp3Q5qVPivqMBkirXFX074O1x5lDQZ0kGcg?e=8gBG7b&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D   
+
+Video about the team: https://upcedupe-my.sharepoint.com/personal/u202112179_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202112179%5Fupc%5Fedu%5Fpe%2FDocuments%2FVideo%5FAbout%5Fthe%5Fteam%5FSafeMed%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Edb25b81e%2Db475%2D4845%2D856e%2D4312420706f4&isDarkMode=true
 
 
 # Anexos:
