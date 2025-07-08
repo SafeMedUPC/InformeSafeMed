@@ -34,7 +34,7 @@ Profesor: Leon Baca, Marco Antonio
 
 #### Ciclo 2025-10
 
-##### Abril, 2025
+##### Julio, 2025
 
 ---
 
@@ -3083,4 +3083,4 @@ Video about the team: https://upcedupe-my.sharepoint.com/personal/u202112179_upc
 - Video Exposicion TP: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/EegUrsyT9mtFjhif5v_swawB--FbLpalNq9MCwlbGLzrZg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WLzORb
 - Video Exposicion TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/EV0f5YfP8tJJrOl8QL-IG2YBzNDBVVwXq3cHqC_w0I0SbA?e=oTzs5M](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/EV0f5YfP8tJJrOl8QL-IG2YBzNDBVVwXq3cHqC_w0I0SbA?e=IdbtLP)
 
-- Video Expocision TF:
+- Video Expocision TF: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EccRUWl-OEhChF8pmud9HXABLB3bVcNCSYJ6AzLWI2AIhg?e=huc7ak&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
