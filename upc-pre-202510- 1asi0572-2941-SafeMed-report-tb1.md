@@ -2474,6 +2474,409 @@ Para poder entrar, se haria a traves de este link: https://med-system-edge-fsc3j
 Se presenta los insights del repositori GitHub, se evidencia solo al que hizo compartio el proyecto en el repositorio, pero todos colaboraron en la creacion de este y el despliegue
 <img src="CAP6-IMAGES/team1.png">
 
+### 6.2.3. Sprint 3
+#### 6.2.3.1.Sprint Planning 3.
+
+<p>Se planeó el tercer sprint a través de una reunión dentro de la plataforma Discord. Se registraron los acuerdos y asignaciones en la siguiente tabla.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Sprint #</strong></td>
+      <td>Sprint 3</td>
+    </tr>
+    <tr>
+      <td><strong>Sprint Planning Background</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td>2025-07-04<td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>12:30 PM</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Virtual</td>
+    </tr>
+    <tr>
+      <td>Prepared by</td>
+      <td>Gutierrez Zumaeta, Manuel Alonso</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>
+        <p>De La Piedra Quintanilla, Erwin Miquel</p>
+        <p>Gutierrez Zumaeta, Manuel Alonso</p>
+        <p>Mendez Rosales, Marco Aurelio</p>
+        <p>Roca Huapaya, Orlando Arturo</p>
+        <p>Ventura Chancafe, Eduardo Renato</p>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Sprint 3 - Review Summary</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Sprint 3 - Retrospective Summary</strong></td>
+      <td>Para este nuevo sprint se acordó desarrollar el Edge y su conexion directa con la app, tanto para movil como web. Se recalcó la importancia de validar bien la conexión del sensor y automatizar el envío de datos.</td>
+    </tr>
+    <tr>
+      <td><strong>Sprint Goal & User Stories</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sprint 3 Goal</td>
+      <td>Implementar la conexion entre edge y base de datos para un monitoreo en tiempo real del sensor.</td>
+    </tr>
+    <tr>
+      <td>Sprint 3 Velocity</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>29</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 6.2.3.2.Aspect Leaders and Collaborators.
+
+A continuación se presenta la asignación de líderes (L) y colaboradores (C) para cada aspecto del proyecto, basada en las tareas asignadas en las historias de usuario del **Sprint 3**. En esta etapa, el equipo se centrará en el desarrollo del código para el sensor de ritmo cardíaco y el backend local que procesa y envía datos al servidor central.
+
+| Team Member         | GitHub Username | Sensores / Hardware | Backend (Edge) | Validación / Testing | Documentación | Integración |
+|---------------------|------------------|----------------------|-----------------|-----------------------|----------------|-------------|
+| Miquel De la Piedra | @MiquelDlp       | L                    | C               | C                     | C              | C           |
+| Manuel Gutierrez    | @ManuGZ          | C                    | L               | C                     | C              | C           |
+| Marco Mendez        | @cuak123         | L                    | C               | C                     | C              | C           |
+| Orlando Roca        | @OrlandoRoca     | C                    | C               | L                     | C              | C           |
+| Eduardo Ventura     | @Eduvent         | C                    | L               | C                     | C              | C           |
+
+_Notas:_
+
+- **Sensores / Hardware:** Lectura desde dispositivos como ESP32 o Raspberry Pi.
+- **Backend (Edge):** Desarrollo de la API local para recepción, procesamiento y reenvío de datos.
+- **Validación / Testing:** Pruebas funcionales del flujo sensor → edge → nube y manejo de errores.
+- **Documentación:** Registro técnico de endpoints, configuración de sensores y lógica de integración.
+- **Integración:** Unificación de módulos de frontend, edge, nube y mecanismos de reintento.
+
+#### 6.2.3.3.Sprint Backlog 3.
+
+<table>
+  <tbody>
+    <tr>
+      <td>User Story ID</td>
+      <td>User Story Title</td>
+      <td>Task ID</td>
+      <td>Task Title</td>
+      <td>Description</td>
+      <td>Estimation(hours)</td>
+      <td>Assigned to</td>
+      <td>Status</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US01</td>
+      <td rowspan="1">Visualizar ritmo cardíaco en tiempo real</td>
+      <td>T01</td>
+      <td>Mostrar BPM en interfaz en tiempo real</td>
+      <td>Como doctor, quiero visualizar el ritmo cardíaco de mis pacientes en tiempo real, para monitorear su estado de salud.</td>
+      <td>5</td>
+      <td>Por asignar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US02</td>
+      <td rowspan="1">Actualización automática de datos</td>
+      <td>T03</td>
+      <td>Refrescar gráfica sin recargar</td>
+      <td>Como doctor, quiero que los datos del ritmo cardíaco se actualicen automáticamente, para evitar tener que recargar la vista.</td>
+      <td>3</td>
+      <td>Por asignar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US03</td>
+      <td rowspan="1">Alerta visual en la interfaz</td>
+      <td>T05</td>
+      <td>Mostrar alerta visual ante anomalías</td>
+      <td>Como doctor, quiero recibir una alerta visual si un paciente presenta un ritmo elevado, para poder atenderlo de inmediato.</td>
+      <td>5</td>
+      <td>Por asignar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US04</td>
+      <td rowspan="1">Confirmación manual de alertas críticas</td>
+      <td>T06</td>
+      <td>Botón de confirmación de alerta crítica</td>
+      <td>Como doctor, quiero confirmar manualmente que he visto una alerta crítica, para asegurar que no se pase por alto ninguna situación urgente.</td>
+      <td>3</td>
+      <td>Por asignar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US05</td>
+      <td rowspan="1">Notificación por correo electrónico</td>
+      <td>T07</td>
+      <td>Envío de notificación por correo</td>
+      <td>Como doctor, quiero recibir alertas importantes también por correo electrónico, para asegurarme de no perderme notificaciones críticas.</td>
+      <td>2</td>
+      <td>Por asignar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US06</td>
+      <td rowspan="1">Ver historial de mensajes enviados</td>
+      <td>T12</td>
+      <td>Mostrar lista de SMS enviados</td>
+      <td>Como paciente, quiero ver los SMS que se han enviado a mi contacto, para llevar un registro de las alertas.</td>
+      <td>2</td>
+      <td>Por asignar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US07</td>
+      <td rowspan="1">Visualizar datos personales y médicos</td>
+      <td>T13</td>
+      <td>Ver información personal y médica</td>
+      <td>Como paciente, quiero ver mis datos médicos y personales en la app, para tener acceso a mi información de salud.</td>
+      <td>2</td>
+      <td>Por asignar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US08</td>
+      <td rowspan="1">Ver ritmo cardíaco desde el celular</td>
+      <td>T14</td>
+      <td>Mostrar BPM actual en la app</td>
+      <td>Como paciente, quiero visualizar mi ritmo cardíaco actual en la app móvil, para monitorear mi estado de salud.</td>
+      <td>5</td>
+      <td>Por asignar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US09</td>
+      <td rowspan="1">Recibir notificaciones de alerta</td>
+      <td>T15</td>
+      <td>Push notifications para alertas</td>
+      <td>Como paciente, quiero recibir notificaciones push si tengo un ritmo cardíaco anormal, para estar al tanto de emergencias.</td>
+      <td>3</td>
+      <td>Por asignar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US10</td>
+      <td rowspan="1">Agendar una cita desde la app</td>
+      <td>T17</td>
+      <td>Crear interfaz de agendamiento</td>
+      <td>Como paciente, quiero agendar citas médicas desde la app móvil, para facilitar la planificación de mis consultas.</td>
+      <td>3</td>
+      <td>Por asignar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US11</td>
+      <td rowspan="1">Ver citas programadas</td>
+      <td>T18</td>
+      <td>Mostrar próximas citas médicas</td>
+      <td>Como paciente, quiero ver mis citas médicas futuras, para no olvidar mis consultas.</td>
+      <td>2</td>
+      <td>Por asignar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td rowspan="1">US12</td>
+      <td rowspan="1">Cancelar o reprogramar una cita</td>
+      <td>T19</td>
+      <td>Modificar o cancelar citas</td>
+      <td>Como paciente, quiero modificar o cancelar una cita desde la app, para gestionar mejor mi agenda.</td>
+      <td>3</td>
+      <td>Por asignar</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 6.2.3.4.Development Evidence for Sprint Review.
+
+| Repository                    | Branch   | Commit Id | Commit Message                                              | Commit Message Body | Committed on (Date) |
+|------------------------------|----------|-----------|-------------------------------------------------------------|---------------------|---------------------|
+| SafeMedUPC/MedSystemFrontend | master   | 932efd8   | feat: connected and improvement bpm component to Edge       |                     | 07/07/2025          |
+| SafeMedUPC/MedSystemFrontend | master   | e5f7a7f   | Initial commit                                              |                     | 15/05/2025          |
+| SafeMedUPC/SafeMedMobileApp  | develop  | 36de3de   | feat: connection with iot device implemented                |                     | 05/07/2025          |
+| SafeMedUPC/SafeMedMobileApp  | develop  | 6f74cda   | update                                                      |                     | 04/07/2025          |
+| ManuGZ/MedSystem_Edge        | main     | c117121   | fix: update CORS middleware to allow all origins            |                     | 07/07/2025          |
+| ManuGZ/MedSystem_Edge        | main     | 76c175f   | feat: configure CORS middleware with specific origins       |                     | 07/07/2025          |
+| ManuGZ/MedSystem_Edge        | main     | ebf2b80   | feat: add CORS support with allow_origins configuration     |                     | 07/07/2025          |
+| ManuGZ/MedSystem_Edge        | main     | ad418dd   | fix: connection with other backend fixed                    |                     | 02/07/2025          |
+| ManuGZ/MedSystem_Edge        | main     | 70aed2e   | delete building command in vercel.json                      |                     | 21/06/2025          |
+| ManuGZ/MedSystem_Edge        | main     | f86a7e6   | vercel filse for deployment                                 |                     | 21/06/2025          |
+| ManuGZ/MedSystem_Edge        | main     | 6510980   | first commit                                                |                     | 21/06/2025          |
+
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+## Escenarios Gherkin por User Story
+
+
+**User Story US01 – Visualizar ritmo cardíaco en tiempo real**
+
+**Feature:** Captura y monitoreo de ritmo cardíaco desde sensor IoT y visualización en tiempo real
+
+**Scenario:** Lectura continua de BPM desde el sensor  
+**Given** que el sensor está encendido y vinculado al paciente  
+**When** se inicia la sesión de monitoreo  
+**Then** se deben recibir lecturas en tiempo real del ritmo cardíaco  
+**And** las lecturas deben estar en un rango válido (40–180 BPM)
+
+**User Story US02 – Actualización automática de datos**
+
+**Feature:** Refresco automático de datos del sensor en la interfaz médica
+
+**Scenario:** Visualización de ritmo cardíaco sin necesidad de recargar  
+**Given** que el sistema ya muestra el gráfico del ritmo cardíaco  
+**When** se reciben nuevos datos desde el sensor  
+**Then** la interfaz debe actualizarse automáticamente  
+**And** no se debe requerir una acción manual del usuario para ver los datos más recientes
+
+**User Story US03 – Alerta visual en la interfaz**
+
+**Feature:** Detección de emergencias cardíacas mediante alertas visuales
+
+**Scenario:** Mostrar alerta visual en caso de BPM anómalo  
+**Given** que el ritmo cardíaco del paciente supera un umbral peligroso  
+**When** el sistema detecta dicha anomalía  
+**Then** se debe mostrar una alerta visual inmediata en la interfaz del doctor
+
+**User Story US04 – Confirmación manual de alertas críticas**
+
+**Feature:** Registro de confirmación manual ante alertas críticas
+
+**Scenario:** Confirmar alerta desde el panel del doctor  
+**Given** que una alerta crítica ha sido visualizada por el doctor  
+**When** este presiona el botón de confirmación  
+**Then** el sistema debe registrar que el evento fue atendido  
+**And** debe marcarse como "visto" en el historial
+
+**User Story US05 – Notificación por correo electrónico**
+
+**Feature:** Notificaciones extendidas por canales alternativos (correo)
+
+**Scenario:** Alerta por correo electrónico ante eventos críticos  
+**Given** que se ha generado una alerta importante  
+**When** el sistema valida que la configuración de correo está activa  
+**Then** debe enviarse una notificación al correo electrónico del doctor
+
+**User Story US06 – Ver historial de mensajes enviados**
+
+**Feature:** Registro de mensajes SMS enviados a contactos de emergencia
+
+**Scenario:** Mostrar historial de SMS enviados  
+**Given** que se han enviado alertas por SMS a contactos  
+**When** el paciente accede al historial  
+**Then** debe visualizar una lista cronológica de los SMS enviados  
+**And** debe poder ver la fecha, hora y destinatario
+
+**User Story US07 – Visualizar datos personales y médicos**
+
+**Feature:** Acceso a información médica y datos personales del paciente
+
+**Scenario:** Visualizar perfil completo del paciente  
+**Given** que el paciente ha iniciado sesión  
+**When** accede a la sección de perfil  
+**Then** debe poder ver sus datos personales y médicos registrados  
+**And** estos deben estar actualizados y protegidos
+
+**User Story US08 – Ver ritmo cardíaco desde el celular**
+
+**Feature:** Visualización de ritmo cardíaco desde app móvil del paciente
+
+**Scenario:** Mostrar BPM del paciente en app móvil  
+**Given** que el sensor está enviando datos al sistema  
+**When** el paciente abre la app móvil  
+**Then** debe visualizar su ritmo cardíaco actual  
+**And** este debe actualizarse en tiempo real
+
+**User Story US09 – Recibir notificaciones de alerta**
+
+**Feature:** Alerta push para notificar al paciente sobre riesgos
+
+**Scenario:** Notificación push ante ritmo anormal  
+**Given** que el paciente tiene configuradas notificaciones push  
+**When** su BPM supera o cae por debajo del umbral normal  
+**Then** el sistema debe enviar una notificación instantánea  
+**And** debe contener el valor crítico detectado
+
+**User Story US10 – Agendar una cita desde la app**
+
+**Feature:** Gestión de citas médicas desde app del paciente
+
+**Scenario:** Agendar una nueva cita médica  
+**Given** que el paciente accede a la sección de citas  
+**When** selecciona un médico y una fecha disponible  
+**Then** el sistema debe registrar la cita  
+**And** confirmar al paciente por pantalla o mensaje
+
+**User Story US11 – Ver citas programadas**
+
+**Feature:** Consulta de citas médicas registradas
+
+**Scenario:** Visualizar próximas citas médicas  
+**Given** que el paciente ya tiene citas agendadas  
+**When** entra a su historial de citas  
+**Then** debe ver una lista con fecha, hora y médico asignado
+
+**User Story US12 – Cancelar o reprogramar una cita**
+
+**Feature:** Modificación de citas agendadas
+
+**Scenario:** Reprogramar o cancelar una cita existente  
+**Given** que el paciente tiene una cita programada  
+**When** selecciona “Modificar” o “Cancelar”  
+**Then** el sistema debe permitir cambiar la fecha  
+**And** actualizar el registro de la agenda automáticamente
+
+#### 6.2.3.6.Execution Evidence for Sprint Review.
+Se presenta el prototipo de la aplicacion movil para la vista del paciente, junto a otras vistas de la aplicacion.
+
+<img src="CAP6-IMAGES/app1.png">
+
+<img src="CAP6-IMAGES/app2.png">
+
+<img src="CAP6-IMAGES/app3.png">
+
+#### 6.2.3.7.Services Documentation Evidence for Sprint Review.
+Se presenta el servicio del Edge Node implementado, con dos metodos GET y POST, el post seria el metodo donde el ESP32 junto al sensor cardiaco mandaria la informacion del BPM, y ademas donde se procesaria la data para ser mandada a otro endpoint del backend que se conecta con la aplicacion movil. Por ultimo el GET solo se usario para ver que los datos se muestren correctamente, este no manda una solicitud a otro endpoint.
+
+<img src="CAP6-IMAGES/edgeWeb.png">
+<img src="CAP6-IMAGES/edgeWeb1.png">
+<img src="CAP6-IMAGES/backend1.png">
+<img src="CAP6-IMAGES/backend2.png">
+
+#### 6.2.3.8.Software Deployment Evidence for Sprint Review.
+Para el despliegue del edge, se uso Vercel una pagina que permite desplegar aplicacion web en python gratuitamente, con ciertas limitaciones, pero estas no afectaran en nuestro caso
+
+- Despliegue de Edge
+<img src="CAP6-IMAGES/vercel4.png">
+
+- Despliegue de frontend
+<img src="CAP6-IMAGES/firebase1.png">
+
+- Despliegue de backend
+<img src="CAP6-IMAGES/railway1.png">
+
+Para poder entrar, se haria a traves de este link: https://med-system-edge-fsc3jl9ln-manuels-projects-fcd7c209.vercel.app/docs
+
+
+#### 6.2.3.9.Team Collaboration Insights during Sprint.
+Se presenta los insights del repositori GitHub, se evidencia solo al que hizo compartio el proyecto en el repositorio, pero todos colaboraron en la creacion de este y el despliegue
+<img src="CAP6-IMAGES/team2.png">
+<img src="CAP6-IMAGES/team3.png">
+<img src="CAP6-IMAGES/team4.png">
+
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
 **Doctor**:
@@ -2540,7 +2943,7 @@ Se presenta los insights del repositori GitHub, se evidencia solo al que hizo co
 | **Nombre**           | Brian Roca                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | **Edad**             | 24 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Distrito**         | Santiago de Surco                                                                                                                                                                                                                                                                                                                                                                  |
-| **Imagen**           | ![Imagen Brian Roca](CAP6-IMAGES/entrevista_validacion_jorge.png)                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Imagen**           | ![Imagen Brian Roca](CAP6-IMAGES/entrevista_validacion_jeanP.png)                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **Resumen**          | Brian es un joven que sufre de problemas de corazon, ya que su ritmo cardiaco para elvandose, en este caso le mostramos una demo de nuestra aplicacion para que vea como seria cuando tenga el dispositivo iot y la aplicacion ya terminda, nos comenta que le parecio muy interesante la propuesta ya que le ayudaria mucho al tener mayor control sobre su situacion cardiaca |
 | **URL de Grabación** | [Grabación Brian Roca](https://upcedupe-my.sharepoint.com/personal/u202112353_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202112353%5Fupc%5Fedu%5Fpe%2FDocuments%2Finterview%2Diot%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E279f8c1a%2D8b4d%2D40f5%2D9a9f%2Dd66132eecc82)                                                                                                                             |
 | **Timing**           |
@@ -2646,7 +3049,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 ## 6.4. Video About-the-Product.
 En esta seccion se mostrara el video del producto
 
-[Video about the product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EXfRB68jR0hKp3Q5qVPivqMBkirXFX074O1x5lDQZ0kGcg?e=8gBG7b&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)    
+Video about the product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EXfRB68jR0hKp3Q5qVPivqMBkirXFX074O1x5lDQZ0kGcg?e=8gBG7b&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D   
 
 
 # Anexos:
@@ -2655,3 +3058,5 @@ En esta seccion se mostrara el video del producto
 
 - Video Exposicion TP: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/EegUrsyT9mtFjhif5v_swawB--FbLpalNq9MCwlbGLzrZg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WLzORb
 - Video Exposicion TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/EV0f5YfP8tJJrOl8QL-IG2YBzNDBVVwXq3cHqC_w0I0SbA?e=oTzs5M](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/EV0f5YfP8tJJrOl8QL-IG2YBzNDBVVwXq3cHqC_w0I0SbA?e=IdbtLP)
+
+- Video Expocision TF:
